@@ -87,8 +87,8 @@ def read_checklist(filePath, cl_type='default', locality='Belgium'):
         tot_species["cumulative_total"] = tot_species["total"].cumsum()
 
     else:
-        taxon = "./taxon.txt"
-        distribution = "./distribution.txt"
+        taxon = filePath + "taxon.txt"
+        distribution = filePath + "distribution.txt"
 
         df_t = pd.read_csv(taxon, sep="\t")
         df_dist = pd.read_csv(distribution, sep="\t")
