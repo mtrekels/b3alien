@@ -1,4 +1,13 @@
 import pandas as pd
+from pygbif import species
+
+def get_speciesKey(sciname):
+    result = species.name_backbone(sciname, strict=True)
+    try:
+        speciesKey = result["speciesKey"]
+    except KeyError:
+        speciesKey = "Uncertain"
+    return speciesKey
 
 def split_event_date(x):
     if isinstance(x, str):
@@ -12,6 +21,7 @@ def split_event_date(x):
     else:
         return pd.Series([np.nan, np.nan])
 
+# The rest assumes already a merged dataset
 def read_checklist(filePath, cl_type='default', locality='Belgium'):
     
     distribution = filePath + "distribution.txt"
@@ -77,6 +87,23 @@ def read_checklist(filePath, cl_type='default', locality='Belgium'):
         tot_species["cumulative_total"] = tot_species["total"].cumsum()
 
     else:
+        taxon = "./taxon.txt"
+        distribution = "./distribution.txt"
 
+        df_t = pd.read_csv(taxon, sep="\t")
+        df_dist = pd.read_csv(distribution, sep="\t")
+
+
+        test = get_speciesKey(df_t["scientificName"][0])
+        print("test")
+        print(test)
+
+        # Now apply this on the whole dataframe
+
+        df_t["speciesKey"] = df_t["scientificName"].apply(get_speciesKey)
+
+        df_merged = df_dist.merge(df_t[['id', 'speciesKey']], on='id', how='left')
+
+        species_to_keep = df_merged["speciesKey"].unique()
         species_to_keep = np.where(species_to_keep == 'Uncertain', -1, species_to_keep)
         species_to_keep = species_to_keep.astype(int)
