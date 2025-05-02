@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mbg-{{ project_name }}"
+version = "0.0.1"
+description = "{{ short_description }}"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+
+[project.urls]
+homepage = "https://www.plantentuinmeise.be"
+repository = "https://github.com/AgentschapPlantentuinMeise/{{ project_name }}"
+documentation = "https://github.com/AgentschapPlantentuinMeise/mbg/docs"
+
+[project.dependencies]
+mbg = ">=0.1.0"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "flake8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
+
