@@ -11,3 +11,5 @@ def initialize(project):
 def gdf_to_ee_featurecollection(gdf):
     geojson = json.loads(gdf.to_json())
     return ee.FeatureCollection(geojson)
+
+
