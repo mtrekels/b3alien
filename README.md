@@ -1,4 +1,4 @@
-# {{project_name }}
+# b3alien
 
 {# Template for Python projects
 The sections in between these curcly brackets will not be copied in
