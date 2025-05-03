@@ -6,6 +6,30 @@ import dask.array as da
 import numpy as np
 import matplotlib as plt
 
+
+'''
+Create a class object of the occurrence cube
+
+'''
+class OccurrenceCube():
+
+        def __init__(self, filepath: str, dims=None, coords=None, index_col=None):
+            """
+            Initialize the object by loading the CSV into an xarray object.
+            
+            Parameters:
+            - filepath: str, path to the CSV file.
+            - dims: tuple or list, names of dimensions (used if reshaping into DataArray).
+            - coords: dict, optional dictionary of coordinates.
+            - index_col: str or list, column(s) to set as index for reshaping.
+            """
+            self.filepath = filepath
+            self.dims = dims
+            self.coords = coords
+            self.index_col = index_col
+            self.data = self._load_csv_as_xarray()
+
+
 def create_xcube(df):
     # Convert categorical dimensions
     df["yearmonth"] = pd.Categorical(df["yearmonth"])
