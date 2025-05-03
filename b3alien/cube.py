@@ -276,4 +276,34 @@ def calculate_rate(df_cumulative):
     annual_time_gbif_series = pd.Series(annual_time_gbif)
 
     return annual_time_gbif, annual_rate_gbif
+
+'''
+This function is not finished yet
+
+def get_survey_effort(cube, calc_type='do'):
+
+    if calc_type == 'do':
+        # Assuming your DataFrame is named 'gdf_from_gcs'
+        distinct_observers_over_time = gdf_from_gcs.groupby('yearmonth')['distinctobservers'].sum()
+
+        # Convert the 'yearmonth' index to datetime objects if it isn't already
+        distinct_observers_over_time.index = pd.to_datetime(distinct_observers_over_time.index, format='%Y-%m', errors='coerce')
+
+        # Resample to yearly frequency and sum
+        distinct_observers_yearly = distinct_observers_over_time.resample('Y').sum()
+
+        # Filter data from 1940 onwards
+        distinct_observers_filtered = distinct_observers_yearly[distinct_observers_yearly.index.year >= 1900]
+
+        return distinct_observers_filtered
+
+    else:
+
+        total_occurrences_over_time = cube.sum(dim=['cell', 'species'])
+
+        # Convert the time coordinates to datetime objects if they aren't already
+        total_occurrences_over_time['time'] = pd.to_datetime(total_occurrences_over_time['time'].values, format='%Y-%m', errors='coerce')
+
+        return total_occurrences_over_time
     
+'''
