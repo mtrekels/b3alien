@@ -1,6 +1,12 @@
 import pandas as pd
 from pygbif import species
 
+class CheckList:
+
+    def __init__(self):
+        self.filePath = filePath
+        
+
 def get_speciesKey(sciname):
     result = species.name_backbone(sciname, strict=True)
     try:
