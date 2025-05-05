@@ -5,7 +5,8 @@ import sparse
 import dask.array as da
 import numpy as np
 import matplotlib as plt
-
+import shapely.geos
+import gcsfs
 
 '''
 Create a class object of the occurrence cube
@@ -13,58 +14,90 @@ Create a class object of the occurrence cube
 '''
 class OccurrenceCube():
 
-        def __init__(self, filepath: str, dims=None, coords=None, index_col=None):
-            """
-            Initialize the object by loading the CSV into an xarray object.
-            
-            Parameters:
-            - filepath: str, path to the CSV file.
-            - dims: tuple or list, names of dimensions (used if reshaping into DataArray).
-            - coords: dict, optional dictionary of coordinates.
-            - index_col: str or list, column(s) to set as index for reshaping.
-            """
-            self.filepath = filepath
-            self.dims = dims
-            self.coords = coords
-            self.index_col = index_col
-            self.data = self._create_xcube(self, df)
+    def __init__(self, filepath: str, dims=None, coords=None, index_col=None):
+        """
+        Load a GeoParquet file (local or from GCS) into a sparse xarray cube.
+        
+        Parameters:
+        - filepath: str, path to the GeoParquet file (e.g. 'gs://bucket/file.parquet').
+        - dims: tuple/list of dimension names (default: ['time', 'cell', 'species']).
+        - coords: dict of optional coordinates for the cube.
+        - index_col: column(s) to use for reshaping if needed.
+        """
+        self.filepath = filepath
+        self.dims = dims or ("time", "cell", "species")
+        self.coords = coords
+        self.index_col = index_col
 
+        # Load GeoParquet
+        self.df = self._load_geoparquet(filepath)
+        
+        # Create cube
+        self.data = self._create_xcube(self.df)
 
-        def _create_xcube(self, df):
-            # Convert categorical dimensions
-            df["yearmonth"] = pd.Categorical(df["yearmonth"])
-            df["cellCode"] = pd.Categorical(df["cellCode"])
-            df["specieskey"] = pd.Categorical(df["specieskey"])
+    def _load_geoparquet(self, path):
+        """
+        Load a GeoParquet file from local disk or GCS using GeoPandas.
+        """
+        if path.startswith("gs://"):
+            fs = gcsfs.GCSFileSystem()
+            with fs.open(path) as f:
+                gdf = gpd.read_parquet(f)
+        else:
+            gdf = gpd.read_parquet(path)
 
-            # Extract code arrays (integer labels) and levels
-            time_codes = df["yearmonth"].cat.codes.values
-            cell_codes = df["cellCode"].cat.codes.values
-            species_codes = df["specieskey"].cat.codes.values
+        if 'geometry' not in gdf.columns:
+            raise ValueError("The input file must contain a 'geometry' column.")
 
-            # Sparse 3D cube (occurrence > 0)
-            sparse_cube = sparse.COO(
-                coords=[time_codes, cell_codes, species_codes],
-                data=df["occurrences"].astype("float32").values,  # or just 1 for presence/absence
-                shape=(
-                    df["yearmonth"].cat.categories.size,
-                    df["cellCode"].cat.categories.size,
-                    df["specieskey"].cat.categories.size
-                )
+        # Ensure geometry is parsed and valid
+        gdf["geometry"] = gdf["geometry"].apply(wkt.loads) if gdf["geometry"].dtype == object else gdf["geometry"]
+        gdf = gdf.set_geometry("geometry")
+
+        return gdf
+
+    def _create_xcube(self, df):
+        """
+        Convert a GeoDataFrame into a sparse xarray cube with geometry metadata.
+        """
+        # Convert to categorical
+        df["yearmonth"] = pd.Categorical(df["yearmonth"])
+        df["cellCode"] = pd.Categorical(df["cellCode"])
+        df["specieskey"] = pd.Categorical(df["specieskey"])
+
+        # Align geometries with cell categories
+        cell_categories = df["cellCode"].cat.categories
+        geometry_per_cell = df.drop_duplicates("cellCode").set_index("cellCode").loc[cell_categories]["geometry"]
+
+        # Encode to integers
+        time_codes = df["yearmonth"].cat.codes.values
+        cell_codes = df["cellCode"].cat.codes.values
+        species_codes = df["specieskey"].cat.codes.values
+
+        # Build sparse cube
+        sparse_cube = sparse.COO(
+            coords=[time_codes, cell_codes, species_codes],
+            data=df["occurrences"].astype("float32").values,
+            shape=(
+                df["yearmonth"].cat.categories.size,
+                df["cellCode"].cat.categories.size,
+                df["specieskey"].cat.categories.size
             )
+        )
 
-            # Wrap into Xarray
-            cube = xr.DataArray(
-                sparse_cube,
-                dims=("time", "cell", "species"),
-                coords={
-                    "time": df["yearmonth"].cat.categories,
-                    "cell": df["cellCode"].cat.categories,
-                    "species": df["specieskey"].cat.categories
-                },
-                name="occurrences"
-            )
+        # Create xarray DataArray
+        cube = xr.DataArray(
+            sparse_cube,
+            dims=self.dims,
+            coords={
+                self.dims[0]: df["yearmonth"].cat.categories,
+                self.dims[1]: df["cellCode"].cat.categories,
+                self.dims[2]: df["specieskey"].cat.categories,
+                "geometry": (self.dims[1], geometry_per_cell.values)
+            },
+            name="occurrences"
+        )
 
-            return(cube)
+        return cube
 
         def _species_richness(self, normalized=False):
             # 1. Binary presence
@@ -109,89 +142,89 @@ class OccurrenceCube():
 
                 return norm_df
 
-def plot_richness(richness_df, gdf_from_gcs, geom='eqdgccellcode'):
+        def _plot_richness(richness_df, gdf_from_gcs, geom='eqdgccellcode'):
 
-    gdf_plot = pd.merge(richness_df, gdf_from_gcs, left_on='cell', right_on=geom)
+            gdf_plot = pd.merge(richness_df, gdf_from_gcs, left_on='cell', right_on=geom)
 
-    gdf_plot = gpd.GeoDataFrame(gdf_plot, geometry="geometry", crs=gdf_from_gcs.crs)
+            gdf_plot = gpd.GeoDataFrame(gdf_plot, geometry="geometry", crs=gdf_from_gcs.crs)
 
-    fig, ax = plt.subplots(figsize=(10, 10))
-    gdf_plot.plot(
-        column="richness",
-        cmap="viridis",
-        legend=True,
-        linewidth=0.1,
-        edgecolor="grey",
-        ax=ax
-    )
-    ax.set_title("Species Richness per QDGC Cell")
-    ax.axis("off")
-    plt.show()
+            fig, ax = plt.subplots(figsize=(10, 10))
+            gdf_plot.plot(
+                column="richness",
+                cmap="viridis",
+                legend=True,
+                linewidth=0.1,
+                edgecolor="grey",
+                ax=ax
+            )
+            ax.set_title("Species Richness per QDGC Cell")
+            ax.axis("off")
+            plt.show()
 
 
-def cumulative_species(cube, species_to_keep):
-    # Wrap sparse array in Dask array with one or more chunks
-    dask_sparse_array = da.from_array(cube.data, chunks=(100, 100, 1000))  # tune chunking for your use case
+        def _cumulative_species(cube, species_to_keep):
+            # Wrap sparse array in Dask array with one or more chunks
+            dask_sparse_array = da.from_array(cube.data, chunks=(100, 100, 1000))  # tune chunking for your use case
 
-    # Replace data in cube
-    cube_dask_sparse = cube.copy(data=dask_sparse_array)
+            # Replace data in cube
+            cube_dask_sparse = cube.copy(data=dask_sparse_array)
 
-    species_mask = cube_dask_sparse["species"].isin(species_to_keep)
-    filtered_cube = cube_dask_sparse.where(species_mask, drop=True)
+            species_mask = cube_dask_sparse["species"].isin(species_to_keep)
+            filtered_cube = cube_dask_sparse.where(species_mask, drop=True)
 
-    # Grab the underlying sparse.COO object from Dask
-    sparse_block = filtered_cube.data.compute()  # Warning: loads full filtered cube into RAM!
+            # Grab the underlying sparse.COO object from Dask
+            sparse_block = filtered_cube.data.compute()  # Warning: loads full filtered cube into RAM!
 
-    # Extract sparse coordinates
-    coords = sparse_block.coords  # shape: (ndim, nnz)
-    data = sparse_block.data      # non-zero values
+            # Extract sparse coordinates
+            coords = sparse_block.coords  # shape: (ndim, nnz)
+            data = sparse_block.data      # non-zero values
 
-    # Map indices to labels
-    time_labels = filtered_cube.coords["time"].values
-    species_labels = filtered_cube.coords["species"].values
-    cell_labels = filtered_cube.coords["cell"].values
+            # Map indices to labels
+            time_labels = filtered_cube.coords["time"].values
+            species_labels = filtered_cube.coords["species"].values
+            cell_labels = filtered_cube.coords["cell"].values
 
-    # Use the sparse indices to create a DataFrame
-    df_sparse = pd.DataFrame({
-        "time": time_labels[coords[0]],
-        "cell": cell_labels[coords[1]],
-        "species": species_labels[coords[2]],
-        "occurrences": sparse_block.data
-    })
+            # Use the sparse indices to create a DataFrame
+            df_sparse = pd.DataFrame({
+                "time": time_labels[coords[0]],
+                "cell": cell_labels[coords[1]],
+                "species": species_labels[coords[2]],
+                "occurrences": sparse_block.data
+            })
 
-    # Drop duplicates and compute cumulative species count
-    df_sparse = df_sparse.drop_duplicates()
-    df_sparse["seen"] = 1
-    df_time = (
-        df_sparse.groupby("time")["species"]
-        .nunique()
-        .cumsum()
-        .reset_index(name="cumulative_species")
-    )
+            # Drop duplicates and compute cumulative species count
+            df_sparse = df_sparse.drop_duplicates()
+            df_sparse["seen"] = 1
+            df_time = (
+                df_sparse.groupby("time")["species"]
+                .nunique()
+                .cumsum()
+                .reset_index(name="cumulative_species")
+            )
 
-    df_time["time"] = pd.to_datetime(df_time["time"], format="%Y-%M", errors="coerce")
+            df_time["time"] = pd.to_datetime(df_time["time"], format="%Y-%M", errors="coerce")
 
-    # fix to have the real cumsum
-    # Step 1: Remove duplicates (species × time)
-    df_sparse_unique = df_sparse[["time", "species"]].drop_duplicates()
+            # fix to have the real cumsum
+            # Step 1: Remove duplicates (species × time)
+            df_sparse_unique = df_sparse[["time", "species"]].drop_duplicates()
 
-    # Step 2: Sort by time
-    df_sparse_unique = df_sparse_unique.sort_values("time")
+            # Step 2: Sort by time
+            df_sparse_unique = df_sparse_unique.sort_values("time")
 
-    # Step 3: Track cumulative species using a set
-    seen_species = set()
-    cumulative = []
+            # Step 3: Track cumulative species using a set
+            seen_species = set()
+            cumulative = []
 
-    for time, group in df_sparse_unique.groupby("time"):
-        new_species = set(group["species"])
-        seen_species.update(new_species)
-        cumulative.append((time, len(seen_species)))
+            for time, group in df_sparse_unique.groupby("time"):
+                new_species = set(group["species"])
+                seen_species.update(new_species)
+                cumulative.append((time, len(seen_species)))
 
-    # Step 4: Create cumulative DataFrame
-    df_cumulative = pd.DataFrame(cumulative, columns=["time", "cumulative_species"])
-    df_cumulative["time"] = pd.to_datetime(df_cumulative["time"], format="%Y-%M", errors="coerce")
+            # Step 4: Create cumulative DataFrame
+            df_cumulative = pd.DataFrame(cumulative, columns=["time", "cumulative_species"])
+            df_cumulative["time"] = pd.to_datetime(df_cumulative["time"], format="%Y-%M", errors="coerce")
 
-    return df_sparse, df_cumulative
+            return df_sparse, df_cumulative
 
 def plot_cumsum(df_cumulative):
     
