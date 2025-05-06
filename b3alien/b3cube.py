@@ -4,8 +4,11 @@ import xarray as xr
 import sparse
 import dask.array as da
 import numpy as np
-import matplotlib as plt
-import shapely.geos
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use("TkAgg")
+import shapely
+from shapely import geos
 import gcsfs
 
 '''
@@ -99,132 +102,132 @@ class OccurrenceCube():
 
         return cube
 
-        def _species_richness(self, normalized=False):
-            # 1. Binary presence
-            presence = (self.data > 0)
+    def _species_richness(self, normalized=False):
+        # 1. Binary presence
+        presence = (self.data > 0)
 
-            # 2. Collapse time dimension using logical OR → was the species *ever* seen in this cell?
-            presence_any_time = presence.any(dim="time")  # shape: (cell, species)
+        # 2. Collapse time dimension using logical OR → was the species *ever* seen in this cell?
+        presence_any_time = presence.any(dim="time")  # shape: (cell, species)
 
-            # 3. Sum species per cell (species richness)
-            species_richness = presence_any_time.sum(dim="species")  # shape: (cell,)
+        # 3. Sum species per cell (species richness)
+        species_richness = presence_any_time.sum(dim="species")  # shape: (cell,)
 
-            total_occurrences = self.data.sum(dim=["time", "species"])
+        total_occurrences = self.data.sum(dim=["time", "species"])
 
-            if normalized == False:
-                # 4. Get the non-zero values and indices
-                coords = species_richness.data.coords  # (1D arrays of indices)
-                values = species_richness.data.data    # the richness values
+        if normalized == False:
+            # 4. Get the non-zero values and indices
+            coords = species_richness.data.coords  # (1D arrays of indices)
+            values = species_richness.data.data    # the richness values
 
-                # 5. Convert integer cell indices to real labels (from .coords['cell'])
-                cell_labels = species_richness.coords["cell"].values
+            # 5. Convert integer cell indices to real labels (from .coords['cell'])
+            cell_labels = species_richness.coords["cell"].values
 
-                richness_df = pd.DataFrame({
-                    "cell": cell_labels[coords[0]],
-                    "richness": values
-                })
-
-                return richness_df
-
-            else:
-                epsilon = 1e-6
-                normalized_richness = species_richness / (total_occurrences + epsilon)
-
-                coords = normalized_richness.data.coords
-                values = normalized_richness.data.data
-                cell_labels = normalized_richness.coords["cell"].values
-
-                # Build a DataFrame
-                norm_df = pd.DataFrame({
-                    "cell": cell_labels[coords[0]],
-                    "normalized_richness": values
-                })
-
-                return norm_df
-
-        def _plot_richness(richness_df, gdf_from_gcs, geom='eqdgccellcode'):
-
-            gdf_plot = pd.merge(richness_df, gdf_from_gcs, left_on='cell', right_on=geom)
-
-            gdf_plot = gpd.GeoDataFrame(gdf_plot, geometry="geometry", crs=gdf_from_gcs.crs)
-
-            fig, ax = plt.subplots(figsize=(10, 10))
-            gdf_plot.plot(
-                column="richness",
-                cmap="viridis",
-                legend=True,
-                linewidth=0.1,
-                edgecolor="grey",
-                ax=ax
-            )
-            ax.set_title("Species Richness per QDGC Cell")
-            ax.axis("off")
-            plt.show()
-
-
-        def _cumulative_species(cube, species_to_keep):
-            # Wrap sparse array in Dask array with one or more chunks
-            dask_sparse_array = da.from_array(cube.data, chunks=(100, 100, 1000))  # tune chunking for your use case
-
-            # Replace data in cube
-            cube_dask_sparse = cube.copy(data=dask_sparse_array)
-
-            species_mask = cube_dask_sparse["species"].isin(species_to_keep)
-            filtered_cube = cube_dask_sparse.where(species_mask, drop=True)
-
-            # Grab the underlying sparse.COO object from Dask
-            sparse_block = filtered_cube.data.compute()  # Warning: loads full filtered cube into RAM!
-
-            # Extract sparse coordinates
-            coords = sparse_block.coords  # shape: (ndim, nnz)
-            data = sparse_block.data      # non-zero values
-
-            # Map indices to labels
-            time_labels = filtered_cube.coords["time"].values
-            species_labels = filtered_cube.coords["species"].values
-            cell_labels = filtered_cube.coords["cell"].values
-
-            # Use the sparse indices to create a DataFrame
-            df_sparse = pd.DataFrame({
-                "time": time_labels[coords[0]],
-                "cell": cell_labels[coords[1]],
-                "species": species_labels[coords[2]],
-                "occurrences": sparse_block.data
+            richness_df = pd.DataFrame({
+                "cell": cell_labels[coords[0]],
+                "richness": values
             })
 
-            # Drop duplicates and compute cumulative species count
-            df_sparse = df_sparse.drop_duplicates()
-            df_sparse["seen"] = 1
-            df_time = (
-                df_sparse.groupby("time")["species"]
-                .nunique()
-                .cumsum()
-                .reset_index(name="cumulative_species")
-            )
+            return richness_df
 
-            df_time["time"] = pd.to_datetime(df_time["time"], format="%Y-%M", errors="coerce")
+        else:
+            epsilon = 1e-6
+            normalized_richness = species_richness / (total_occurrences + epsilon)
 
-            # fix to have the real cumsum
-            # Step 1: Remove duplicates (species × time)
-            df_sparse_unique = df_sparse[["time", "species"]].drop_duplicates()
+            coords = normalized_richness.data.coords
+            values = normalized_richness.data.data
+            cell_labels = normalized_richness.coords["cell"].values
 
-            # Step 2: Sort by time
-            df_sparse_unique = df_sparse_unique.sort_values("time")
+            # Build a DataFrame
+            norm_df = pd.DataFrame({
+                "cell": cell_labels[coords[0]],
+                "normalized_richness": values
+            })
 
-            # Step 3: Track cumulative species using a set
-            seen_species = set()
-            cumulative = []
+            return norm_df
 
-            for time, group in df_sparse_unique.groupby("time"):
-                new_species = set(group["species"])
-                seen_species.update(new_species)
-                cumulative.append((time, len(seen_species)))
+def plot_richness(richness_df, gdf_from_gcs, geom='cellCode'):
 
-            # Step 4: Create cumulative DataFrame
-            df_cumulative = pd.DataFrame(cumulative, columns=["time", "cumulative_species"])
-            df_cumulative["time"] = pd.to_datetime(df_cumulative["time"], format="%Y-%M", errors="coerce")
+    gdf_plot = pd.merge(richness_df, gdf_from_gcs, left_on='cell', right_on=geom)
 
-            return df_sparse, df_cumulative
+    gdf_plot = gpd.GeoDataFrame(gdf_plot, geometry="geometry", crs=gdf_from_gcs.crs)
+
+    fig, ax = plt.subplots(figsize=(10, 10))
+    gdf_plot.plot(
+        column="richness",
+        cmap="viridis",
+        legend=True,
+        linewidth=0.1,
+        edgecolor="grey",
+        ax=ax
+    )
+    ax.set_title("Species Richness per QDGC Cell")
+    ax.axis("off")
+    plt.show()
+
+
+def cumulative_species(cube, species_to_keep):
+    # Wrap sparse array in Dask array with one or more chunks
+    dask_sparse_array = da.from_array(cube.data, chunks=(100, 100, 1000))  # tune chunking for your use case
+
+    # Replace data in cube
+    cube_dask_sparse = cube.copy(data=dask_sparse_array)
+
+    species_mask = cube_dask_sparse["species"].isin(species_to_keep)
+    filtered_cube = cube_dask_sparse.where(species_mask, drop=True)
+
+    # Grab the underlying sparse.COO object from Dask
+    sparse_block = filtered_cube.data.compute()  # Warning: loads full filtered cube into RAM!
+
+    # Extract sparse coordinates
+    coords = sparse_block.coords  # shape: (ndim, nnz)
+    data = sparse_block.data      # non-zero values
+
+    # Map indices to labels
+    time_labels = filtered_cube.coords["time"].values
+    species_labels = filtered_cube.coords["species"].values
+    cell_labels = filtered_cube.coords["cell"].values
+
+    # Use the sparse indices to create a DataFrame
+    df_sparse = pd.DataFrame({
+        "time": time_labels[coords[0]],
+        "cell": cell_labels[coords[1]],
+        "species": species_labels[coords[2]],
+        "occurrences": sparse_block.data
+    })
+
+    # Drop duplicates and compute cumulative species count
+    df_sparse = df_sparse.drop_duplicates()
+    df_sparse["seen"] = 1
+    df_time = (
+        df_sparse.groupby("time")["species"]
+        .nunique()
+        .cumsum()
+        .reset_index(name="cumulative_species")
+    )
+
+    df_time["time"] = pd.to_datetime(df_time["time"], format="%Y-%M", errors="coerce")
+
+    # fix to have the real cumsum
+    # Step 1: Remove duplicates (species × time)
+    df_sparse_unique = df_sparse[["time", "species"]].drop_duplicates()
+
+    # Step 2: Sort by time
+    df_sparse_unique = df_sparse_unique.sort_values("time")
+
+    # Step 3: Track cumulative species using a set
+    seen_species = set()
+    cumulative = []
+
+    for time, group in df_sparse_unique.groupby("time"):
+        new_species = set(group["species"])
+        seen_species.update(new_species)
+        cumulative.append((time, len(seen_species)))
+
+    # Step 4: Create cumulative DataFrame
+    df_cumulative = pd.DataFrame(cumulative, columns=["time", "cumulative_species"])
+    df_cumulative["time"] = pd.to_datetime(df_cumulative["time"], format="%Y-%M", errors="coerce")
+
+    return df_sparse, df_cumulative
 
 def plot_cumsum(df_cumulative):
     

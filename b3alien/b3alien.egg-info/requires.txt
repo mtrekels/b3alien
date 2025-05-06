@@ -1,0 +1,9 @@
+geopandas>=1.0.0
+xarray
+sparse
+shapely
+gcsfs
+
+[dev]
+pytest
+flake8

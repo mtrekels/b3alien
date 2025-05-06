@@ -1,7 +1,7 @@
 # tests/test_cube.py
 import pytest
 import numpy as np
-from b3alien.cube import OccurrenceCube
+from b3alien.b3cube import OccurrenceCube, plot_richness
 
 def test_cube_loading():
     cube = OccurrenceCube("tests/data/data_PT-30.parquet")
@@ -40,3 +40,12 @@ def test_cube_content():
         print(val)
 
         assert np.isclose(val, expected_occurrences), f"Expected {expected_occurrences}, got {val}"
+
+def test_richness():
+    cube = OccurrenceCube("tests/data/data_PT-30.parquet")
+    data = cube.data
+    
+    richness_df = cube._species_richness()
+
+    plot_richness(richness_df, cube.df)
+

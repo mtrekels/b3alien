@@ -3,20 +3,26 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mbg-{{ project_name }}"
+name = "b3alien"
 version = "0.0.1"
-description = "{{ short_description }}"
+description = "Calculating the CBD target 6.1 indicator from occurrence cubes"
 readme = "README.md"
-requires-python = ">=3.6"
+requires-python = ">=3.9"
 license = {text = "MIT"}
+authors = [{name = "Maarten Trekels", email = "maarten.trekels@plantentuinmeise.be"}]
+dependencies = [
+  "geopandas>=1.0.0",
+  "xarray",
+  "sparse",
+  "shapely",
+  "gcsfs"
+]
 
 [project.urls]
 homepage = "https://www.plantentuinmeise.be"
-repository = "https://github.com/AgentschapPlantentuinMeise/{{ project_name }}"
-documentation = "https://github.com/AgentschapPlantentuinMeise/mbg/docs"
+repository = "https://github.com/mtrekels/b3alien"
+documentation = "https://github.com/mtrekels/b3alien/docs"
 
-[project.dependencies]
-mbg = ">=0.1.0"
 
 [project.optional-dependencies]
 dev = [
@@ -24,7 +30,4 @@ dev = [
     "flake8",
 ]
 
-[tool.setuptools.packages.find]
-where = ["src"]
-namespaces = true
 

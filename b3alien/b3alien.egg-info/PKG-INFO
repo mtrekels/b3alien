@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: b3alien
+Version: 0.0.1
+Summary: Calculating the CBD target 6.1 indicator from occurrence cubes
+Author-email: Maarten Trekels <maarten.trekels@plantentuinmeise.be>
+License: MIT
+Project-URL: homepage, https://www.plantentuinmeise.be
+Project-URL: repository, https://github.com/mtrekels/b3alien
+Project-URL: documentation, https://github.com/mtrekels/b3alien/docs
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: geopandas>=1.0.0
+Requires-Dist: xarray
+Requires-Dist: sparse
+Requires-Dist: shapely
+Requires-Dist: gcsfs
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Dynamic: license-file
+
+# b3alien
+
+{# Template for Python projects
+The sections in between these curcly brackets will not be copied in
+the template but is a comment to explain how to use the template.
+Curly braces are used by jinja2 to inject variable,
+e.g. `project_name` above #}
+
+## Introduction
+
+{{ short_description }}

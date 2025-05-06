@@ -1,7 +1,9 @@
 import pandas as pd
+from tqdm import tqdm
+tqdm.pandas()  # enables .progress_apply
 from pygbif import species
 
-class CheckList:
+class CheckList():
 
     def __init__(self):
         self.filePath = filePath
@@ -26,6 +28,21 @@ def split_event_date(x):
         return pd.Series([intro, outro])
     else:
         return pd.Series([np.nan, np.nan])
+
+def do_taxon_matching(dirPath):
+
+    taxon = dirPath + "taxon.txt"
+    distribution = dirPath + "distribution.txt"
+
+    df_t = pd.read_csv(taxon, sep="\t")
+    df_dist = pd.read_csv(distribution, sep="\t")
+
+    # Now apply this on the whole dataframe
+
+    df_t["speciesKey"] = df_t["scientificName"].progress_apply(get_speciesKey)
+
+    df_merged = df_dist.merge(df_t[['id', 'speciesKey']], on='id', how='left')
+    df_merged.to_csv(dirPath + 'merged_distr.txt', sep='\t', index=False)
 
 # The rest assumes already a merged dataset
 def read_checklist(filePath, cl_type='default', locality='Belgium'):

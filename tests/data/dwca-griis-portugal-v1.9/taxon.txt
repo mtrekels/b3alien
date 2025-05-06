@@ -1,0 +1,1046 @@
+id	taxonID	scientificName	acceptedNameUsage	kingdom	phylum	class	order	family	taxonRank	taxonomicStatus
+37261	37261	Abies Ã—insignis Carriere ex Bailly		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+37262	37262	Abies alba Mill.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+37263	37263	Abies nordmanniana Spach		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+37264	37264	Abies pinsapo Boiss.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+37265	37265	Abutilon Ã—hybridum Voss		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37266	37266	Abutilon grandifolium (Willd.) Sweet		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37267	37267	Abutilon megapotamicum (A.Spreng.) St.-Hil. & Naud.	Callianthe megapotamica (A.Spreng.) Dorr	Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	SYNONYM
+37268	37268	Abutilon pictum (Gillies ex Hook.) Walp.	Callianthe picta (Gillies ex Hook. & Arn.) Donnell	Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	SYNONYM
+37269	37269	Abutilon theophrasti Medik.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37270	37270	Acacia baileyana F.Muell.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37271	37271	Acacia cultriformis Cunn. ex Don		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37272	37272	Acacia cyclops A.Cunn. ex Don		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37273	37273	Acacia dealbata Link		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37274	37274	Acacia decurrens Willd.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37275	37275	Acacia karroo Hayne	Vachellia karroo (Hayne) Banfi & Galasso	Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	SYNONYM
+37276	37276	Acacia longifolia (Andrews) Willd.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37277	37277	Acacia mearnsii De Wild.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37278	37278	Acacia melanoxylon R.Br.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37279	37279	Acacia pycnantha Benth.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37280	37280	Acacia saligna (Labill.) H.L.Wendl.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37281	37281	Acacia verticillata (L'Her.) Willd.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37282	37282	Acalypha virginica L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37283	37283	Acanthus mollis L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Acanthaceae	SPECIES	ACCEPTED
+37284	37284	Acartia tonsa Dana, 1849		Animalia	Arthropoda	Hexanauplia	Calanoida	Acartiidae	SPECIES	ACCEPTED
+37285	37285	Acer campestre L.		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Sapindaceae	SPECIES	ACCEPTED
+37286	37286	Acer negundo L.		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Sapindaceae	SPECIES	ACCEPTED
+37287	37287	Acer platanoides L.		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Sapindaceae	SPECIES	ACCEPTED
+37288	37288	Acrothamnion preissii (Sonder) E.M.Wollaston, 1968		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	ACCEPTED
+37289	37289	Aedes albopictus Skuse, 1894		Animalia	Arthropoda	Insecta	Diptera	Culicidae	SPECIES	ACCEPTED
+37290	37290	Aeonium arboreum Webb & Berthel.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37291	37291	Aeonium haworthii Webb & Berthel.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37292	37292	Aesculus carnea Hayne		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Sapindaceae	SPECIES	ACCEPTED
+37293	37293	Aesculus hippocastanum L.		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Sapindaceae	SPECIES	ACCEPTED
+37294	37294	Agave americana L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+37295	37295	Agave attenuata Salm-Dyck		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+37296	37296	Agave salmiana Otto ex Salm-Dyck		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+37297	37297	Ageratina adenophora (Spreng.) R.M.King & H.Rob.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37298	37298	Ageratum houstonianum Mill.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37299	37299	Aglaothamnion cordatum (BÃ¸rgesen) Feldm.-Maz.		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Callithamniaceae	SPECIES	ACCEPTED
+37300	37300	Agrostemma githago L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Caryophyllaceae	SPECIES	ACCEPTED
+37301	37301	Aichryson dichotomum (DC.) Webb & Berth.	Aichryson laxum (Haw.) Bramwell	Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	SYNONYM
+37302	37302	Aichryson laxum (Haw.) Bramwell		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37303	37303	Ailanthus altissima Swingle		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Simaroubaceae	SPECIES	ACCEPTED
+37304	37304	Albizia julibrissin Durazz.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37305	37305	Alburnus alburnus (Linnaeus, 1758)		Animalia	Chordata	Actinopterygii	Cypriniformes	Cyprinidae	SPECIES	ACCEPTED
+37306	37306	Alcea rosea L.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37307	37307	Alectoris rufa (Linnaeus, 1758)		Animalia	Chordata	Aves	Galliformes	Phasianidae	SPECIES	ACCEPTED
+37308	37308	Allium cepa L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Amaryllidaceae	SPECIES	ACCEPTED
+37309	37309	Allium narcissiflorum Vill.		Plantae	Tracheophyta	Liliopsida	Asparagales	Amaryllidaceae	SPECIES	ACCEPTED
+37310	37310	Allium sativum L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Amaryllidaceae	SPECIES	ACCEPTED
+37311	37311	Allium triquetrum L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Amaryllidaceae	SPECIES	ACCEPTED
+37312	37312	Alloeocarpa loculosa Monniot C., 1974		Animalia	Chordata	Ascidiacea	Stolidobranchia	Styelidae	SPECIES	ACCEPTED
+37313	37313	Alnus cordata (Loisel.) Duby		Plantae	Tracheophyta	Magnoliopsida	Fagales	Betulaceae	SPECIES	ACCEPTED
+37314	37314	Alocasia macrorrhizos (L.) G.Don		Plantae	Tracheophyta	Liliopsida	Alismatales	Araceae	SPECIES	ACCEPTED
+37315	37315	Aloe arborescens Mill.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asphodelaceae	SPECIES	ACCEPTED
+37316	37316	Aloe maculata All.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asphodelaceae	SPECIES	ACCEPTED
+37317	37317	Aloe vera (L.) Burm.f.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asphodelaceae	SPECIES	ACCEPTED
+37318	37318	Amadina fasciata (Gmelin, 1789)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+37319	37319	Amandava amandava (Linnaeus, 1758)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+37320	37320	Amandava subflava (Vieillot, 1819)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+37321	37321	Amaranthus albus L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37322	37322	Amaranthus blitoides S.Watson		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37323	37323	Amaranthus blitum L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37324	37324	Amaranthus caudatus L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37325	37325	Amaranthus cruentus L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37326	37326	Amaranthus deflexus L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37327	37327	Amaranthus hybridus L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37328	37328	Amaranthus hypochondriacus L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37329	37329	Amaranthus muricatus (Moq.) Hieron.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37330	37330	Amaranthus ozanonii Piszter		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37331	37331	Amaranthus powellii S.Watson		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37332	37332	Amaranthus retroflexus L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37333	37333	Amaranthus scleropoides Uline & Bray		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37334	37334	Amaranthus viridis L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37335	37335	Amaryllis belladonna L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Amaryllidaceae	SPECIES	ACCEPTED
+37336	37336	Amathia gracilis (Leidy, 1855)		Animalia	Bryozoa	Gymnolaemata	Ctenostomatida	Vesiculariidae	SPECIES	ACCEPTED
+37337	37337	Amathia verticillata		Animalia	Cnidaria	Anthozoa	Actiniaria	Aiptasiidae	SPECIES	ACCEPTED
+37338	37338	Amathia verticillata (Delle Chiaje, 1822)		Animalia	Bryozoa	Gymnolaemata	Ctenostomatida	Vesiculariidae	SPECIES	ACCEPTED
+37339	37339	Ambrosia artemisiifolia L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37340	37340	Ameiurus melas (Rafinesque, 1820)		Animalia	Chordata	Actinopterygii	Siluriformes	Ictaluridae	SPECIES	ACCEPTED
+37341	37341	Ammannia coccinea Rottb.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Lythraceae	SPECIES	ACCEPTED
+37342	37342	Amorpha fruticosa L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37343	37343	Ampelisca heterodactyla Schellenberg, 1925		Animalia	Arthropoda	Malacostraca	Amphipoda	Ampeliscidae	SPECIES	ACCEPTED
+37344	37344	Ampelodesmos mauritanicus (Poir.) T.Durand & Schinz		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37345	37345	Amphibalanus amphitrite Darwin, 1854		Animalia	Arthropoda	Maxillopoda	Sessilia	Balanidae	SPECIES	ACCEPTED
+37346	37346	Amphibalanus eburneus Gould, 1841		Animalia	Arthropoda	Maxillopoda	Sessilia	Balanidae	SPECIES	ACCEPTED
+37347	37347	Anaphalis contorta Hook.f.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37348	37348	Anaphalis margaritacea Benth. & Hook.f.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37349	37349	Anchusa arvensis subsp. orientalis (L.) Nordh.		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Boraginaceae	SUBSPECIES	SYNONYM
+37350	37350	Anguillicoloides crassus (Kuwahara, Niimi & Itagaki, 1974) Moravec & Taraschewski, 1988		Animalia	Nematoda	Secernentea	Spirurida	Anguillicolidae	SPECIES	ACCEPTED
+37351	37351	Anotrichium furcellatum (J.Agardh) Baldock		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Wrangeliaceae	SPECIES	ACCEPTED
+37352	37352	Anotrichium okamurae Baldock, 1976	Anotrichium furcellatum (J.Agardh) Baldock	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Wrangeliaceae	SPECIES	SYNONYM
+37353	37353	Anredera cordifolia (Ten.) Steenis		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Basellaceae	SPECIES	ACCEPTED
+37354	37354	Antirrhinum majus L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+37355	37355	Antithamnion amphigeneum A.J.K.Millar, 1990		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	ACCEPTED
+37356	37356	Antithamnion densum (Suhr) M.A.Howe, 1914		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	ACCEPTED
+37357	37357	Antithamnion pectinatum (Montagne) J.Brauner		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	ACCEPTED
+37358	37358	Antithamnionella spirographidis (Schiffner) E.M.Wollaston		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	ACCEPTED
+37359	37359	Antithamnionella ternifolia (J.D.Hooker & Harvey) Lyle		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	ACCEPTED
+37360	37360	Aoroides longimerus Ren & Zheng, 1996		Animalia	Arthropoda	Malacostraca	Amphipoda	Aoridae	SPECIES	ACCEPTED
+37361	37361	Apium leptophyllum (Pers.) F.Muell.	Cyclospermum leptophyllum (Pers.) Sprague	Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	SYNONYM
+37362	37362	Aptenia cordifolia (L.fil.) Schwant.	Mesembryanthemum cordifolium L.f.	Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	SYNONYM
+37363	37363	Araucaria heterophylla (Salisb.) Franco		Plantae	Tracheophyta	Pinopsida	Pinales	Araucariaceae	SPECIES	ACCEPTED
+37364	37364	Araujia sericifera Brot.		Plantae	Tracheophyta	Magnoliopsida	Gentianales	Apocynaceae	SPECIES	ACCEPTED
+37365	37365	Arctotheca calendula (L.) Levyns		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37366	37366	Arctotis stoechadifolia P.J.Bergius		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37367	37367	Arctotis venusta Norl.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37368	37368	Arcuatula senhousia (Benson, 1842)		Animalia	Mollusca	Bivalvia	Mytilida	Mytilidae	SPECIES	ACCEPTED
+37369	37369	Argemone mexicana L.		Plantae	Tracheophyta	Magnoliopsida	Ranunculales	Papaveraceae	SPECIES	ACCEPTED
+37370	37370	Aristolochia sempervirens L.		Plantae	Tracheophyta	Magnoliopsida	Piperales	Aristolochiaceae	SPECIES	ACCEPTED
+37371	37371	Artemia franciscana Kellogg, 1906		Animalia	Arthropoda	Branchiopoda	Anostraca	Artemiidae	SPECIES	ACCEPTED
+37372	37372	Artemisia tournefortiana Rchb.	Artemisia biennis Willd.	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37373	37373	Artemisia verlotiorum Lamotte		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37374	37374	Arundo donax L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37375	37375	Ascidia interrupta Heller, 1878		Animalia	Chordata	Ascidiacea	Phlebobranchia	Ascidiidae	SPECIES	ACCEPTED
+37376	37376	Asclepias curassavica L.		Plantae	Tracheophyta	Magnoliopsida	Gentianales	Apocynaceae	SPECIES	ACCEPTED
+37377	37377	Asparagopsis armata Harv.		Plantae	Rhodophyta	Florideophyceae	Bonnemaisoniales	Bonnemaisoniaceae	SPECIES	ACCEPTED
+37378	37378	Asparagopsis taxiformis (Delile) Trevis.		Plantae	Rhodophyta	Florideophyceae	Bonnemaisoniales	Bonnemaisoniaceae	SPECIES	ACCEPTED
+37379	37379	Asparagus asparagoides Druce		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+37380	37380	Asparagus officinalis L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+37381	37381	Asparagus setaceus (Kunth) Jessop		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+37382	37382	Atriplex sagittata Bkh.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37383	37383	Atropa belladonna L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37384	37384	Australoheros facetus (Jenyns, 1842)		Animalia	Chordata	Actinopterygii	Perciformes	Cichlidae	SPECIES	ACCEPTED
+37385	37385	Austrocylindropuntia subulata (Engelm.) Backeb.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Cactaceae	SPECIES	ACCEPTED
+37386	37386	Austrominius modestus (Darwin, 1854)		Animalia	Arthropoda	Maxillopoda	Sessilia	Austrobalanidae	SPECIES	ACCEPTED
+37387	37387	Avena brevis Roth		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37388	37388	Avena byzantina K.Koch		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37389	37389	Avena nuda L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37390	37390	Avena sativa L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37391	37391	Avena strigosa Schreb.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37392	37392	Axonopus fissifolius (Raddi) Kuhlm.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37393	37393	Azolla filiculoides Lam.		Plantae	Tracheophyta	Polypodiopsida	Salviniales	Salviniaceae	SPECIES	ACCEPTED
+37394	37394	Bachharis spicata	Bachharis spicata	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae		
+37395	37395	Bacopa monnieri (L.) Pennell		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+37396	37396	Balanus trigonus Darwin, 1854		Animalia	Arthropoda	Maxillopoda	Sessilia	Balanidae	SPECIES	ACCEPTED
+37397	37397	Bauhinia variegata L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37398	37398	Bedeva paivae (Crosse, 1864)		Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	SPECIES	ACCEPTED
+37399	37399	Berberis julianae C.K.Schneid.		Plantae	Tracheophyta	Magnoliopsida	Ranunculales	Berberidaceae	SPECIES	ACCEPTED
+37400	37400	Berberis vulgaris L.		Plantae	Tracheophyta	Magnoliopsida	Ranunculales	Berberidaceae	SPECIES	ACCEPTED
+37401	37401	Bergenia crassifolia Fritsch		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Saxifragaceae	SPECIES	ACCEPTED
+37402	37402	Beta vulgaris L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37403	37403	Betula pendula subsp. pendula		Plantae	Tracheophyta	Magnoliopsida	Fagales	Betulaceae	SUBSPECIES	ACCEPTED
+37404	37404	Bidens aurea Sherff		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37405	37405	Bidens frondosa L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37406	37406	Bidens pilosa L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37407	37407	Billardiera heterophylla (Lindl.) L.W.Cayzer & Crisp		Plantae	Tracheophyta	Magnoliopsida	Apiales	Pittosporaceae	SPECIES	ACCEPTED
+37408	37408	Blackfordia virginica Mayer, 1910		Animalia	Cnidaria	Hydrozoa	Leptothecata	Blackfordiidae	SPECIES	ACCEPTED
+37409	37409	Blechnum capense		Plantae	Tracheophyta	Polypodiopsida	Polypodiales	Blechnaceae	SPECIES	
+37410	37410	Blechnum occidentale L.		Plantae	Tracheophyta	Polypodiopsida	Polypodiales	Blechnaceae	SPECIES	ACCEPTED
+37411	37411	Blyxa japonica Maxim. ex Asch. & GÃ¼rke		Plantae	Tracheophyta	Liliopsida	Alismatales	Hydrocharitaceae	SPECIES	ACCEPTED
+37412	37412	Bonnemaisonia hamifera Hariot		Plantae	Rhodophyta	Florideophyceae	Bonnemaisoniales	Bonnemaisoniaceae	SPECIES	ACCEPTED
+37413	37413	Bosmina coregoni Baird, 1857		Animalia	Arthropoda	Branchiopoda	Diplostraca	Bosminidae	SPECIES	ACCEPTED
+37414	37414	Botrylloides violaceus Oka, 1927		Animalia	Chordata	Ascidiacea	Stolidobranchia	Styelidae	SPECIES	ACCEPTED
+37415	37415	Botryllus schlosseri (Pallas, 1766)		Animalia	Chordata	Ascidiacea	Stolidobranchia	Styelidae	SPECIES	ACCEPTED
+37416	37416	Branchiomma bairdi (McIntosh, 1885)		Animalia	Annelida	Polychaeta	Sabellida	Sabellidae	SPECIES	ACCEPTED
+37417	37417	Branchiomma luctuosum (Grube, 1870)		Animalia	Annelida	Polychaeta	Sabellida	Sabellidae	SPECIES	ACCEPTED
+37418	37418	Branchiura sowerbyi Beddard, 1892		Animalia	Annelida	Clitellata	Haplotaxida	Naididae	SPECIES	ACCEPTED
+37419	37419	Branchiura sowerbyi Beddard, 1892		Animalia	Annelida	Clitellata	Haplotaxida	Naididae	SPECIES	ACCEPTED
+37420	37420	Brassica napus L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37421	37421	Brassica napus L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37422	37422	Brassica oleracea L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37423	37423	Bromus catharticus Vahl		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37424	37424	Bromus japonicus Houtt.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37425	37425	Bromus secalinus L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37426	37426	Broussonetia papyrifera Vent.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Moraceae	SPECIES	ACCEPTED
+37427	37427	Buddleja davidii Franch.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Scrophulariaceae	SPECIES	ACCEPTED
+37428	37428	Buddleja globosa C.Hope		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Scrophulariaceae	SPECIES	ACCEPTED
+37429	37429	Bugula dentata (Lamouroux, 1816)	Virididentula dentata (Lamouroux, 1816)	Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Bugulidae	SPECIES	SYNONYM
+37430	37430	Bugula neritina (Linnaeus, 1758)		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Bugulidae	SPECIES	ACCEPTED
+37431	37431	Bugula simplex Hincks, 1886	Bugulina simplex (Hincks, 1886)	Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Bugulidae	SPECIES	SYNONYM
+37432	37432	Bugula stolonifera Ryland, 1960	Bugulina stolonifera (Ryland, 1960)	Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Bugulidae	SPECIES	SYNONYM
+37433	37433	Caesalpinia spinosa (Molina) Kuntze		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37434	37434	Calendula officinalis L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37435	37435	Callinectes sapidus Rathbun, 1896		Animalia	Arthropoda	Malacostraca	Decapoda	Potamidae	SPECIES	ACCEPTED
+37436	37436	Callirhoe involucrata A.Gray		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37437	37437	Callistephus chinensis Nees		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37438	37438	Callitriche cribrosa Schotsman		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+37439	37439	Calocedrus decurrens (Torr.) Florin		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37440	37440	Calystegia silvatica Griseb.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	ACCEPTED
+37441	37441	Camelina alyssum (Mill.) Thell.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37442	37442	Campsis radicans (L.) Seem.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Bignoniaceae	SPECIES	ACCEPTED
+37443	37443	Campylopus introflexus Bridel, 1819		Plantae	Bryophyta	Bryopsida	Dicranales	Dicranaceae	SPECIES	ACCEPTED
+37444	37444	Canna indica L.		Plantae	Tracheophyta	Liliopsida	Zingiberales	Cannaceae	SPECIES	ACCEPTED
+37445	37445	Cannabis sativa L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Cannabaceae	SPECIES	ACCEPTED
+37446	37446	Capparis spinosa subsp. spinosa		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Capparaceae	SUBSPECIES	ACCEPTED
+37447	37447	Capra hircus Linnaeus, 1758		Animalia	Chordata	Mammalia	Artiodactyla	Bovidae	SPECIES	ACCEPTED
+37448	37448	Caprella scaura Templeton, 1836		Animalia	Arthropoda	Malacostraca	Amphipoda	Caprellidae	SPECIES	ACCEPTED
+37449	37449	Capsicum annuum L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37450	37450	Carassius auratus (Linnaeus, 1758)		Animalia	Chordata	Actinopterygii	Cypriniformes	Cyprinidae	SPECIES	ACCEPTED
+37451	37451	Carassius gibelio (Bloch, 1782)		Animalia	Chordata	Actinopterygii	Cypriniformes	Cyprinidae	SPECIES	ACCEPTED
+37452	37452	Cardamine occulta Hornem.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37453	37453	Cardiospermum halicacabum L.		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Sapindaceae	SPECIES	ACCEPTED
+37454	37454	Carpinus betulus L.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Betulaceae	SPECIES	ACCEPTED
+37455	37455	Carpobrotus acinaciformis (L.) L.Bolus		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+37456	37456	Carpobrotus edulis N.E.Br.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+37457	37457	Carthamus tinctorius L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37458	37458	Carya illinoensis (Wangenh.) K.Koch	Carya illinoiensis (Wangenh.) K.Koch	Plantae	Tracheophyta	Magnoliopsida	Fagales	Juglandaceae	SPECIES	SYNONYM
+37459	37459	Castanea crenata Siebold & Zucc.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Fagaceae	SPECIES	ACCEPTED
+37460	37460	Castor canadensis Kuhl, 1820		Animalia	Chordata	Mammalia	Rodentia	Castoridae	SPECIES	ACCEPTED
+37461	37461	Castor fiber Linnaeus, 1758		Animalia	Chordata	Mammalia	Rodentia	Castoridae	SPECIES	ACCEPTED
+37462	37462	Casuarina cunninghamiana Miq.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Casuarinaceae	SPECIES	ACCEPTED
+37463	37463	Casuarina equisetifolia L.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Casuarinaceae	SPECIES	ACCEPTED
+37464	37464	Catalpa bignonioides Walter		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Bignoniaceae	SPECIES	ACCEPTED
+37465	37465	Catharanthus roseus G.Don		Plantae	Tracheophyta	Magnoliopsida	Gentianales	Apocynaceae	SPECIES	ACCEPTED
+37466	37466	Caulerpa prolifera (Forssk.) J.V.Lamour.		Plantae	Chlorophyta	Ulvophyceae	Bryopsidales	Caulerpaceae	SPECIES	ACCEPTED
+37467	37467	Caulerpa webbiana Mont.		Plantae	Chlorophyta	Ulvophyceae	Bryopsidales	Caulerpaceae	SPECIES	ACCEPTED
+37468	37468	Cedrus atlantica (Endl.) Manetti ex Carriere		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+37469	37469	Cedrus deodara (Roxb. ex Lambert) G.Don		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+37470	37470	Cedrus libani A.Rich.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+37471	37471	Celleporaria brunnea (Hincks, 1884)		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Lepraliellidae	SPECIES	ACCEPTED
+37472	37472	Celleporaria inaudita Tilbrook, Hayward & Gordon, 2001		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Lepraliellidae	SPECIES	ACCEPTED
+37473	37473	Centaurea solstitialis L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37474	37474	Ceramium cingulatum Weber-van Bosse, 1923		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	ACCEPTED
+37475	37475	Cercis siliquastrum L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37476	37476	Cestrum parqui L'HÃ©r.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37477	37477	Chaetopleura angulata (Spengler, 1797)		Animalia	Mollusca	Polyplacophora	Chitonida	Chaetopleuridae	SPECIES	ACCEPTED
+37478	37478	Chamaecyparis lawsoniana Parl.		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37479	37479	Chamaecyparis obtusa (Siebold & Zucc.) Endl.		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37480	37480	Chamaeleo chamaeleon (Linnaeus, 1758)		Animalia	Chordata	Reptilia	Squamata	Chamaeleonidae	SPECIES	ACCEPTED
+37481	37481	Chasmanthe aethiopica (L.) N.E.Br.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37482	37482	Chelydra serpentina (Linnaeus, 1758)		Animalia	Chordata	Reptilia	Testudines	Chelydridae	SPECIES	ACCEPTED
+37483	37483	Chrysemys picta (Schneider, 1783)		Animalia	Chordata	Reptilia	Testudines	Emydidae	SPECIES	ACCEPTED
+37484	37484	Cicer arietinum L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37485	37485	Cichorium calvum Sch.Bip. ex Aschers.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37486	37486	Cinnamomum camphora (L.) J.Presl		Plantae	Tracheophyta	Magnoliopsida	Laurales	Lauraceae	SPECIES	ACCEPTED
+37487	37487	Ciona intestinalis (Linnaeus, 1767)		Animalia	Chordata	Ascidiacea	Phlebobranchia	Cionidae	SPECIES	ACCEPTED
+37488	37488	Citrullus lanatus (Thunb.) Matsumura & Nakai		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	SPECIES	ACCEPTED
+37489	37489	Clavelina dellavallei (Zirpolo, 1825)		Animalia	Chordata	Ascidiacea	Aplousobranchia	Clavelinidae	SPECIES	ACCEPTED
+37490	37490	Clavelina lepadiformis (MÃ¼ller, 1776)		Animalia	Chordata	Ascidiacea	Aplousobranchia	Clavelinidae	SPECIES	ACCEPTED
+37491	37491	Clavelina oblonga Herdman, 1880		Animalia	Chordata	Ascidiacea	Aplousobranchia	Clavelinidae	SPECIES	ACCEPTED
+37492	37492	Claytonia perfoliata Donn ex Willd.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Montiaceae	SPECIES	ACCEPTED
+37493	37493	Cochlearia officinalis L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37494	37494	Codium fragile subsp. fragile		Plantae	Chlorophyta	Ulvophyceae	Bryopsidales	Codiaceae	SUBSPECIES	ACCEPTED
+37495	37495	Colocasia antiquorum Schott	Colocasia esculenta (L.) Schott	Plantae	Tracheophyta	Liliopsida	Alismatales	Araceae	SPECIES	SYNONYM
+37496	37496	Colocasia esculenta (L.) Schott		Plantae	Tracheophyta	Liliopsida	Alismatales	Araceae	SPECIES	ACCEPTED
+37497	37497	Colpomenia peregrina Sauv.		Chromista	Ochrophyta	Phaeophyceae	Scytosiphonales	Scytosiphonaceae	SPECIES	ACCEPTED
+37498	37498	Columbina passerina (Linnaeus, 1758)		Animalia	Chordata	Aves	Columbiformes	Columbidae	SPECIES	ACCEPTED
+37499	37499	Commelina communis L.		Plantae	Tracheophyta	Liliopsida	Commelinales	Commelinaceae	SPECIES	ACCEPTED
+37500	37500	Consolida ajacis (L.) Schur		Plantae	Tracheophyta	Magnoliopsida	Ranunculales	Ranunculaceae	SPECIES	ACCEPTED
+37501	37501	Consolida orientalis (J.Gay) R.SchrÃ¶dinger		Plantae	Tracheophyta	Magnoliopsida	Ranunculales	Ranunculaceae	SPECIES	ACCEPTED
+37502	37502	Consolida regalis		Plantae	Tracheophyta	Magnoliopsida	Ranunculales	Ranunculaceae	SPECIES	ACCEPTED
+37503	37503	Convolvulus farinosus L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	ACCEPTED
+37504	37504	Conyza mixta Fouc. & Neyr.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37505	37505	Conyza rouyana Sennen		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	DOUBTFUL
+37506	37506	Corbicula fluminea (O.F.MÃ¼ller, 1774)		Animalia	Mollusca	Bivalvia	Venerida	Cyrenidae	SPECIES	ACCEPTED
+37507	37507	Corbicula fluminea (O.F.MÃ¼ller, 1774)		Animalia	Mollusca	Bivalvia	Venerida	Cyrenidae	SPECIES	ACCEPTED
+37508	37508	Cordyline australis Endl.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+37509	37509	Cordylophora caspia (Pallas, 1771)		Animalia	Cnidaria	Hydrozoa	Anthoathecata	Cordylophoridae	SPECIES	ACCEPTED
+37510	37510	Cordylophora caspia (Pallas, 1771)		Animalia	Cnidaria	Hydrozoa	Anthoathecata	Cordylophoridae	SPECIES	ACCEPTED
+37511	37511	Corella eumyota Traustedt, 1882		Animalia	Chordata	Ascidiacea	Phlebobranchia	Corellidae	SPECIES	ACCEPTED
+37512	37512	Coreopsis tinctoria Nutt.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37513	37513	Coriandrum sativum L.		Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	ACCEPTED
+37514	37514	Coriaria myrtifolia L.		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Coriariaceae	SPECIES	ACCEPTED
+37515	37515	Coriaria nepalensis Wall.		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Coriariaceae	SPECIES	ACCEPTED
+37516	37516	Cornus capitata Wall.		Plantae	Tracheophyta	Magnoliopsida	Cornales	Cornaceae	SPECIES	ACCEPTED
+37517	37517	Cortaderia selloana Asch. & Graebn.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37518	37518	Corynomorpha prismatica (J.Agardh) J.Agardh, 1876		Plantae	Rhodophyta	Florideophyceae	Halymeniales	Halymeniaceae	SPECIES	ACCEPTED
+37519	37519	Cosmos bipinnatus Cav.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37520	37520	Cota austriaca Sch.Bip.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37521	37521	Cotoneaster horizontalis Decne.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+37522	37522	Cotula australis (Spreng.) Hook.f.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37523	37523	Cotula coronopifolia L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37524	37524	Crambe crambe (Schmidt, 1862)		Animalia	Porifera	Demospongiae	Poecilosclerida	Crambeidae	SPECIES	ACCEPTED
+37525	37525	Crangonyx pseudogracilis Bousfield, 1958		Animalia	Arthropoda	Malacostraca	Amphipoda	Crangonyctidae	SPECIES	ACCEPTED
+37526	37526	Craspedacusta sowerbyi Lancaster		Animalia	Cnidaria	Hydrozoa	Limnomedusae	Olindiidae	SPECIES	DOUBTFUL
+37527	37527	Crassostrea gigas (Thunberg, 1793)	Magallana gigas (Thunberg, 1793)	Animalia	Mollusca	Bivalvia	Ostreida	Ostreidae	SPECIES	SYNONYM
+37528	37528	Crassula aquatica (L.) SchÃ¶nland		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37529	37529	Crassula campestris (Eckl. & Zeyh.) Endl. ex Walp.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37530	37530	Crassula multicava Lem.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37531	37531	Crassula peduncularis (Sm.) F.Meigen		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37532	37532	Crassula tillaea Lest.-Garl.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37533	37533	Crepis commutata (Sprengel) Greuter		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37534	37534	Crocosmia crocosmiiflora (Nicholson) N.E.Br.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37535	37535	Cryptomeria japonica D.Don		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37536	37536	Cucumis melo L.		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	SPECIES	ACCEPTED
+37537	37537	Cucumis myriocarpus subsp. myriocarpus		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	SUBSPECIES	ACCEPTED
+37538	37538	Cucurbita ficifolia Bouche		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	SPECIES	ACCEPTED
+37539	37539	Cucurbita moschata Duchesne ex Poir.		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	SPECIES	ACCEPTED
+37540	37540	Cucurbita pepo L.		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	SPECIES	ACCEPTED
+37541	37541	Cullen americanum Rydb.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37542	37542	Cupressus arizonica Greene		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37543	37543	Cupressus lusitanica Mill.		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37544	37544	Cupressus macrocarpa Hartw. ex Gordon		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37545	37545	Cupressus sempervirens L.		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37546	37546	Cuscuta campestris Yunck.	Cuscuta pentagona Engelm.	Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	SYNONYM
+37547	37547	Cuscuta epilinum Weihe		Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	ACCEPTED
+37548	37548	Cuscuta suaveolens Ser.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	ACCEPTED
+37549	37549	Cyanus segetum Hill	Centaurea cyanus L.	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37550	37550	Cyclospermum leptophyllum (Pers.) Sprague		Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	ACCEPTED
+37551	37551	Cydonia oblonga Mill.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+37552	37552	Cymbalaria aequitriloba (Viv.) A.Chev.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+37553	37553	Cymbalaria muralis G.Gaertn., B.Mey. & Schreb.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+37554	37554	Cyperus congestus Vahl		Plantae	Tracheophyta	Liliopsida	Poales	Cyperaceae	SPECIES	ACCEPTED
+37555	37555	Cyperus controversus	Cyperus controversus (Steud.) Mattf. & Kük.	Plantae	Tracheophyta	Liliopsida	Poales	Cyperaceae	SPECIES	SYNONYM
+37556	37556	Cyperus eragrostis Lam.		Plantae	Tracheophyta	Liliopsida	Poales	Cyperaceae	SPECIES	ACCEPTED
+37557	37557	Cyperus involucratus		Plantae	Tracheophyta	Liliopsida	Poales	Cyperaceae	SPECIES	
+37558	37558	Cyprinus carpio Linnaeus, 1758		Animalia	Chordata	Actinopterygii	Cypriniformes	Cyprinidae	SPECIES	ACCEPTED
+37559	37559	Cyrtomium falcatum C.Presl		Plantae	Tracheophyta	Polypodiopsida	Polypodiales	Dryopteridaceae	SPECIES	ACCEPTED
+37560	37560	Cytisus praecox Beauverd		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37561	37561	Dactylogyrus anchoratus (Dujardin, 1845) Wagener, 1857		Animalia	Platyhelminthes	Monogenea	Dactylogyridea	Dactylogyridae	SPECIES	ACCEPTED
+37562	37562	Dasya sessilis Yamada, 1928		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Dasyaceae	SPECIES	ACCEPTED
+37563	37563	Datura innoxia Mill.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37564	37564	Datura stramonium L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37565	37565	Delairea odorata Lem.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37566	37566	Dendrosenecio adnivalis subsp. friesiorum (Mildbr.) E.B.Knox		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SUBSPECIES	ACCEPTED
+37567	37567	Desdemona ornata Banse, 1957		Animalia	Annelida	Polychaeta	Sabellida	Sabellidae	SPECIES	ACCEPTED
+37568	37568	Desmacella meliorata Wiedenmayer, 1977		Animalia	Porifera	Demospongiae	Desmacellida	Desmacellidae	SPECIES	ACCEPTED
+37569	37569	Diamysis lagunaris Ariani & Wittmann, 2000		Animalia	Arthropoda	Malacostraca	Mysida	Mysidae	SPECIES	ACCEPTED
+37570	37570	Dianthus barbatus L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Caryophyllaceae	SPECIES	ACCEPTED
+37571	37571	Dianthus tripunctatus Sibth. & Sm.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Caryophyllaceae	SPECIES	ACCEPTED
+37572	37572	Dichondra micrantha Urb.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	ACCEPTED
+37573	37573	Dicksonia antarctica Labill.		Plantae	Tracheophyta	Polypodiopsida	Cyatheales	Dicksoniaceae	SPECIES	ACCEPTED
+37574	37574	Digitaria ciliaris (Retz.) Koeler		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37575	37575	Digitaria violascens Link		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37576	37576	Dipsacus sativus (L.) Honckeny		Plantae	Tracheophyta	Magnoliopsida	Dipsacales	Caprifoliaceae	SPECIES	ACCEPTED
+37577	37577	Disphyma crassifolium L.Bolus		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+37578	37578	Distaplia corolla Monniot F., 1974		Animalia	Chordata	Ascidiacea	Aplousobranchia	Holozoidae	SPECIES	ACCEPTED
+37579	37579	Distaplia corolla Monniot F., 1974		Animalia	Chordata	Ascidiacea	Aplousobranchia	Holozoidae	SPECIES	ACCEPTED
+37580	37580	Dolichandra unguis-cati (L.) L.G.Lohmann		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Bignoniaceae	SPECIES	ACCEPTED
+37581	37581	Dracunculus vulgaris Schott		Plantae	Tracheophyta	Liliopsida	Alismatales	Araceae	SPECIES	ACCEPTED
+37582	37582	Drosanthemum floribundum Schwantes		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+37583	37583	Drosera capensis L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Droseraceae	SPECIES	ACCEPTED
+37584	37584	Duchesnea indica (Andr.) Focke	Potentilla indica (Andrews) T.Wolf	Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	SYNONYM
+37585	37585	Dysphania ambrosioides (L.) Mosyakin & Clemants		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37586	37586	Dysphania multifida (L.) Mosyakin & Clemants		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37587	37587	Dysphania pumilio (R.Br.) Mosyakin & Clemants		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Amaranthaceae	SPECIES	ACCEPTED
+37588	37588	Echinochloa colona (L.) Link		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37589	37589	Echinochloa crus-galli (L.) P.Beauv.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37590	37590	Echinochloa oryzoides (Ard.) Fritsch		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37591	37591	Echium arenarium Guss.		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Boraginaceae	SPECIES	ACCEPTED
+37592	37592	Echium parviflorum Moench		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Boraginaceae	SPECIES	ACCEPTED
+37593	37593	Eclipta prostrata	Eclipta prostrata	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae		
+37594	37594	Egeria densa Planch.		Plantae	Tracheophyta	Liliopsida	Alismatales	Hydrocharitaceae	SPECIES	ACCEPTED
+37595	37595	Ehrharta calycina Sm.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37596	37596	Ehrharta erecta Lam.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37597	37597	Eichhornia crassipes Solms		Plantae	Tracheophyta	Liliopsida	Commelinales	Pontederiaceae	SPECIES	ACCEPTED
+37598	37598	Elaeagnus angustifolia L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Elaeagnaceae	SPECIES	ACCEPTED
+37599	37599	Eleocharis bonariensis Nees		Plantae	Tracheophyta	Liliopsida	Poales	Cyperaceae	SPECIES	ACCEPTED
+37600	37600	Eleocharis flavescens Urb.		Plantae	Tracheophyta	Liliopsida	Poales	Cyperaceae	SPECIES	ACCEPTED
+37601	37601	Eleusine indica (L.) Gaertn.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37602	37602	Elodea canadensis Michx.		Plantae	Tracheophyta	Liliopsida	Alismatales	Hydrocharitaceae	SPECIES	ACCEPTED
+37603	37603	Epilobium brachycarpum C.Presl		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37604	37604	Eragrostis barrelieri Daveau		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37605	37605	Eragrostis curvula Nees		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37606	37606	Erigeron bilbaoanus (Remy) Cabrera	Erigeron floribundus Sch.Bip.	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37607	37607	Erigeron canadensis L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37608	37608	Erigeron floribundus Sch.Bip.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37609	37609	Erigeron ivifolius (L.) Sch.Bip.	Nidorella ivifolia (L.) J.C.Manning & Goldblatt	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37610	37610	Erigeron karvinskianus DC.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37611	37611	Erigeron mixtus Arv.-Touv.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37612	37612	Erigeron primulifolius (Lam.) Greuter		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37613	37613	Erigeron sumatrensis Retz.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37614	37614	Erigeron x rouyana		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	
+37615	37615	Eriobotrya japonica (Thunb.) Lindl.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+37616	37616	Eriocheir sinensis H.Milne Edwards, 1853		Animalia	Arthropoda	Malacostraca	Decapoda	Pseudothelphusidae	SPECIES	ACCEPTED
+37617	37617	Eriocheir sinensis H.Milne Edwards, 1853		Animalia	Arthropoda	Malacostraca	Decapoda	Pseudothelphusidae	SPECIES	ACCEPTED
+37618	37618	Eryngium pandanifolium Cham. & Schltdl.		Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	ACCEPTED
+37619	37619	Erysimum cheiri Crantz		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37620	37620	Eschscholzia californica Cham.		Plantae	Tracheophyta	Magnoliopsida	Ranunculales	Papaveraceae	SPECIES	ACCEPTED
+37621	37621	Esox lucius Linnaeus, 1758		Animalia	Chordata	Actinopterygii	Esociformes	Esocidae	SPECIES	ACCEPTED
+37622	37622	Estrilda astrild (Linnaeus, 1758)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+37623	37623	Estrilda melpoda (Vieillot, 1817)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+37624	37624	Estrilda troglodytes (Lichtenstein, 1823)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+37625	37625	Eucalyptus Ã—algeriensis Trab.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37626	37626	Eucalyptus Ã—trabutii Vilm.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37627	37627	Eucalyptus botryoides Sm.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37628	37628	Eucalyptus camaldulensis Dehnh.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37629	37629	Eucalyptus cladocalyx F.Muell.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37630	37630	Eucalyptus cornuta Labill.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37631	37631	Eucalyptus dalrympleana Maiden		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37632	37632	Eucalyptus diversicolor F.Muell.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37633	37633	Eucalyptus globulus Labill.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37634	37634	Eucalyptus gomphocephala DC.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37635	37635	Eucalyptus grandis W.Hill ex Maiden		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37636	37636	Eucalyptus gunnii Hook.f.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37637	37637	Eucalyptus maidenii F.Müll.	Eucalyptus globulus Labill.	Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	SYNONYM
+37638	37638	Eucalyptus nitens Maiden		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37639	37639	Eucalyptus obliqua L'HÃ©r.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37640	37640	Eucalyptus polyanthemos Schauer		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37641	37641	Eucalyptus raveretiana F.Muell.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37642	37642	Eucalyptus resinifera Sm.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37643	37643	Eucalyptus robusta Sm.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37644	37644	Eucalyptus rudis Endl.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37645	37645	Eucalyptus sideroxylon A.Cunn. ex Woolls		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37646	37646	Eucalyptus smithii R.T.Baker		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37647	37647	Eucalyptus tereticornis Sm.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37648	37648	Euglesa casertana		Animalia	Chordata	Actinopterygii	Cyprinodontiformes	Fundulidae	SPECIES	ACCEPTED
+37649	37649	Euonymus japonicus Thunb.		Plantae	Tracheophyta	Magnoliopsida	Celastrales	Celastraceae	SPECIES	ACCEPTED
+37650	37650	Euphorbia chamaesyce L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37651	37651	Euphorbia lathyris L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37652	37652	Euphorbia maculata L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37653	37653	Euphorbia marginata Pursh		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37654	37654	Euphorbia nutans Lag.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37655	37655	Euphorbia prostrata Ait.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37656	37656	Euphorbia serpens Kunth		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37657	37657	Euplectes afer (Gmelin, 1789)		Animalia	Chordata	Aves	Passeriformes	Ploceidae	SPECIES	ACCEPTED
+37658	37658	Euplectes franciscanus (Isert, 1789)		Animalia	Chordata	Aves	Passeriformes	Ploceidae	SPECIES	ACCEPTED
+37659	37659	Euplectes hordeaceus (Linnaeus, 1758)		Animalia	Chordata	Aves	Passeriformes	Ploceidae	SPECIES	ACCEPTED
+37660	37660	Euplectes orix (Linnaeus, 1758)		Animalia	Chordata	Aves	Passeriformes	Ploceidae	SPECIES	ACCEPTED
+37661	37661	Euryops chrysanthemoides (DC.) B.Nord.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37662	37662	Fagus sylvatica L.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Fagaceae	SPECIES	ACCEPTED
+37663	37663	Fallopia baldschuanica (Regel) Holub		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+37664	37664	Fallopia dumetorum (L.) Holub		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+37665	37665	Fallopia japonica (Houtt.) Ronse Decraene	Reynoutria japonica Houtt.	Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	SYNONYM
+37666	37666	Fascicularia bicolor (Ruiz & Pav.) Mez		Plantae	Tracheophyta	Liliopsida	Poales	Bromeliaceae	SPECIES	ACCEPTED
+37667	37667	Fedia scorpioides Dufresne	Fedia cornucopiae (L.) Gaertn.	Plantae	Tracheophyta	Magnoliopsida	Dipsacales	Caprifoliaceae	SPECIES	SYNONYM
+37668	37668	Felis catus Linnaeus, 1758		Animalia	Chordata	Mammalia	Carnivora	Felidae	SPECIES	ACCEPTED
+37669	37669	Felis silvestris Schreber, 1777		Animalia	Chordata	Mammalia	Carnivora	Felidae	SPECIES	ACCEPTED
+37670	37670	Ferraria crispa Burm.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37671	37671	Ferrissia fragilis (Tryon, 1863)	Ferrissia californica (Rowell, 1863)	Animalia	Mollusca	Gastropoda		Planorbidae	SPECIES	SYNONYM
+37672	37672	Ficopomatus enigmaticus (Fauvel, 1923)		Animalia	Annelida	Polychaeta	Sabellida	Serpulidae	SPECIES	ACCEPTED
+37673	37673	Ficus carica	Ficus carica	Plantae	Tracheophyta	Magnoliopsida	Rosales	Moraceae		
+37674	37674	Francolinus francolinus (Linnaeus, 1766)		Animalia	Chordata	Aves	Galliformes	Phasianidae	SPECIES	ACCEPTED
+37675	37675	Fraxinus americana L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+37676	37676	Fraxinus excelsior L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+37677	37677	Fraxinus ornus L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+37678	37678	Fraxinus pennsylvanica Marshall		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+37679	37679	Freesia refracta (Jacq.) Klatt		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37680	37680	Fuchsia magellanica Lam.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37681	37681	Fundulus heteroclitus (Linnaeus, 1766)		Animalia	Chordata	Actinopterygii	Cyprinodontiformes	Fundulidae	SPECIES	ACCEPTED
+37682	37682	Furcraea foetida Haw.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+37683	37683	Gaillardia aristata Pursh		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37684	37684	Galba truncatula (O.F.MÃ¼ller, 1774)		Animalia	Mollusca	Gastropoda		Lymnaeidae	SPECIES	ACCEPTED
+37685	37685	Galinsoga parviflora Cav.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37686	37686	Galinsoga quadriradiata Ruiz & Pav.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37687	37687	Gambusia holbrooki Girard, 1859		Animalia	Chordata	Actinopterygii	Cyprinodontiformes	Poeciliidae	SPECIES	ACCEPTED
+37688	37688	Gastridium phleoides (Nees & Meyen) C.E.Hubb.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37689	37689	Gazania rigens Gaertn.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37690	37690	Genista monspessulana (L.) L.A.S.Johnson		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37691	37691	Geranium carolinianum L.		Plantae	Tracheophyta	Magnoliopsida	Geraniales	Geraniaceae	SPECIES	ACCEPTED
+37692	37692	Gladiolus undulatus L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37693	37693	Glandularia canadensis (L.) Small		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Verbenaceae	SPECIES	ACCEPTED
+37694	37694	Glebionis segetum Fourr.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37695	37695	Gleditsia triacanthos L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37696	37696	Gnaphalium antillanum Urb.	Gamochaeta antillanum (Urb.) Anderb.	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37697	37697	Gnaphalium calviceps Fern.	Gamochaeta calviceps (Fernald) Cabrera	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37698	37698	Gnaphalium coarctatum Willd.	Gamochaeta coarctata (Willd.) Kerguélen	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37699	37699	Gnaphalium pensylvanicum Willd.	Gamochaeta pensylvanica (Willd.) Cabrera	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37700	37700	Gnaphalium purpureum L.	Gamochaeta purpurea (L.) Cabrera	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+37701	37701	Gnaphalium simplicicaule Willd.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37702	37702	Gnidia carinata Thunb.	Gnidia squarrosa Druce	Plantae	Tracheophyta	Magnoliopsida	Malvales	Thymelaeaceae	SPECIES	SYNONYM
+37703	37703	Gobio lozanoi Doadrio & Madeira, 2004		Animalia	Chordata	Actinopterygii	Cypriniformes	Cyprinidae	SPECIES	ACCEPTED
+37704	37704	Gomphocarpus fruticosus (L.) Ait.		Plantae	Tracheophyta	Magnoliopsida	Gentianales	Apocynaceae	SPECIES	ACCEPTED
+37705	37705	Gomphocarpus physocarpus E.Mey.		Plantae	Tracheophyta	Magnoliopsida	Gentianales	Apocynaceae	SPECIES	ACCEPTED
+37706	37706	Gonionemus vertens A.Agassiz, 1862		Animalia	Cnidaria	Hydrozoa	Limnomedusae	Olindiidae	SPECIES	ACCEPTED
+37707	37707	Gracilaria vermiculophylla (Ohmi) Papenfuss		Plantae	Rhodophyta	Florideophyceae	Gracilariales	Gracilariaceae	SPECIES	ACCEPTED
+37708	37708	Grallatoria reptans M.Howe		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Wrangeliaceae	SPECIES	ACCEPTED
+37709	37709	Graptemys pseudogeographica (Gray, 1831)		Animalia	Chordata	Reptilia	Testudines	Emydidae	SPECIES	ACCEPTED
+37710	37710	Graptopetalum paraguayense (N.E.Br.) Walth.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37711	37711	Grateloupia filicina (J.V.Lamour.) C.Agardh		Plantae	Rhodophyta	Florideophyceae	Halymeniales	Halymeniaceae	SPECIES	ACCEPTED
+37712	37712	Grateloupia imbricata Holmes		Plantae	Rhodophyta	Florideophyceae	Halymeniales	Halymeniaceae	SPECIES	ACCEPTED
+37713	37713	Grateloupia lanceolata (Okamura) Kawaguchi, 1997		Plantae	Rhodophyta	Florideophyceae	Halymeniales	Halymeniaceae	SPECIES	ACCEPTED
+37714	37714	Grateloupia turuturu Yamada		Plantae	Rhodophyta	Florideophyceae	Halymeniales	Halymeniaceae	SPECIES	ACCEPTED
+37715	37715	Grevillea robusta A.Cunn. ex R.Br.		Plantae	Tracheophyta	Magnoliopsida	Proteales	Proteaceae	SPECIES	ACCEPTED
+37716	37716	Gunnera tinctoria (Molina) Mirb.		Plantae	Tracheophyta	Magnoliopsida	Gunnerales	Gunneraceae	SPECIES	ACCEPTED
+37717	37717	Gymnodinium catenatum Graham, 1943		Chromista	Myzozoa	Dinophyceae	Gymnodiniales	Gymnodiniaceae	SPECIES	ACCEPTED
+37718	37718	Gymnodinium microreticulatum Bolch & Hallegraeff, 1999		Chromista	Myzozoa	Dinophyceae	Gymnodiniales	Gymnodiniaceae	SPECIES	ACCEPTED
+37719	37719	Gymnophycus hapsiphorus		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Wrangeliaceae	SPECIES	
+37720	37720	Gyraulus chinensis (Dunker, 1848)		Animalia	Mollusca	Gastropoda		Planorbidae	SPECIES	ACCEPTED
+37721	37721	Gyrodactylus salaris Malmberg, 1957		Animalia	Platyhelminthes	Monogenea	Gyrodactylidea	Gyrodactylidae	SPECIES	ACCEPTED
+37722	37722	Hakea salicifolia (Vent.) B.L.Burtt		Plantae	Tracheophyta	Magnoliopsida	Proteales	Proteaceae	SPECIES	ACCEPTED
+37723	37723	Halimeda incrassata (J.Ellis) J.V.Lamour.		Plantae	Chlorophyta	Ulvophyceae	Bryopsidales	Halimedaceae	SPECIES	ACCEPTED
+37724	37724	Hebe Ã—andersonii Cockayne		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+37725	37725	Hedychium coronarium J.Koenig		Plantae	Tracheophyta	Liliopsida	Zingiberales	Zingiberaceae	SPECIES	ACCEPTED
+37726	37726	Hedychium gardnerianum Ker Gawl.		Plantae	Tracheophyta	Liliopsida	Zingiberales	Zingiberaceae	SPECIES	ACCEPTED
+37727	37727	Helianthus annuus L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37728	37728	Helianthus laetiflorus Pers.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37729	37729	Helianthus tuberosus L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37730	37730	Helichrysum foetidum Moench		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37731	37731	Helichrysum petiolare Hilliard & B.L.Burtt		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37732	37732	Hemidactylus mabouia (Moreau De JonnÃ¨s, 1818)		Animalia	Chordata	Reptilia	Squamata	Gekkonidae	SPECIES	ACCEPTED
+37733	37733	Heteranthera reniformis Ruiz & Pav.		Plantae	Tracheophyta	Liliopsida	Commelinales	Pontederiaceae	SPECIES	ACCEPTED
+37734	37734	Heteranthera rotundifolia Griseb.		Plantae	Tracheophyta	Liliopsida	Commelinales	Pontederiaceae	SPECIES	ACCEPTED
+37735	37735	Hexaplex trunculus (Linnaeus, 1758)		Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	SPECIES	ACCEPTED
+37736	37736	Hibiscus trionum L.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37737	37737	Hippeastrum puniceum (Lam.) Voss		Plantae	Tracheophyta	Liliopsida	Asparagales	Amaryllidaceae	SPECIES	ACCEPTED
+37738	37738	Hippophae rhamnoides L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Elaeagnaceae	SPECIES	ACCEPTED
+37739	37739	Hippuris vulgaris L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+37740	37740	Hordeum bulbosum L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37741	37741	Hordeum distichon L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37742	37742	Hordeum vulgare L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37743	37743	Hydrangea macrophylla (Thunb.) Ser.		Plantae	Tracheophyta	Magnoliopsida	Cornales	Hydrangeaceae	SPECIES	ACCEPTED
+37744	37744	Hydrocotyle bonariensis Lam.		Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	ACCEPTED
+37745	37745	Hydroides elegans (Haswell, 1883)		Animalia	Annelida	Polychaeta	Sabellida	Serpulidae	SPECIES	ACCEPTED
+37746	37746	Hypericum atomarium Beiss.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Hypericaceae	SPECIES	ACCEPTED
+37747	37747	Hypericum calycinum L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Hypericaceae	SPECIES	ACCEPTED
+37748	37748	Hypericum hircinum L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Hypericaceae	SPECIES	ACCEPTED
+37749	37749	Hypnea flagelliformis J.Agardh		Plantae	Rhodophyta	Florideophyceae	Gigartinales	Cystocloniaceae	SPECIES	ACCEPTED
+37750	37750	Iberis amara L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37751	37751	Ictalurus punctatus (Rafinesque, 1818)		Animalia	Chordata	Actinopterygii	Siluriformes	Ictaluridae	SPECIES	ACCEPTED
+37752	37752	Ilyodromus viridulus (Brady, 1886)		Animalia	Arthropoda	Ostracoda	Podocopida	Cyprididae	SPECIES	ACCEPTED
+37753	37753	Impatiens balfourii Hook.f.		Plantae	Tracheophyta	Magnoliopsida	Ericales	Balsaminaceae	SPECIES	ACCEPTED
+37754	37754	Ipomoea indica (Burm.) Merr.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	ACCEPTED
+37755	37755	Ipomoea purpurea (L.) Roth		Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	ACCEPTED
+37756	37756	Ipomoea sagittata Poir.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Convolvulaceae	SPECIES	ACCEPTED
+37757	37757	Iris albicans Lange		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37758	37758	Iris germanica L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37759	37759	Iris susiana L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37760	37760	Iris tuberosa L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37761	37761	Isatis tinctoria L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37762	37762	Ixia paniculata D.Delaroche		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+37763	37763	Jacobaea erucifolia subsp. arenaria (SoÃ³) B.Nord. & Greuter		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SUBSPECIES	SYNONYM
+37764	37764	Jacobaea maritima (L.) Pelser & Meijden		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37765	37765	Jasminum officinale L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+37766	37766	Jasus lalandii (H.Milne-Edwards, 1837)		Animalia	Arthropoda	Malacostraca	Decapoda	Palinuridae	SPECIES	ACCEPTED
+37767	37767	Juglans nigra L.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Juglandaceae	SPECIES	ACCEPTED
+37768	37768	Juglans regia L.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Juglandaceae	SPECIES	ACCEPTED
+37769	37769	Juncus imbricatus Laharpe		Plantae	Tracheophyta	Liliopsida	Poales	Juncaceae	SPECIES	ACCEPTED
+37770	37770	Juncus tenuis Willd.		Plantae	Tracheophyta	Liliopsida	Poales	Juncaceae	SPECIES	ACCEPTED
+37771	37771	Juniperus virginiana L.		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+37772	37772	Kalanchoe daigremontiana Raym.-Hamet & H.Perrier		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37773	37773	Kalanchoe delagoensis Eckl. & Zeyh.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37774	37774	Kalanchoe pinnata Pers.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+37775	37775	Kerria japonica (L.) DC.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+37776	37776	Kirchenpaueria halecioides (Alder, 1859)		Animalia	Cnidaria	Hydrozoa	Leptothecata	Kirchenpaueriidae	SPECIES	ACCEPTED
+37777	37777	Kyllinga brevifolia		Plantae	Tracheophyta	Liliopsida	Poales	Cyperaceae	SPECIES	
+37778	37778	Laburnum anagyroides Medik.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37779	37779	Lactuca sativa L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37780	37780	Laeospira berkeleyana (Rioja, 1942)		Animalia	Annelida	Polychaeta	Sabellida	Serpulidae	SPECIES	ACCEPTED
+37781	37781	Lagarosiphon major (Ridl.) Moss		Plantae	Tracheophyta	Liliopsida	Alismatales	Hydrocharitaceae	SPECIES	ACCEPTED
+37782	37782	Lagunaria patersonii (R.Br.) G.Don		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37783	37783	Lampranthus aurantiacus (DC.) Schwant.	Lampranthus glaucoides N.E.Br.	Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	SYNONYM
+37784	37784	Lampranthus falciformis (Haw.) N.E.Br.	Oscularia falciformis (Haw.) H.E.K.Hartmann	Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	SYNONYM
+37785	37785	Lampranthus multiradiatus N.E.Br.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+37786	37786	Lantana camara L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Verbenaceae	SPECIES	ACCEPTED
+37787	37787	Larix ×eurolepis A.Henry	Larix decidua x kaempferi	Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	SYNONYM
+37788	37788	Larix decidua Mill.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+37789	37789	Lathyrus odoratus L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37790	37790	Lathyrus sativus L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37791	37791	Laurencia brongniartii J.Agardh, 1841		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	ACCEPTED
+37792	37792	Laurencia chondrioides BÃ¸rgesen		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	ACCEPTED
+37793	37793	Laurencia dendroidea		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	
+37794	37794	Laurencia dendroidea		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	
+37795	37795	Laurencia dendroidea J.Agardh		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	ACCEPTED
+37796	37796	Laurencia majuscula (Harv.) A.H.S.Lucas	Laurencia dendroidea J.Agardh	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	SYNONYM
+37797	37797	Laurencia obtusa (Huds.) J.V.Lamour.	Laurencia dendroidea J.Agardh	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	SYNONYM
+37798	37798	Legousia pentagonia Thell.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Campanulaceae	SPECIES	ACCEPTED
+37799	37799	Legousia speculum-veneris (L.) Chaix		Plantae	Tracheophyta	Magnoliopsida	Asterales	Campanulaceae	SPECIES	ACCEPTED
+37800	37800	Lemna minuta Kunth		Plantae	Tracheophyta	Liliopsida	Alismatales	Araceae	SPECIES	ACCEPTED
+37801	37801	Lens culinaris Medik.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37802	37802	Lepidium didymum L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37803	37803	Lepidium sativum L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37804	37804	Lepidium virginicum L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37805	37805	Lepomis gibbosus (Linnaeus, 1758)		Animalia	Chordata	Actinopterygii	Perciformes	Centrarchidae	SPECIES	ACCEPTED
+37806	37806	Leptophascum leptophyllum (MÃ¼ll.Hal.) J.Guerra & M.J.Cano		Plantae	Bryophyta	Bryopsida	Pottiales	Pottiaceae	SPECIES	ACCEPTED
+37807	37807	Lernaea cyprinacea Linnaeus, 1758		Animalia	Arthropoda	Hexanauplia	Cyclopoida	Lernaeidae	SPECIES	ACCEPTED
+37808	37808	Leucaena leucocephala (Lam.) de Wit		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37809	37809	Ligia oceanica (Linnaeus, 1767)		Animalia	Arthropoda	Malacostraca	Isopoda	Ligiidae	SPECIES	ACCEPTED
+37810	37810	Ligustrum lucidum W.T.Aiton		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+37811	37811	Ligustrum ovalifolium Hassk.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+37812	37812	Ligustrum sinense Lour.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+37813	37813	Lilaea scilloides (Poir.) Hauman	Triglochin scilloides (Poir.) Mering & Kadereit	Plantae	Tracheophyta	Liliopsida	Alismatales	Juncaginaceae	SPECIES	SYNONYM
+37814	37814	Lilaeopsis attenuata		Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	ACCEPTED
+37815	37815	Lilaeopsis carolinensis J.M.Coult. & Rose		Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	ACCEPTED
+37816	37816	Lilium candidum L.		Plantae	Tracheophyta	Liliopsida	Liliales	Liliaceae	SPECIES	ACCEPTED
+37817	37817	Limnoria quadripunctata Holthuis, 1949		Animalia	Arthropoda	Malacostraca	Isopoda	Limnoriidae	SPECIES	ACCEPTED
+37818	37818	Limoniastrum monopetalum Boiss.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Plumbaginaceae	SPECIES	ACCEPTED
+37819	37819	Lindernia dubia Pennell		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Linderniaceae	SPECIES	ACCEPTED
+37820	37820	Lindernia procumbens (Krock.) Philcox		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Linderniaceae	SPECIES	ACCEPTED
+37821	37821	Lippia alba (Mill.) N.E.Br. ex Britton & P.Wilson		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Verbenaceae	SPECIES	ACCEPTED
+37822	37822	Liquidambar styraciflua L.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Altingiaceae	SPECIES	ACCEPTED
+37823	37823	Liriodendron tulipifera L.		Plantae	Tracheophyta	Magnoliopsida	Magnoliales	Magnoliaceae	SPECIES	ACCEPTED
+37824	37824	Lithobates catesbeianus (Shaw, 1802)		Animalia	Chordata	Amphibia	Anura	Ranidae	SPECIES	ACCEPTED
+37825	37825	Lobelia erinus L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Campanulaceae	SPECIES	ACCEPTED
+37826	37826	Lobelia pinifolia L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Campanulaceae	SPECIES	ACCEPTED
+37827	37827	Lomentaria hakodatensis Yendo		Plantae	Rhodophyta	Florideophyceae	Rhodymeniales	Lomentariaceae	SPECIES	ACCEPTED
+37828	37828	Lonchura cantans (Gmelin, 1789)	Euodice cantans (Gmelin, 1789)	Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	SYNONYM
+37829	37829	Lonchura maja (Linnaeus, 1766)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+37830	37830	Lonchura malacca (Linnaeus, 1766)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+37831	37831	Lonicera japonica Thunb.		Plantae	Tracheophyta	Magnoliopsida	Dipsacales	Caprifoliaceae	SPECIES	ACCEPTED
+37832	37832	Lophocladia trichoclados (C.Agardh) F.Schmitz		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	ACCEPTED
+37833	37833	Lotus conjugatus L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37834	37834	Lotus tetragonolobus L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37835	37835	Ludwigia peploides subsp. montevidensis (Spreng.) P.H.Raven		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SUBSPECIES	ACCEPTED
+37836	37836	Lunaria annua subsp. annua		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SUBSPECIES	ACCEPTED
+37837	37837	Lupinus albus L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37838	37838	Luzula elegans Lowe		Plantae	Tracheophyta	Liliopsida	Poales	Juncaceae	SPECIES	ACCEPTED
+37839	37839	Lycium barbarum L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37840	37840	Lycium chinense Mill.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37841	37841	Lycopodiella cernua (L.) Pic.Serm.	Palhinhaea cernua (L.) Franco & Carv.	Plantae	Tracheophyta	Lycopodiopsida	Lycopodiales	Lycopodiaceae	SPECIES	SYNONYM
+37842	37842	Lymnaea peregra (O.F.Müller, 1774)	Radix labiata (Rossmässler, 1835)	Animalia	Mollusca	Gastropoda		Lymnaeidae	SPECIES	SYNONYM
+37843	37843	Lysimachia nummularia L.		Plantae	Tracheophyta	Magnoliopsida	Ericales	Primulaceae	SPECIES	ACCEPTED
+37844	37844	Maclura pomifera (Raf.) C.K.Schneid.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Moraceae	SPECIES	ACCEPTED
+37845	37845	Macrochelys temminckii Troost, 1835		Animalia	Chordata	Reptilia	Testudines	Chelydridae	SPECIES	ACCEPTED
+37846	37846	Maeotias marginata (Modeer, 1791)		Animalia	Cnidaria	Hydrozoa	Limnomedusae	Olindiidae	SPECIES	ACCEPTED
+37847	37847	Magnolia grandiflora L.		Plantae	Tracheophyta	Magnoliopsida	Magnoliales	Magnoliaceae	SPECIES	ACCEPTED
+37848	37848	Malcolmia flexuosa Sibth. & Sm.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+37849	37849	Malope trifida Cav.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37850	37850	Malus domestica Borkh.	Malus pumila Mill.	Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	SYNONYM
+37851	37851	Matricaria discoidea DC.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37852	37852	Matthiola incana subsp. incana		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SUBSPECIES	ACCEPTED
+37853	37853	Mauranthemum paludosum (Poir.) R.Vogt & Oberpr.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37854	37854	Medicago arborea L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37855	37855	Medicago blancheana Boiss.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37856	37856	Medicago falcata L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37857	37857	Medicago rugosa Desr.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37858	37858	Medicago sativa L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37859	37859	Medicago turbinata (L.) All.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37860	37860	Melaleuca armillaris Sm.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37861	37861	Melia azedarach L.		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Meliaceae	SPECIES	ACCEPTED
+37862	37862	Melilotus indicus (L.) All.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37863	37863	Melilotus infestus Guss.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37864	37864	Melilotus italicus (L.) Lam.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37865	37865	Mentha piperita L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+37866	37866	Mentha requienii Benth.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+37867	37867	Mentha spicata L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+37868	37868	Mercenaria mercenaria (Linnaeus, 1758)		Animalia	Mollusca	Bivalvia	Venerida	Veneridae	SPECIES	ACCEPTED
+37869	37869	Mercurialis annua L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+37870	37870	Mesembryanthemum crystallinum L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+37871	37871	Mespilus germanica L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+37872	37872	Metrosideros excelsa Gaertn.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37873	37873	Metrosideros robusta A.Cunn.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Myrtaceae	SPECIES	ACCEPTED
+37874	37874	Microcosmus squamiger Michaelsen, 1927		Animalia	Chordata	Ascidiacea	Stolidobranchia	Pyuridae	SPECIES	ACCEPTED
+37875	37875	Micromeria juliana (L.) Benth. ex Rchb.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+37876	37876	Micropterus salmoides (LacepÃ¨de, 1802)		Animalia	Chordata	Actinopterygii	Perciformes	Centrarchidae	SPECIES	ACCEPTED
+37877	37877	Mimulus moschatus Douglas ex Lindl.	Erythranthe moschata (Douglas ex Lindl.) G.L.Nesom	Plantae	Tracheophyta	Magnoliopsida	Lamiales	Phrymaceae	SPECIES	SYNONYM
+37878	37878	Mirabilis jalapa L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Nyctaginaceae	SPECIES	ACCEPTED
+37879	37879	Mnemiopsis leidyi A.Agassiz, 1865		Animalia	Ctenophora	Tentaculata	Lobata	Bolinopsidae	SPECIES	ACCEPTED
+37880	37880	Modiola caroliniana (L.) G.Don		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37881	37881	Molgula manhattensis (De Kay, 1843)		Animalia	Chordata	Ascidiacea	Stolidobranchia	Molgulidae	SPECIES	ACCEPTED
+37882	37882	Molgula plana Monniot C., 1971		Animalia	Chordata	Ascidiacea	Stolidobranchia	Molgulidae	SPECIES	ACCEPTED
+37883	37883	Mollugo verticillata L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Molluginaceae	SPECIES	ACCEPTED
+37884	37884	Moluccella laevis L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+37885	37885	Morus alba L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Moraceae	SPECIES	ACCEPTED
+37886	37886	Morus nigra L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Moraceae	SPECIES	ACCEPTED
+37887	37887	Muehlenbeckia complexa Meisn.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+37888	37888	Muehlenbeckia sagittifolia Meisn.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+37889	37889	Mus musculus Linnaeus, 1758		Animalia	Chordata	Mammalia	Rodentia	Muridae	SPECIES	ACCEPTED
+37890	37890	Mustela putorius Linnaeus, 1758		Animalia	Chordata	Mammalia	Carnivora	Mustelidae	SPECIES	ACCEPTED
+37891	37891	Mya arenaria Linnaeus, 1758		Animalia	Mollusca	Bivalvia	Myida	Myidae	SPECIES	ACCEPTED
+37892	37892	Mycale (Carmia) sp. Gray, 1867		Animalia	Porifera	Demospongiae	Poecilosclerida	Mycalidae	SPECIES	
+37893	37893	Mycale senegalensis LÃ©vi, 1952		Animalia	Porifera	Demospongiae	Poecilosclerida	Mycalidae	SPECIES	ACCEPTED
+37894	37894	Myiopsitta monachus (Boddaert, 1783)		Animalia	Chordata	Aves	Psittaciformes	Psittacidae	SPECIES	ACCEPTED
+37895	37895	Myocastor coypus (Molina, 1782)		Animalia	Chordata	Mammalia	Rodentia	Myocastoridae	SPECIES	ACCEPTED
+37896	37896	Myoporum tenuifolium G.Forst.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Scrophulariaceae	SPECIES	ACCEPTED
+37897	37897	Myoporum tetrandrum Domin		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Scrophulariaceae	SPECIES	ACCEPTED
+37898	37898	Myosotis latifolia Poir.		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Boraginaceae	SPECIES	ACCEPTED
+37899	37899	Myriophyllum aquaticum Verdc.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Haloragaceae	SPECIES	ACCEPTED
+37900	37900	Mytilus edulis Linnaeus, 1758		Animalia	Mollusca	Bivalvia	Mytilida	Mytilidae	SPECIES	ACCEPTED
+37901	37901	Nemophila maculata Benth. ex Lindl.		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Hydrophyllaceae	SPECIES	ACCEPTED
+37902	37902	Neosiphonia harveyi (J.W.Bailey) M.-S.Kim, H.-G.Choi, Guiry & G.W.Saunders		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	ACCEPTED
+37903	37903	Neosiphonia sphaerocarpa (BÃ¸rgesen) M.S.Kim & I.K.Lee		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	ACCEPTED
+37904	37904	Neovison vison (Schreber, 1777)		Animalia	Chordata	Mammalia	Carnivora	Mustelidae	SPECIES	ACCEPTED
+37905	37905	Neovison vison (Schreber, 1777)		Animalia	Chordata	Mammalia	Carnivora	Mustelidae	SPECIES	ACCEPTED
+37906	37906	Nephrolepis cordifolia (L.) C.Presl		Plantae	Tracheophyta	Polypodiopsida	Polypodiales	Nephrolepidaceae	SPECIES	ACCEPTED
+37907	37907	Nephrolepis exaltata (L.) Schott		Plantae	Tracheophyta	Polypodiopsida	Polypodiales	Nephrolepidaceae	SPECIES	ACCEPTED
+37908	37908	Nicandra physalodes (L.) Gaertn.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37909	37909	Nicotiana glauca Graham		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37910	37910	Nicotiana rustica L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37911	37911	Nicotiana tabacum L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37912	37912	Nothofagus obliqua (Mirb.) Oerst.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Nothofagaceae	SPECIES	ACCEPTED
+37913	37913	Nothoscordum gracile (Aiton) Stearn		Plantae	Tracheophyta	Liliopsida	Asparagales	Amaryllidaceae	SPECIES	ACCEPTED
+37914	37914	Nyctereutes procyonoides (Gray, 1834)		Animalia	Chordata	Mammalia	Carnivora	Canidae	SPECIES	ACCEPTED
+37915	37915	Ocenebra inornata (Récluz, 1851)	Ocinebrellus inornatus (Récluz, 1851)	Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	SPECIES	SYNONYM
+37916	37916	Oenothera affinis Cambess.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37917	37917	Oenothera biennis L.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37918	37918	Oenothera fallax Renner		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37919	37919	Oenothera glazioviana Micheli		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37920	37920	Oenothera indecora subsp. bonariensis A.Dietr.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SUBSPECIES	ACCEPTED
+37921	37921	Oenothera indecora subsp. indecora		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SUBSPECIES	ACCEPTED
+37922	37922	Oenothera longiflora L.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37923	37923	Oenothera rosea Aiton		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37924	37924	Oenothera stricta Link		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Onagraceae	SPECIES	ACCEPTED
+37925	37925	Olea europaea subsp. europaea		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SUBSPECIES	ACCEPTED
+37926	37926	Oncorhynchus mykiss (Walbaum, 1792)		Animalia	Chordata	Actinopterygii	Salmoniformes	Salmonidae	SPECIES	ACCEPTED
+37927	37927	Ondatra zibethicus (Linnaeus, 1766)		Animalia	Chordata	Mammalia	Rodentia	Cricetidae	SPECIES	ACCEPTED
+37928	37928	Onobrychis viciifolia Scop.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37929	37929	Opuntia dillenii (Ker Gawl.) Haw.	Opuntia stricta (Haw.) Haw.	Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Cactaceae	SPECIES	SYNONYM
+37930	37930	Opuntia elata Salm-Dyck		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Cactaceae	SPECIES	ACCEPTED
+37931	37931	Opuntia ficus-indica Mill.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Cactaceae	SPECIES	ACCEPTED
+37932	37932	Opuntia leucotricha DC.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Cactaceae	SPECIES	ACCEPTED
+37933	37933	Opuntia maxima		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Cactaceae	SPECIES	
+37934	37934	Opuntia monacantha Haw.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Cactaceae	SPECIES	ACCEPTED
+37935	37935	Origanum majorana L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+37936	37936	Origanum majoricum Cambess.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+37937	37937	Oryctolagus cuniculus (Linnaeus, 1758)		Animalia	Chordata	Mammalia	Lagomorpha	Leporidae	SPECIES	ACCEPTED
+37938	37938	Oryza sativa L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37939	37939	Ostrea edulis Linnaeus, 1758		Animalia	Mollusca	Bivalvia	Ostreida	Ostreidae	SPECIES	ACCEPTED
+37940	37940	Ostreopsis ovata Fukuyo		Chromista	Myzozoa	Dinophyceae	Gonyaulacales	Ostreopsidaceae	SPECIES	ACCEPTED
+37941	37941	Ostreopsis siamensis Schmidt, 1901		Chromista	Myzozoa	Dinophyceae	Gonyaulacales	Ostreopsidaceae	SPECIES	ACCEPTED
+37942	37942	Oxalis articulata Savign.		Plantae	Tracheophyta	Magnoliopsida	Oxalidales	Oxalidaceae	SPECIES	ACCEPTED
+37943	37943	Oxalis debilis Kunth		Plantae	Tracheophyta	Magnoliopsida	Oxalidales	Oxalidaceae	SPECIES	ACCEPTED
+37944	37944	Oxalis latifolia Kunth		Plantae	Tracheophyta	Magnoliopsida	Oxalidales	Oxalidaceae	SPECIES	ACCEPTED
+37945	37945	Oxalis pes-caprae L.		Plantae	Tracheophyta	Magnoliopsida	Oxalidales	Oxalidaceae	SPECIES	ACCEPTED
+37946	37946	Oxalis purpurea L.		Plantae	Tracheophyta	Magnoliopsida	Oxalidales	Oxalidaceae	SPECIES	ACCEPTED
+37947	37947	Oxyura jamaicensis (Gmelin, 1789)		Animalia	Chordata	Aves	Anseriformes	Anatidae	SPECIES	ACCEPTED
+37948	37948	Pacifastacus leniusculus (Dana, 1852)		Animalia	Arthropoda	Malacostraca	Decapoda	Astacidae	SPECIES	ACCEPTED
+37949	37949	Palaemon macrodactylus M.J.Rathbun, 1902		Animalia	Arthropoda	Malacostraca	Decapoda	Palaemonidae	SPECIES	ACCEPTED
+37950	37950	Panicum bulbosum Kunth		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37951	37951	Panicum capillare L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37952	37952	Panicum dichotomiflorum Michx.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37953	37953	Panicum miliaceum L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37954	37954	Papaver somniferum subsp. somniferum		Plantae	Tracheophyta	Magnoliopsida	Ranunculales	Papaveraceae	SUBSPECIES	ACCEPTED
+37955	37955	Papenfussiella kuromo		Chromista	Ochrophyta	Phaeophyceae	Ectocarpales	Chordariaceae	SPECIES	
+37956	37956	Paracerceis sculpta (Holmes, 1904)		Animalia	Arthropoda	Malacostraca	Isopoda	Sphaeromatidae	SPECIES	ACCEPTED
+37957	37957	Paraleucilla magna Klautau, Monteiro & Borojevic, 2004		Animalia	Porifera	Calcarea	Leucosolenida	Amphoriscidae	SPECIES	ACCEPTED
+37958	37958	Paraserianthes lophantha (Willd.) I.C.Nielsen		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37959	37959	Parasmittina multiaviculata Souto, Ramalhosa & Canning-Clode, 2016		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Smittinidae	SPECIES	ACCEPTED
+37960	37960	Parasmittina protecta (Thornely, 1905)		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Smittinidae	SPECIES	ACCEPTED
+37961	37961	Parkinsonia aculeata L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+37962	37962	Pascalia glauca Ortega		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37963	37963	Paspalum dilatatum Poir.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37964	37964	Paspalum distichum L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37965	37965	Paspalum notatum var. saurae Parodi	Paspalum saurae (Parodi) Parodi	Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	VARIETY	SYNONYM
+37966	37966	Paspalum urvillei Steud.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37967	37967	Paspalum vaginatum Sw.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+37968	37968	Passiflora caerulea L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Passifloraceae	SPECIES	ACCEPTED
+37969	37969	Passiflora suberosa L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Passifloraceae	SPECIES	ACCEPTED
+37970	37970	Paulownia tomentosa (Thunb.) Steud.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Paulowniaceae	SPECIES	ACCEPTED
+37971	37971	Pavonia hastata Cav.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37972	37972	Pavonia sepium A.St.-Hil.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+37973	37973	Pectinatella magnifica (Leidy, 1851)		Animalia	Bryozoa	Phylactolaemata	Plumatellida	Pectinatellidae	SPECIES	ACCEPTED
+37974	37974	Pelargonium capitatum (L.) L'Her.		Plantae	Tracheophyta	Magnoliopsida	Geraniales	Geraniaceae	SPECIES	ACCEPTED
+37975	37975	Pelargonium cordatum L'Hér.	Pelargonium cordifolium Curtis	Plantae	Tracheophyta	Magnoliopsida	Geraniales	Geraniaceae	SPECIES	SYNONYM
+37976	37976	Pelargonium graveolens L'Her.		Plantae	Tracheophyta	Magnoliopsida	Geraniales	Geraniaceae	SPECIES	ACCEPTED
+37977	37977	Pelargonium radens H.E.Moore		Plantae	Tracheophyta	Magnoliopsida	Geraniales	Geraniaceae	SPECIES	ACCEPTED
+37978	37978	Pelargonium radula (Cav.) L'Her.	Pelargonium radens H.E.Moore	Plantae	Tracheophyta	Magnoliopsida	Geraniales	Geraniaceae	SPECIES	SYNONYM
+37979	37979	Pelargonium ranunculophyllum Baker		Plantae	Tracheophyta	Magnoliopsida	Geraniales	Geraniaceae	SPECIES	ACCEPTED
+37980	37980	Pelophylax perezi		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Heliotropiaceae	SPECIES	ACCEPTED
+37981	37981	Pelophylax perezi (LÃ³pez-Seoane, 1885)		Animalia	Chordata	Amphibia	Anura	Ranidae	SPECIES	ACCEPTED
+37982	37982	Penaeus japonicus Bate, 1888	Marsupenaeus japonicus (Bate, 1888)	Animalia	Arthropoda	Malacostraca	Decapoda	Penaeidae	SPECIES	SYNONYM
+37983	37983	Pennisetum clandestinum Hochst. ex Chiov.	Cenchrus clandestinus (Hochst. ex Chiov.) Morrone	Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	SYNONYM
+37984	37984	Pennisetum setaceum (Forssk.) Chiov.	Cenchrus setaceus (Forssk.) Morrone	Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	SYNONYM
+37985	37985	Pennisetum villosum		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	
+37986	37986	Perca fluviatilis Linnaeus, 1758		Animalia	Chordata	Actinopterygii	Perciformes	Percidae	SPECIES	ACCEPTED
+37987	37987	Percnon gibbesi (H.Milne Edwards, 1853)		Animalia	Arthropoda	Malacostraca	Decapoda	Percnidae	SPECIES	ACCEPTED
+37988	37988	Perforatus perforatus (Buizer, 1978)		Animalia	Arthropoda	Maxillopoda	Sessilia	Balanidae	SPECIES	ACCEPTED
+37989	37989	Perophora viridis Verrill, 1871		Animalia	Chordata	Ascidiacea	Phlebobranchia	Perophoridae	SPECIES	ACCEPTED
+37990	37990	Persea indica (L.) Spreng.	Phoebe indica Pax	Plantae	Tracheophyta	Magnoliopsida	Laurales	Lauraceae	SPECIES	SYNONYM
+37991	37991	Persicaria capitata (Buch.-Ham. ex D.Don) H.Gross		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+37992	37992	Persicaria minor Opiz		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+37993	37993	Persicaria orientalis (L.) Spach		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+37994	37994	Persicaria pensylvanica (L.) M.GÃ³mez		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+37995	37995	Petalonia binghamiae		Chromista	Ochrophyta	Phaeophyceae	Scytosiphonales	Scytosiphonaceae	SPECIES	
+37996	37996	Petasites pyrenaicus (L.) G.LÃ³pez		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+37997	37997	Petroselinum crispum (Mill.) A.W.Hill		Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	ACCEPTED
+37998	37998	Petunia atkinsiana D.Don ex Loudon		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+37999	37999	Phacelia tanacetifolia Benth.		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Hydrophyllaceae	SPECIES	ACCEPTED
+38000	38000	Phalaris canariensis L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38001	38001	Phasianus colchicus Linnaeus, 1758		Animalia	Chordata	Aves	Galliformes	Phasianidae	SPECIES	ACCEPTED
+38002	38002	Philadelphus coronarius L.		Plantae	Tracheophyta	Magnoliopsida	Cornales	Hydrangeaceae	SPECIES	ACCEPTED
+38003	38003	Phlebodium aureum J.Sm.		Plantae	Tracheophyta	Polypodiopsida	Polypodiales	Polypodiaceae	SPECIES	ACCEPTED
+38004	38004	Phoenix canariensis H.Wildpret		Plantae	Tracheophyta	Liliopsida	Arecales	Arecaceae	SPECIES	ACCEPTED
+38005	38005	Phormium tenax J.R.Forst. & G.Forst.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asphodelaceae	SPECIES	ACCEPTED
+38006	38006	Phyla canescens (Kunth) Greene	Phyla nodiflora (L.) Greene	Plantae	Tracheophyta	Magnoliopsida	Lamiales	Verbenaceae	SPECIES	SYNONYM
+38007	38007	Phyllostachys aurea Riviere & C.Riviere		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38008	38008	Phyllostachys nigra Munro		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38009	38009	Physalis peruviana L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38010	38010	Physalis philadelphica Lam.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38011	38011	Physella acuta (Draparnaud, 1805)		Animalia	Mollusca	Gastropoda	Stylommatophora	Spiraxidae	SPECIES	ACCEPTED
+38012	38012	Phytolacca americana L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Phytolaccaceae	SPECIES	ACCEPTED
+38013	38013	Phytolacca heterotepala H.Walter		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Phytolaccaceae	SPECIES	ACCEPTED
+38014	38014	Picea abies (L.) H.Karst.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38015	38015	Picea sitchensis (Bong.) CarriÃ¨re		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38016	38016	Pimpinella anisum L.		Plantae	Tracheophyta	Magnoliopsida	Apiales	Apiaceae	SPECIES	ACCEPTED
+38017	38017	Pinctada imbricata radiata (Leach, 1814)		Animalia	Mollusca	Bivalvia	Ostreida	Pteriidae	SUBSPECIES	ACCEPTED
+38018	38018	Pinus brutia Ten.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38019	38019	Pinus canariensis C.Sm.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38020	38020	Pinus halepensis Mill.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38021	38021	Pinus halepensis var. halepensis		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	VARIETY	ACCEPTED
+38022	38022	Pinus muricata D.Don		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38023	38023	Pinus nigra J.F.Arnold		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38024	38024	Pinus radiata D.Don		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38025	38025	Pinus uncinata Ramond ex DC.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38026	38026	Pinus wallichiana A.B.Jacks.		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38027	38027	Pisa carinimana Miers, 1879		Animalia	Arthropoda	Malacostraca	Decapoda	Leucosiidae	SPECIES	ACCEPTED
+38028	38028	Pistia stratiotes L.		Plantae	Tracheophyta	Liliopsida	Alismatales	Araceae	SPECIES	ACCEPTED
+38029	38029	Pisum sativum subsp. sativum	Pisum sativum subsp. sativum	Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae		
+38030	38030	Pittosporum crassifolium Banks & Sol. ex A.Cunningham		Plantae	Tracheophyta	Magnoliopsida	Apiales	Pittosporaceae	SPECIES	ACCEPTED
+38031	38031	Pittosporum eugenioides A.Cunn.		Plantae	Tracheophyta	Magnoliopsida	Apiales	Pittosporaceae	SPECIES	ACCEPTED
+38032	38032	Pittosporum tobira (Murray) Aiton fil.		Plantae	Tracheophyta	Magnoliopsida	Apiales	Pittosporaceae	SPECIES	ACCEPTED
+38033	38033	Pittosporum undulatum Vent.		Plantae	Tracheophyta	Magnoliopsida	Apiales	Pittosporaceae	SPECIES	ACCEPTED
+38034	38034	Planiliza subviridis		Animalia	Chordata	Actinopterygii	Perciformes	Sparidae	SPECIES	ACCEPTED
+38035	38035	Planorbella duryi (Wetherby, 1879)		Animalia	Mollusca	Gastropoda		Planorbidae	SPECIES	ACCEPTED
+38036	38036	Planorbella trivolvis (Say, 1817)		Animalia	Mollusca	Gastropoda		Planorbidae	SPECIES	ACCEPTED
+38037	38037	Platanus hispanica Mill. ex Münchh.	Platanus hybrida Brot.	Plantae	Tracheophyta	Magnoliopsida	Proteales	Platanaceae	SPECIES	SYNONYM
+38038	38038	Platanus orientalis L.		Plantae	Tracheophyta	Magnoliopsida	Proteales	Platanaceae	SPECIES	ACCEPTED
+38039	38039	Plecostachys serpyllifolia (Berg.) Hilliard & B.L.Burtt	Gamochaeta serpyllifolia Wedd.	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+38040	38040	Ploceus cucullatus (Statius Muller, 1776)		Animalia	Chordata	Aves	Passeriformes	Ploceidae	SPECIES	ACCEPTED
+38041	38041	Ploceus melanocephalus (Linnaeus, 1758)		Animalia	Chordata	Aves	Passeriformes	Ploceidae	SPECIES	ACCEPTED
+38042	38042	Plumbago auriculata Lam.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Plumbaginaceae	SPECIES	ACCEPTED
+38043	38043	Podocarpus totara D.Don		Plantae	Tracheophyta	Pinopsida	Pinales	Podocarpaceae	SPECIES	ACCEPTED
+38044	38044	Pollia dorbignyi (Payraudeau, 1826)	Aplus dorbignyi (Payraudeau, 1826)	Animalia	Mollusca	Gastropoda	Neogastropoda	Pisaniidae	SPECIES	SYNONYM
+38045	38045	Polyclinum aurantium Milne Edwards, 1841		Animalia	Chordata	Ascidiacea	Aplousobranchia	Polyclinidae	SPECIES	ACCEPTED
+38046	38046	Populus canadensis Moench		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SPECIES	ACCEPTED
+38047	38047	Populus deltoides W.Bartram ex Marshall		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SPECIES	ACCEPTED
+38048	38048	Populus nigra L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SPECIES	ACCEPTED
+38049	38049	Populus nigra subsp. caudina (Ten.) Bugala, 1967		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SUBSPECIES	SYNONYM
+38050	38050	Populus nigra subsp. nigra		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SUBSPECIES	SYNONYM
+38051	38051	Portulaca oleracea L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Portulacaceae	SPECIES	ACCEPTED
+38052	38052	Potamopyrgus antipodarum (Gray, 1843)		Animalia	Mollusca	Gastropoda	Littorinimorpha	Tateidae	SPECIES	ACCEPTED
+38053	38053	Prionospio pulchra Imajima, 1990		Animalia	Annelida	Polychaeta	Spionida	Spionidae	SPECIES	ACCEPTED
+38054	38054	Proboscidea louisianica		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Martyniaceae	SPECIES	ACCEPTED
+38055	38055	Procambarus clarkii (Girard, 1852)		Animalia	Arthropoda	Malacostraca	Decapoda	Cambaridae	SPECIES	ACCEPTED
+38056	38056	Procyon lotor (Linnaeus, 1758)		Animalia	Chordata	Mammalia	Carnivora	Procyonidae	SPECIES	ACCEPTED
+38057	38057	Protopolystoma xenopodis (Price, 1943)		Animalia	Platyhelminthes	Monogenea	Polystomatidea	Polystomatidae	SPECIES	ACCEPTED
+38058	38058	Prunus cerasifera Ehrh.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38059	38059	Prunus cerasus L.	Prunus avium (L.) L.	Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	SYNONYM
+38060	38060	Prunus domestica L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38061	38061	Prunus dulcis (Mill.) D.A.Webb		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38062	38062	Prunus laurocerasus L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38063	38063	Prunus persica Stokes		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38064	38064	Pseudemys concinna (Le Conte, 1830)		Animalia	Chordata	Reptilia	Testudines	Emydidae	SPECIES	ACCEPTED
+38065	38065	Pseudemys nelsoni Carr, 1938		Animalia	Chordata	Reptilia	Testudines	Emydidae	SPECIES	ACCEPTED
+38066	38066	Pseudochondrostoma polylepis (Steindachner, 1864)		Animalia	Chordata	Actinopterygii	Cypriniformes	Cyprinidae	SPECIES	ACCEPTED
+38067	38067	Pseudodactylogyrus anguillae (Yin & Sproston, 1948) Gusev, 1965		Animalia	Platyhelminthes	Monogenea	Dactylogyridea	Pseudodactylogyridae	SPECIES	ACCEPTED
+38068	38068	Pseudodactylogyrus bini (Kikuchi, 1929)		Animalia	Platyhelminthes	Monogenea	Dactylogyridea	Pseudodactylogyridae	SPECIES	ACCEPTED
+38069	38069	Pseudo-nitzschia multistriata (Takano) Takano, 1995		Chromista	Ochrophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	SPECIES	ACCEPTED
+38070	38070	Pseudopolydora paucibranchiata (Okuda, 1937)		Animalia	Annelida	Polychaeta	Spionida	Spionidae	SPECIES	ACCEPTED
+38071	38071	Pseudosuccinea columella (Say, 1817)		Animalia	Mollusca	Gastropoda		Lymnaeidae	SPECIES	ACCEPTED
+38072	38072	Pseudotsuga menziesii (Mirb.) Franco		Plantae	Tracheophyta	Pinopsida	Pinales	Pinaceae	SPECIES	ACCEPTED
+38073	38073	Psittacula krameri (Scopoli, 1769)		Animalia	Chordata	Aves	Psittaciformes	Psittacidae	SPECIES	ACCEPTED
+38074	38074	Psoralea pinnata L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38075	38075	Pteris cretica L.		Plantae	Tracheophyta	Polypodiopsida	Polypodiales	Pteridaceae	SPECIES	ACCEPTED
+38076	38076	Pteris vittata L.		Plantae	Tracheophyta	Polypodiopsida	Polypodiales	Pteridaceae	SPECIES	ACCEPTED
+38077	38077	Pterocarya fraxinifolia (Poir.) K.Koch	Pterocarya pterocarpa (Michx.) Kunth ex Iljinsk.	Plantae	Tracheophyta	Magnoliopsida	Fagales	Juglandaceae	SPECIES	SYNONYM
+38078	38078	Pterosiphonia pinnulata (KÃ¼tz.) Maggs & Hommersand, 1993		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	ACCEPTED
+38079	38079	Ptilostemon casabonae (L.) Greuter		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38080	38080	Punica granatum L.		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Lythraceae	SPECIES	ACCEPTED
+38081	38081	Pycnoclavella taureanensis Brunetti, 1991		Animalia	Chordata	Ascidiacea	Aplousobranchia	Clavelinidae	SPECIES	ACCEPTED
+38082	38082	Pyracantha coccinea M.Roem.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38083	38083	Pyracantha rogersiana		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	
+38084	38084	Pyrus communis L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38085	38085	Pyura tessellata (Forbes, 1848)		Animalia	Chordata	Ascidiacea	Stolidobranchia	Pyuridae	SPECIES	ACCEPTED
+38086	38086	Quelea quelea (Linnaeus, 1758)		Animalia	Chordata	Aves	Passeriformes	Ploceidae	SPECIES	ACCEPTED
+38087	38087	Quercus cerris L.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Fagaceae	SPECIES	ACCEPTED
+38088	38088	Quercus coccinea MÃ¼nchh.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Fagaceae	SPECIES	ACCEPTED
+38089	38089	Quercus imbricaria Michx.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Fagaceae	SPECIES	ACCEPTED
+38090	38090	Quercus palustris MÃ¼nchh.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Fagaceae	SPECIES	ACCEPTED
+38091	38091	Quercus rubra L.		Plantae	Tracheophyta	Magnoliopsida	Fagales	Fagaceae	SPECIES	ACCEPTED
+38092	38092	Raphanus sativus L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+38093	38093	Rattus norvegicus (Berkenhout, 1769)		Animalia	Chordata	Mammalia	Rodentia	Muridae	SPECIES	ACCEPTED
+38094	38094	Rattus rattus (Linnaeus, 1758)		Animalia	Chordata	Mammalia	Rodentia	Muridae	SPECIES	ACCEPTED
+38095	38095	Rhithropanopeus harrisii (Gould, 1841)		Animalia	Arthropoda	Malacostraca	Decapoda	Panopeidae	SPECIES	ACCEPTED
+38096	38096	Rhus coriaria L.		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Anacardiaceae	SPECIES	ACCEPTED
+38097	38097	Ricinus communis L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	SPECIES	ACCEPTED
+38098	38098	Robinia pseudoacacia L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38099	38099	Rosa gallica L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38100	38100	Rosa luciae Franch. & Rochebr.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38101	38101	Rosa moschata Herrm.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38102	38102	Rosa multiflora Thunb.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38103	38103	Rosa odorata Sweet		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38104	38104	Rosa odorata Sweet		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38105	38105	Rosa spinosissima L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38106	38106	Rotala indica Koehne		Plantae	Tracheophyta	Magnoliopsida	Myrtales	Lythraceae	SPECIES	ACCEPTED
+38107	38107	Rubia tinctorum L.		Plantae	Tracheophyta	Magnoliopsida	Gentianales	Rubiaceae	SPECIES	ACCEPTED
+38108	38108	Rubus idaeus L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38109	38109	Rubus laciniatus Willd.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38110	38110	Rubus loganobaccus L.H.Bailey		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38111	38111	Ruditapes decussatus (Linnaeus, 1758)		Animalia	Mollusca	Bivalvia	Venerida	Veneridae	SPECIES	ACCEPTED
+38112	38112	Ruditapes philippinarum (Adams & Reeve, 1850)		Animalia	Mollusca	Bivalvia	Venerida	Veneridae	SPECIES	ACCEPTED
+38113	38113	Rumex cristatus DC.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+38114	38114	Rumex frutescens Thou.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Polygonaceae	SPECIES	ACCEPTED
+38115	38115	Ruschia caroli Schwantes		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+38116	38116	Ruscus hypophyllum L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+38117	38117	Rutilus rutilus (Linnaeus, 1758)		Animalia	Chordata	Actinopterygii	Cypriniformes	Cyprinidae	SPECIES	ACCEPTED
+38118	38118	Saccharum spontaneum L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38119	38119	Saccostrea cucullata (Born, 1778)		Animalia	Mollusca	Bivalvia	Ostreida	Ostreidae	SPECIES	ACCEPTED
+38120	38120	Salix alopecuroides Tausch		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SPECIES	ACCEPTED
+38121	38121	Salix babylonica L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SPECIES	ACCEPTED
+38122	38122	Salix canescens	Salix canescens	Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae		
+38123	38123	Salix rubens Schrank		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SPECIES	ACCEPTED
+38124	38124	Salix viminalis L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Salicaceae	SPECIES	ACCEPTED
+38125	38125	Salpichroa origanifolia (Lam.) Baill.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38126	38126	Salvia microphylla Kunth		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+38127	38127	Salvia officinalis L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+38128	38128	Salvia sclarea L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+38129	38129	Salvia triloba L.f.	Salvia fruticosa Mill.	Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	SYNONYM
+38130	38130	Salvinia molesta D.Mitch.		Plantae	Tracheophyta	Polypodiopsida	Salviniales	Salviniaceae	SPECIES	ACCEPTED
+38131	38131	Sander lucioperca (Linnaeus, 1758)		Animalia	Chordata	Actinopterygii	Perciformes	Percidae	SPECIES	ACCEPTED
+38132	38132	Santolina chamaecyparissus L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38133	38133	Sargassum muticum (Yendo) Fensholt		Chromista	Ochrophyta	Phaeophyceae	Fucales	Sargassaceae	SPECIES	ACCEPTED
+38134	38134	Satureja montana subsp. montana		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SUBSPECIES	ACCEPTED
+38135	38135	Saxifraga stolonifera W.Curtis		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Saxifragaceae	SPECIES	ACCEPTED
+38136	38136	Scageliopsis patens		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	SPECIES	
+38137	38137	Schinus molle L.		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Anacardiaceae	SPECIES	ACCEPTED
+38138	38138	Schinus terebinthifolia Raddi		Plantae	Tracheophyta	Magnoliopsida	Sapindales	Anacardiaceae	SPECIES	ACCEPTED
+38139	38139	Schizoporella pungens Canu & Bassler, 1928		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Schizoporellidae	SPECIES	ACCEPTED
+38140	38140	Schizoporella unicornis (Johnston, 1844)		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Schizoporellidae	SPECIES	ACCEPTED
+38141	38141	Schoenoplectiella juncoides (Roxb.) Lye		Plantae	Tracheophyta	Liliopsida	Poales	Cyperaceae	SPECIES	ACCEPTED
+38142	38142	Sciurus carolinensis Gmelin, 1788		Animalia	Chordata	Mammalia	Rodentia	Sciuridae	SPECIES	ACCEPTED
+38143	38143	Scorzoneroides muelleri (Sch.Bip.) Greuter & Talavera		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38144	38144	Scrupocellaria bertholletii Audouin, 1826	Cradoscrupocellaria bertholletii (Audouin, 1826)	Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Candidae	SPECIES	SYNONYM
+38145	38145	Secale cereale L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38146	38146	Securigera securidaca (L.) Degen & Dorfl.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38147	38147	Securigera varia (L.) Lassen		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38148	38148	Sedum dendroideum DC.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+38149	38149	Sedum praealtum A.DC.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+38150	38150	Selaginella kraussiana (Kunze) A.Braun		Plantae	Tracheophyta	Lycopodiopsida	Selaginellales	Selaginellaceae	SPECIES	ACCEPTED
+38151	38151	Sempervivum tectorum L.		Plantae	Tracheophyta	Magnoliopsida	Saxifragales	Crassulaceae	SPECIES	ACCEPTED
+38152	38152	Senecio angulatus L.f.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38153	38153	Senecio brasiliensis (Spreng.) Less.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38154	38154	Senecio inaequidens DC.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38155	38155	Senecio tamoides DC.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38156	38156	Sequoia sempervirens Endl.		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+38157	38157	Sesbania punicea Benth.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38158	38158	Sesuvium portulacastrum (L.) L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+38159	38159	Setaria faberi R.A.W.Herrm.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38160	38160	Setaria italica P.Beauv.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38161	38161	Setaria parviflora (Poir.) KerguÃ©len		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38162	38162	Setaria verticillata (L.) P.Beauv.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38163	38163	Sibthorpia peregrina L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+38164	38164	Sicyos angulatus L.		Plantae	Tracheophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	SPECIES	ACCEPTED
+38165	38165	Sida rhombifolia L.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+38166	38166	Silene armeria		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Caryophyllaceae	SPECIES	
+38167	38167	Silene coeli-rosa (L.) Godron	Eudianthe coeli-rosa (L.) Endl.	Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Caryophyllaceae	SPECIES	SYNONYM
+38168	38168	Silene coronaria (L.) Clairv.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Caryophyllaceae	SPECIES	ACCEPTED
+38169	38169	Silene pendula L.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Caryophyllaceae	SPECIES	ACCEPTED
+38170	38170	Silurus glanis Linnaeus, 1758		Animalia	Chordata	Actinopterygii	Siluriformes	Siluridae	SPECIES	ACCEPTED
+38171	38171	Sisymbrium altissimum L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+38172	38172	Sisymbrium polyceratium L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Brassicaceae	SPECIES	ACCEPTED
+38173	38173	Solanum americanum Mill.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38174	38174	Solanum chenopodioides		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	
+38175	38175	Solanum citrullifolium A.Braun		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38176	38176	Solanum elaeagnifolium Cav.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38177	38177	Solanum laciniatum Aiton		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38178	38178	Solanum laxum Spreng.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38179	38179	Solanum linnaeanum Hepper & P.-M.L.Jaeger		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38180	38180	Solanum lycopersicum L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38181	38181	Solanum marginatum Linn.f		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38182	38182	Solanum mauritianum Scop.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38183	38183	Solanum melongena L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38184	38184	Solanum pseudocapsicum L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38185	38185	Solanum rostratum Dun.	Solanum angustifolium Mill.	Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	SYNONYM
+38186	38186	Solanum tuberosum L.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38187	38187	Solanum wendlandii Hook.f.		Plantae	Tracheophyta	Magnoliopsida	Solanales	Solanaceae	SPECIES	ACCEPTED
+38188	38188	Soleirolia soleirolii (Req.) Dandy		Plantae	Tracheophyta	Magnoliopsida	Rosales	Urticaceae	SPECIES	ACCEPTED
+38189	38189	Solidago gigantea Aiton		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38190	38190	Solidago rugosa Mill.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38191	38191	Soliva sessilis Ruiz & Pav.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38192	38192	Soliva stolonifera Loudon		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38193	38193	Sorbus domestica L.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38194	38194	Sorghum bicolor (L.) Moench		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38195	38195	Sorghum halepense Pers.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38196	38196	Sparaxis bulbifera Ker Gawl.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+38197	38197	Sparaxis tricolor Ker Gawl.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+38198	38198	Spartina densiflora Brongn.	Sporobolus montevidensis (Arechav.) P.M.Peterson & Saarela	Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	SYNONYM
+38199	38199	Spartina patens (Aiton) Muhl.	Sporobolus pumilus (Roth) P.M.Peterson & Saarela	Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	SYNONYM
+38200	38200	Spartina patens (Aiton) Muhl.	Sporobolus pumilus (Roth) P.M.Peterson & Saarela	Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	SYNONYM
+38201	38201	Spartium junceum L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38202	38202	Sphaeroma walkeri Stebbing, 1905		Animalia	Arthropoda	Malacostraca	Isopoda	Sphaeromatidae	SPECIES	ACCEPTED
+38203	38203	Spiraea cantoniensis Lour.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38204	38204	Spiraea douglasii Hook.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Rosaceae	SPECIES	ACCEPTED
+38205	38205	Spirorbis marioni Caullery & Mesnil, 1897		Animalia	Annelida	Polychaeta	Sabellida	Serpulidae	SPECIES	ACCEPTED
+38206	38206	Spongoclonium caribaeum (BÃ¸rgesen) M.J.Wynne		Plantae	Rhodophyta	Florideophyceae	Ceramiales	Wrangeliaceae	SPECIES	ACCEPTED
+38207	38207	Sporobolus indicus (L.) R.Br.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38208	38208	Stenopelmus rufinasus Gyllenhal, 1835		Animalia	Arthropoda	Insecta	Coleoptera	Brachyceridae	SPECIES	DOUBTFUL
+38209	38209	Stenotaphrum secundatum (Walter) Kuntze		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38210	38210	Sternbergia lutea (L.) Ker Gawl. ex Spreng.		Plantae	Tracheophyta	Liliopsida	Asparagales	Amaryllidaceae	SPECIES	ACCEPTED
+38211	38211	Stipa neesiana Trin. & Rupr.	Nassella neesiana (Trin. & Ruprecht) Barkworth	Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	SYNONYM
+38212	38212	Strandesia vavrai (G.W.Muller, 1898)		Animalia	Arthropoda	Ostracoda	Podocopida	Cyprididae	SPECIES	ACCEPTED
+38213	38213	Styela canopus (Savigny, 1816)		Animalia	Chordata	Ascidiacea	Stolidobranchia	Styelidae	SPECIES	ACCEPTED
+38214	38214	Styela clava Herdman, 1881		Animalia	Chordata	Ascidiacea	Stolidobranchia	Styelidae	SPECIES	ACCEPTED
+38215	38215	Styela plicata (Lesueur, 1823)		Animalia	Chordata	Ascidiacea	Stolidobranchia	Styelidae	SPECIES	ACCEPTED
+38216	38216	Styphnolobium japonicum (L.) Schott		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38217	38217	Styrax officinalis L.		Plantae	Tracheophyta	Magnoliopsida	Ericales	Styracaceae	SPECIES	ACCEPTED
+38218	38218	Symphocladia marchantioides		Animalia	Chordata	Actinopterygii	Perciformes	Sciaenidae	SPECIES	ACCEPTED
+38219	38219	Symphoricarpos albus (L.) C.Koch		Plantae	Tracheophyta	Magnoliopsida	Dipsacales	Caprifoliaceae	SPECIES	ACCEPTED
+38220	38220	Symphyocladia marchantioides (Harvey) Falkenberg, 1897	Symphocladia marchantioides (Harv.) Falkenberg	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	SPECIES	SYNONYM
+38221	38221	Symphyotrichum lanceolatum (Willd.) G.L.Nesom		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38222	38222	Symphyotrichum subulatum var. squamatum (Spreng.) S.D.Sundb.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	VARIETY	ACCEPTED
+38223	38223	Symphytum officinale L.		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Boraginaceae	SPECIES	ACCEPTED
+38224	38224	Symplegma brakenhielmi (Michaelsen, 1904)		Animalia	Chordata	Ascidiacea	Stolidobranchia	Styelidae	SPECIES	ACCEPTED
+38225	38225	Syringa vulgaris L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Oleaceae	SPECIES	ACCEPTED
+38226	38226	Taeniopygia guttata (Vieillot, 1817)		Animalia	Chordata	Aves	Passeriformes	Estrildidae	SPECIES	ACCEPTED
+38227	38227	Tagetes minuta L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38228	38228	Tamarix parviflora DC.		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Tamaricaceae	SPECIES	ACCEPTED
+38229	38229	Tanacetum parthenium Sch.Bip.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38230	38230	Tanacetum vulgare L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38231	38231	Tarentola mauritanica (Linnaeus, 1758)		Animalia	Chordata	Reptilia	Squamata	Phyllodactylidae	SPECIES	ACCEPTED
+38232	38232	Taxodium distichum Rich.		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+38233	38233	Teira dugesii (Milne-edwards, 1829)		Animalia	Chordata	Reptilia	Squamata	Lacertidae	SPECIES	ACCEPTED
+38234	38234	Tenellia adspersa (Nordmann, 1845)		Animalia	Mollusca	Gastropoda	Nudibranchia	Trinchesiidae	SPECIES	ACCEPTED
+38235	38235	Tetragonia tetragonioides (Pall.) Kuntze		Plantae	Tracheophyta	Magnoliopsida	Caryophyllales	Aizoaceae	SPECIES	ACCEPTED
+38236	38236	Teucrium dunense Sennen		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Lamiaceae	SPECIES	ACCEPTED
+38237	38237	Thuja plicata Donn ex D.Don		Plantae	Tracheophyta	Pinopsida	Pinales	Cupressaceae	SPECIES	ACCEPTED
+38238	38238	Tilia cordata Mill.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+38239	38239	Tilia platyphyllos Scop.		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+38240	38240	Tilia tomentosa Moench		Plantae	Tracheophyta	Magnoliopsida	Malvales	Malvaceae	SPECIES	ACCEPTED
+38241	38241	Tinantia erecta (Jacq.) Fenzl		Plantae	Tracheophyta	Liliopsida	Commelinales	Commelinaceae	SPECIES	ACCEPTED
+38242	38242	Tinca tinca (Linnaeus, 1758)		Animalia	Chordata	Actinopterygii	Cypriniformes	Cyprinidae	SPECIES	ACCEPTED
+38243	38243	Tonicia atrata (G.B.Sowerby II, 1840)		Animalia	Mollusca	Polyplacophora	Chitonida	Chitonidae	SPECIES	ACCEPTED
+38244	38244	Tonna pennata (MÃ¶rch, 1853)		Animalia	Mollusca	Gastropoda	Littorinimorpha	Tonnidae	SPECIES	ACCEPTED
+38245	38245	Trachemys scripta (Thunberg In Schoepff, 1792)		Animalia	Chordata	Reptilia	Testudines	Emydidae	SPECIES	ACCEPTED
+38246	38246	Tradescantia fluminensis Vell.		Plantae	Tracheophyta	Liliopsida	Commelinales	Commelinaceae	SPECIES	ACCEPTED
+38247	38247	Tragopogon porrifolius subsp. porrifolius		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SUBSPECIES	ACCEPTED
+38248	38248	Tricellaria inopinata d'Hondt & Occhipinti Ambrogi, 1985		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Candidae	SPECIES	ACCEPTED
+38249	38249	Trichocorixa verticalis (Fieber, 1851)		Animalia	Arthropoda	Insecta	Hemiptera	Corixidae	SPECIES	ACCEPTED
+38250	38250	Trifolium alexandrinum subsp. serotinum (Zohary & Lern.) P.Silva		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SUBSPECIES	ACCEPTED
+38251	38251	Trifolium hybridum L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38252	38252	Trifolium incarnatum L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38253	38253	Trifolium resupinatum L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38254	38254	Trifolium vesiculosum Savi		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38255	38255	Triglochin striata Ruiz & Pav.		Plantae	Tracheophyta	Liliopsida	Alismatales	Juncaginaceae	SPECIES	ACCEPTED
+38256	38256	Trigonella foenum-graecum L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38257	38257	Triticum aestivum L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38258	38258	Triticum durum Desf.	Triticum turgidum L.	Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	SYNONYM
+38259	38259	Tritonia crocosmiiflora (Lemoine) G.Nicholson	Crocosmia crocosmiiflora (Nicholson) N.E.Br.	Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	SYNONYM
+38260	38260	Tropaeolum majus L.		Plantae	Tracheophyta	Magnoliopsida	Brassicales	Tropaeolaceae	SPECIES	ACCEPTED
+38261	38261	Truncatella subcylindrica (Linnaeus, 1767)		Animalia	Mollusca	Gastropoda	Littorinimorpha	Truncatellidae	SPECIES	ACCEPTED
+38262	38262	Tubularia indivisa Linnaeus, 1758		Animalia	Cnidaria	Hydrozoa	Anthoathecata	Tubulariidae	SPECIES	ACCEPTED
+38263	38263	Tulipa agenensis RedoutÃ©		Plantae	Tracheophyta	Liliopsida	Liliales	Liliaceae	SPECIES	ACCEPTED
+38264	38264	Tulipa clusiana RedoutÃ©		Plantae	Tracheophyta	Liliopsida	Liliales	Liliaceae	SPECIES	ACCEPTED
+38265	38265	Ulmus glabra Huds.		Plantae	Tracheophyta	Magnoliopsida	Rosales	Ulmaceae	SPECIES	ACCEPTED
+38266	38266	Ulva pertusa Kjellman		Plantae	Chlorophyta	Ulvophyceae	Ulvales	Ulvaceae	SPECIES	ACCEPTED
+38267	38267	Undaria pinnatifida (Harv.) Suringar		Chromista	Ochrophyta	Phaeophyceae	Laminariales	Alariaceae	SPECIES	ACCEPTED
+38268	38268	Vallicula multiformis Rankin, 1956		Animalia	Ctenophora	Tentaculata	Platyctenida	Coeloplanidae	SPECIES	ACCEPTED
+38269	38269	Verbascum levanticum I.K.Ferguson		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Scrophulariaceae	SPECIES	ACCEPTED
+38270	38270	Verbena bonariensis L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Verbenaceae	SPECIES	ACCEPTED
+38271	38271	Verbena incompta P.W.Michael		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Verbenaceae	SPECIES	ACCEPTED
+38272	38272	Verbena litoralis Kunth		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Verbenaceae	SPECIES	ACCEPTED
+38273	38273	Verbena rigida Spreng.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Verbenaceae	SPECIES	ACCEPTED
+38274	38274	Veronica peregrina L.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+38275	38275	Veronica persica Poir.		Plantae	Tracheophyta	Magnoliopsida	Lamiales	Plantaginaceae	SPECIES	ACCEPTED
+38276	38276	Vicia articulata Hornem.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38277	38277	Vicia ervilia Willd.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38278	38278	Vicia faba L.		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38279	38279	Vicia villosa Roth		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38280	38280	Vinca major L.		Plantae	Tracheophyta	Magnoliopsida	Gentianales	Apocynaceae	SPECIES	ACCEPTED
+38281	38281	Vinca minor L.		Plantae	Tracheophyta	Magnoliopsida	Gentianales	Apocynaceae	SPECIES	ACCEPTED
+38282	38282	Viola odorata L.		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Violaceae	SPECIES	ACCEPTED
+38283	38283	Viola wittrockiana Gams ex Nauenb. & Buttler		Plantae	Tracheophyta	Magnoliopsida	Malpighiales	Violaceae	SPECIES	ACCEPTED
+38284	38284	Vitis acerifolia Raf.		Plantae	Tracheophyta	Magnoliopsida	Vitales	Vitaceae	SPECIES	ACCEPTED
+38285	38285	Vitis instabilis Ardenghi, Galasso, Banfi & Lastrucci		Plantae	Tracheophyta	Magnoliopsida	Vitales	Vitaceae	SPECIES	ACCEPTED
+38286	38286	Vitis labrusca L.		Plantae	Tracheophyta	Magnoliopsida	Vitales	Vitaceae	SPECIES	ACCEPTED
+38287	38287	Vitis labruscana L.H.Bailey	Vitis labrusca L.	Plantae	Tracheophyta	Magnoliopsida	Vitales	Vitaceae	SPECIES	SYNONYM
+38288	38288	Vitis novae-angliae Fernald		Plantae	Tracheophyta	Magnoliopsida	Vitales	Vitaceae	SPECIES	ACCEPTED
+38289	38289	Vitis vinifera L.		Plantae	Tracheophyta	Magnoliopsida	Vitales	Vitaceae	SPECIES	ACCEPTED
+38290	38290	Watersipora subtorquata (d'Orbigny, 1852)		Animalia	Bryozoa	Gymnolaemata	Cheilostomatida	Watersiporidae	SPECIES	ACCEPTED
+38291	38291	Watsonia meriana Mill.		Plantae	Tracheophyta	Liliopsida	Asparagales	Iridaceae	SPECIES	ACCEPTED
+38292	38292	Wigandia urens (Ruiz & Pav.) Kunth		Plantae	Tracheophyta	Magnoliopsida	Boraginales	Hydrophyllaceae	SPECIES	ACCEPTED
+38293	38293	Wisteria sinensis Sweet		Plantae	Tracheophyta	Magnoliopsida	Fabales	Fabaceae	SPECIES	ACCEPTED
+38294	38294	Xanthium orientale subsp. italicum (Moretti) Greuter		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SUBSPECIES	ACCEPTED
+38295	38295	Xanthium orientale subsp. orientale		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SUBSPECIES	ACCEPTED
+38296	38296	Xanthium spinosum L.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38297	38297	Xenopus laevis (Daudin, 1802)		Animalia	Chordata	Amphibia	Anura	Pipidae	SPECIES	ACCEPTED
+38298	38298	Xeranthemum squarrosum Boiss.		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38299	38299	Xerochrysum bracteatum (Vent.) Tzvelev		Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	ACCEPTED
+38300	38300	Yucca aloifolia L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+38301	38301	Yucca gloriosa L.		Plantae	Tracheophyta	Liliopsida	Asparagales	Asparagaceae	SPECIES	ACCEPTED
+38302	38302	Zantedeschia aethiopica Spreng.		Plantae	Tracheophyta	Liliopsida	Alismatales	Araceae	SPECIES	ACCEPTED
+38303	38303	Zea mays L.		Plantae	Tracheophyta	Liliopsida	Poales	Poaceae	SPECIES	ACCEPTED
+38304	38304	Zinnia violacea Cav.	Zinnia elegans Jacq.	Plantae	Tracheophyta	Magnoliopsida	Asterales	Asteraceae	SPECIES	SYNONYM
+38305	38305	Zoobotryon verticillatum (Delle Chiaje, 1822)	Amathia verticillata (Delle Chiaje, 1822)	Animalia	Bryozoa	Gymnolaemata	Ctenostomatida	Vesiculariidae	SPECIES	SYNONYM
