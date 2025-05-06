@@ -2,11 +2,24 @@ import pandas as pd
 from tqdm import tqdm
 tqdm.pandas()  # enables .progress_apply
 from pygbif import species
+import numpy as np
 
 class CheckList():
 
-    def __init__(self):
+    def __init__(self, filePath: str):
         self.filePath = filePath
+
+        # Create cube
+        self.species = self._load_GRIIS(filePath)
+
+    def _load_GRIIS(self, filePath):
+        
+        df_merged = pd.read_csv(filePath, sep="\t")
+        species_to_keep = df_merged["speciesKey"].unique()
+        species_to_keep = np.where(species_to_keep == 'Uncertain', -1, species_to_keep)
+        species_to_keep = species_to_keep.astype(int)
+
+        return species_to_keep
         
 
 def get_speciesKey(sciname):
@@ -116,10 +129,6 @@ def read_checklist(filePath, cl_type='default', locality='Belgium'):
         df_t = pd.read_csv(taxon, sep="\t")
         df_dist = pd.read_csv(distribution, sep="\t")
 
-
-        test = get_speciesKey(df_t["scientificName"][0])
-        print("test")
-        print(test)
 
         # Now apply this on the whole dataframe
 
