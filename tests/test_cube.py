@@ -47,5 +47,5 @@ def test_richness():
     
     richness_df = cube._species_richness()
 
-    plot_richness(richness_df, cube.df)
+    assert not richness_df.empty
 

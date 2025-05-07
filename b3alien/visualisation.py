@@ -1,3 +1,4 @@
+import ee
 import folium
 import tempfile
 import webbrowser

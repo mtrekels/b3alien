@@ -145,6 +145,11 @@ class OccurrenceCube():
 
             return norm_df
 
+    def _filter_species(self, speciesKey):
+
+        self.df = self.df[self.df['specieskey'].eq(speciesKey)]
+        self.data = self.data.sel(species=speciesKey)
+
 def plot_richness(richness_df, gdf_from_gcs, geom='cellCode'):
 
     gdf_plot = pd.merge(richness_df, gdf_from_gcs, left_on='cell', right_on=geom)
