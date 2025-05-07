@@ -1,16 +1,17 @@
 # tests/test_cube.py
 import pytest
 import numpy as np
-from b3alien.b3cube import OccurrenceCube, plot_richness
+import pandas as pd
+from b3alien import b3cube as b3
 
 def test_cube_loading():
-    cube = OccurrenceCube("tests/data/data_PT-30.parquet")
+    cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
     assert cube.data.dims == ("time", "cell", "species")
     assert "geometry" in cube.data.coords
 
 
 def test_cube_content():
-    cube = OccurrenceCube("tests/data/data_PT-30.parquet")
+    cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
     data = cube.data
 
     # Check shape
@@ -42,7 +43,7 @@ def test_cube_content():
         assert np.isclose(val, expected_occurrences), f"Expected {expected_occurrences}, got {val}"
 
 def test_richness():
-    cube = OccurrenceCube("tests/data/data_PT-30.parquet")
+    cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
     
     richness_df = cube._species_richness()
 
