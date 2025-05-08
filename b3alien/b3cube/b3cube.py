@@ -127,7 +127,7 @@ class OccurrenceCube():
                 "richness": values
             })
 
-            return richness_df
+            self.richness = richness_df
 
         else:
             epsilon = 1e-6
@@ -143,7 +143,7 @@ class OccurrenceCube():
                 "normalized_richness": values
             })
 
-            return norm_df
+            self.richness = norm_df
 
     def _filter_species(self, speciesKey):
 

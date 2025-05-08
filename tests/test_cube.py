@@ -45,7 +45,7 @@ def test_cube_content():
 def test_richness():
     cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
     
-    richness_df = cube._species_richness()
+    cube._species_richness()
 
-    assert isinstance(richness_df, pd.DataFrame)
+    assert isinstance(cube.richness, pd.DataFrame)
 
