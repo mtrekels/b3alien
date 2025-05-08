@@ -58,7 +58,7 @@ def do_taxon_matching(dirPath):
     df_merged.to_csv(dirPath + 'merged_distr.txt', sep='\t', index=False)
 
 # The rest assumes already a merged dataset
-def read_checklist(filePath, cl_type='default', locality='Belgium'):
+def read_checklist(filePath, cl_type='detailed', locality='Belgium'):
     
     distribution = filePath + "distribution.txt"
 
@@ -122,6 +122,8 @@ def read_checklist(filePath, cl_type='default', locality='Belgium'):
         tot_species = tot_species.sort_values("introDate")
         tot_species["cumulative_total"] = tot_species["total"].cumsum()
 
+        return tot_species
+
     else:
         taxon = filePath + "taxon.txt"
         distribution = filePath + "distribution.txt"
@@ -139,3 +141,5 @@ def read_checklist(filePath, cl_type='default', locality='Belgium'):
         species_to_keep = df_merged["speciesKey"].unique()
         species_to_keep = np.where(species_to_keep == 'Uncertain', -1, species_to_keep)
         species_to_keep = species_to_keep.astype(int)
+
+        return species_to_keep
