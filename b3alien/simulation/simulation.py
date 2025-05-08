@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 from scipy.optimize import fmin
@@ -81,7 +82,7 @@ def count_log_like(params, restrict, num_discov):
     return LL, lambda_values
 
 
-def simulate_solow_costello(annual_time_gbif, annual_rate_gbif):  # Changed main() to simulate() to avoid conflicts
+def simulate_solow_costello(annual_time_gbif, annual_rate_gbif, vis=False): 
     """
     This code performs the main calculations for Solow and Costello (2004)
     """
@@ -100,9 +101,12 @@ def simulate_solow_costello(annual_time_gbif, annual_rate_gbif):  # Changed main
 
     C1 = count_lambda(vec1, len(num_discov))  #  Calculate the mean of Y
 
-    #  Create the plot
-    plt.plot(T, np.cumsum(num_discov), 'k-', T, np.cumsum(C1), 'k--')
-    plt.legend(['Discoveries', 'Unrestricted'])
-    plt.xlabel('Time')
-    plt.ylabel('Cumulative Discovery')
-    plt.show()
+    if vis:
+        #  Create the plot
+        plt.plot(T, np.cumsum(num_discov), 'k-', T, np.cumsum(C1), 'k--')
+        plt.legend(['Discoveries', 'Unrestricted'])
+        plt.xlabel('Time')
+        plt.ylabel('Cumulative Discovery')
+        plt.show()
+
+    return C1

@@ -172,10 +172,10 @@ def plot_richness(richness_df, gdf_from_gcs, geom='cellCode'):
 
 def cumulative_species(cube, species_to_keep):
     # Wrap sparse array in Dask array with one or more chunks
-    dask_sparse_array = da.from_array(cube.data, chunks=(100, 100, 1000))  # tune chunking for your use case
+    dask_sparse_array = da.from_array(cube.data.data, chunks=(100, 100, 1000))  # tune chunking for your use case
 
     # Replace data in cube
-    cube_dask_sparse = cube.copy(data=dask_sparse_array)
+    cube_dask_sparse = cube.data.copy(data=dask_sparse_array)
 
     species_mask = cube_dask_sparse["species"].isin(species_to_keep)
     filtered_cube = cube_dask_sparse.where(species_mask, drop=True)
