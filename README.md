@@ -12,7 +12,7 @@ the global vision of a world living in harmony with nature
 by 2050. Among the Framework’s key elements are 23
 targets for 2030. In order to track the progress on the
 targets, a number of indicators were agreed upon for
-each target. The AlienRoE software provides a technical
+each target. The B3ALIEN software provides a technical
 solution to track Target 6: “Reduce the Introduction of
 Invasive Alien Species by 50% and Minimize Their
 Impact.” It mainly focusses on the headline indicator: rate
