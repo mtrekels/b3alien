@@ -345,30 +345,43 @@ def calculate_rate(df_cumulative):
 '''
 This function is not finished yet
 
-def get_survey_effort(cube, calc_type='do'):
+'''
 
-    if calc_type == 'do':
-        # Assuming your DataFrame is named 'gdf_from_gcs'
-        distinct_observers_over_time = gdf_from_gcs.groupby('yearmonth')['distinctobservers'].sum()
+def get_survey_effort(cube, dateFormat='%Y-%m', calc_type='total'):
 
-        # Convert the 'yearmonth' index to datetime objects if it isn't already
-        distinct_observers_over_time.index = pd.to_datetime(distinct_observers_over_time.index, format='%Y-%m', errors='coerce')
+    if calc_type == 'distinct':
+        # Group by 'yearmonth' and sum
+        distinct_observers_over_time = cube.df.groupby('yearmonth', observed=True)['distinctobservers'].sum()
 
-        # Resample to yearly frequency and sum
-        distinct_observers_yearly = distinct_observers_over_time.resample('Y').sum()
+        # Convert the index to datetime (if it's not already)
+        distinct_observers_over_time.index = pd.to_datetime(
+            distinct_observers_over_time.index, format=dateFormat, errors='coerce'
+        )
 
-        # Filter data from 1940 onwards
+        # Resample to yearly frequency using new 'YE' standard
+        distinct_observers_yearly = distinct_observers_over_time.resample('YE').sum()
+
+        # Filter for years from 1900 onward
         distinct_observers_filtered = distinct_observers_yearly[distinct_observers_yearly.index.year >= 1900]
 
-        return distinct_observers_filtered
+        # Convert to DataFrame
+        df = distinct_observers_filtered.reset_index()
+        df.columns = ['date', 'distinct_observers']  # Rename columns for clarity
+
+        return df
 
     else:
 
-        total_occurrences_over_time = cube.sum(dim=['cell', 'species'])
+        total_occurrences_over_time = cube.data.sum(dim=['cell', 'species'])
 
         # Convert the time coordinates to datetime objects if they aren't already
-        total_occurrences_over_time['time'] = pd.to_datetime(total_occurrences_over_time['time'].values, format='%Y-%m', errors='coerce')
+        total_occurrences_over_time['time'] = pd.to_datetime(total_occurrences_over_time['time'].values, format=dateFormat, errors='coerce')
+        df = pd.DataFrame({
+            'time': total_occurrences_over_time['time'].values,
+            'total_occurrences': total_occurrences_over_time.data.data
+        })
 
-        return total_occurrences_over_time
-    
-'''
+        # (Optional) Drop rows with invalid or missing time
+        df = df.dropna(subset=['time'])
+
+        return df

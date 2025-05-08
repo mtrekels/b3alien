@@ -49,3 +49,12 @@ def test_richness():
 
     assert isinstance(cube.richness, pd.DataFrame)
 
+def test_survey_effort():
+
+    cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
+    total = b3.get_survey_effort(cube)
+    distinctObs = b3.get_survey_effort(cube, calc_type='distinct')
+
+    assert (total['total_occurrences'] >= 0).all()
+    assert (distinctObs['distinct_observers'] >= 0).all()
+
