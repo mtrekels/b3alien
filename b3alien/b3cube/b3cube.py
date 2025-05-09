@@ -11,10 +11,11 @@ import shapely
 from shapely import geos
 import gcsfs
 
-'''
+"""
+
 Create a class object of the occurrence cube
 
-'''
+"""
 class OccurrenceCube():
 
     def __init__(self, filepath: str, dims=None, coords=None, index_col=None):

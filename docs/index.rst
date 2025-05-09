@@ -11,6 +11,29 @@ Welcome to b3alien's documentation!
    :caption: Contents:
 
 
+API Reference
+=============
+
+.. automodule:: b3alien.b3cube
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: b3alien.griis
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: b3alien.visualisation
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: b3alien.simulation
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 
 Indices and tables
 ==================

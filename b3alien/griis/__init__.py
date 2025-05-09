@@ -1,11 +1,14 @@
-'''
+"""
 
-Documentation needs to be added here
+Module dealing with the Global Registry of Introduced and Invasive Species
+==========================================================================
 
-'''
+"""
 
 from .griis import CheckList
 from .griis import get_speciesKey
 from .griis import do_taxon_matching
 from .griis import read_checklist
 from .griis import split_event_date
+
+__all__ = ["CheckList", "get_speciesKey", "do_taxon_matching", "read_checklist", "split_event_date"]
