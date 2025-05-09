@@ -31,6 +31,7 @@ class OccurrenceCube():
             Optional coordinates to assign to the cube.
         index_col : str or list, optional
             Column(s) to use for reshaping if needed.
+            
 
         Returns
         -------
@@ -164,6 +165,23 @@ class OccurrenceCube():
         self.data = self.data.sel(species=speciesKey)
 
 def plot_richness(richness_df, gdf_from_gcs, geom='cellCode'):
+    """
+        Create a plot of the species richness dataframe.
+
+        Parameters
+        ----------
+        richness_df : pandas.DataFrame
+            Datagrame containing the species richness per grid cell.
+        gdf_from_gcs : geopandas.Dataframe
+            GeoDataFrame containing the species occurrence cuve.
+        geom : str, optional
+            Name of the geometry column in the GeoDataFrame. Default is 'cellCode'
+            
+        Returns
+        -------
+        matplotlib.plot
+            A plot of the species richness.
+    """
 
     gdf_plot = pd.merge(richness_df, gdf_from_gcs, left_on='cell', right_on=geom)
 
@@ -184,6 +202,26 @@ def plot_richness(richness_df, gdf_from_gcs, geom='cellCode'):
 
 
 def cumulative_species(cube, species_to_keep):
+
+    """
+        Calculate the cumulative number of species in a OccurrenceCube.
+
+        Parameters
+        ----------
+        cube : b3alien.b3cube.OccurrenceCube
+            Species OccurrenceCube from GBIF.
+        species_to_keep : numpy.array
+            Array of GBIF speciesKeys that need to be taken into account to calculate the cumulative species number of a cube.
+        geom : str, optional
+            
+        Returns
+        -------
+        df1 : pandas.DataFrame
+            Sparse dataframe that still contains the cumulative sum per grid cell.
+        df2 : pandas.DataFrame
+            Cumulative dataframe cell independent.
+    """
+    
     # Wrap sparse array in Dask array with one or more chunks
     dask_sparse_array = da.from_array(cube.data.data, chunks=(100, 100, 1000))  # tune chunking for your use case
 

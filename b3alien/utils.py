@@ -39,6 +39,26 @@ def in_script():
     return detect_runtime() == "Standard Python Script"
 
 def to_geoparquet(csvFile, geoFile, leftID=eqdcellcode, rightID=cellCode, exportPath='./data/export.parquet'):
+    """
+       Convert a GBIF cube download into a GeoParquet file, using the geometry of a GPKG
+
+        Parameters
+        ----------
+        csvFile : str
+            Path to the GBIF cube csv file.
+        geoFile : str
+            Path to the GeoPackage file.
+        leftID : str, optional
+            Column name within the GBIF cube to match the geometry. Default is 'edqcellcode'.
+        rightID : str, optional
+            Column name within the GeoPackage geometry. Default is 'cellCode'
+        exportPath : str, optional
+            Path to which the GeoParquet file needs to be exported.
+
+        Returns
+        -------
+        A GeoParquet file at the location of exportPath
+    """
 
     data = pd.read_csv(csvFile, sep='\t')
     geoRef = gpd.read_file(geoFile, engine='pyogrio', use_arrow=True, crs="EPSG:4326")
