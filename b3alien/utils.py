@@ -2,6 +2,10 @@
 Additional utilities
 
 """
+import pandas as pd
+import geopandas as gpd
+import pyarrow
+
 
 def detect_runtime():
     """
@@ -33,3 +37,17 @@ def in_ipython():
 def in_script():
     """Returns True if running in a standard Python script (non-interactive)."""
     return detect_runtime() == "Standard Python Script"
+
+def to_geoparquet(csvFile, geoFile, leftID=eqdcellcode, rightID=cellCode, exportPath='./data/export.parquet'):
+
+    data = pd.read_csv(csvFile, sep='\t')
+    geoRef = gpd.read_file(geoFile, engine='pyogrio', use_arrow=True, crs="EPSG:4326")
+
+    test_merge = pd.merge(data, qdgc_ref, left_on=leftID, right_on=rightID)
+
+    gdf = gpd.GeoDataFrame(test_merge, geometry='geometry')
+    if gdf.crs is None:
+        gdf.set_crs(crs, inplace=True) 
+
+    gdf.to_parquet(exportPath, engine="pyarrow", index=False)
+
