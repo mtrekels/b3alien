@@ -18,16 +18,28 @@ Create a class object of the occurrence cube
 """
 class OccurrenceCube():
 
-    def __init__(self, filepath: str, dims=None, coords=None, index_col=None):
-        """
+    """
         Load a GeoParquet file (local or from GCS) into a sparse xarray cube.
-        
-        Parameters:
-        - filepath: str, path to the GeoParquet file (e.g. 'gs://bucket/file.parquet').
-        - dims: tuple/list of dimension names (default: ['time', 'cell', 'species']).
-        - coords: dict of optional coordinates for the cube.
-        - index_col: column(s) to use for reshaping if needed.
-        """
+
+        Parameters
+        ----------
+        filepath : str
+            Path to the GeoParquet file (e.g. 'gs://bucket/file.parquet').
+        dims : list or tuple, optional
+            Dimension names. Default is ['time', 'cell', 'species'].
+        coords : dict, optional
+            Optional coordinates to assign to the cube.
+        index_col : str or list, optional
+            Column(s) to use for reshaping if needed.
+
+        Returns
+        -------
+        xarray.DataArray
+            A sparse data cube loaded from the GeoParquet file.
+    """
+
+    def __init__(self, filepath: str, dims=None, coords=None, index_col=None):
+       
         self.filepath = filepath
         self.dims = dims or ("time", "cell", "species")
         self.coords = coords
