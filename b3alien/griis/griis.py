@@ -6,6 +6,20 @@ import numpy as np
 
 class CheckList():
 
+    """
+        Load a GRIIS checklist from GBIF.
+
+        Parameters
+        ----------
+        filepath : str
+            Path to the distribution.txt file of the checklist.
+
+        Returns
+        -------
+        griis.Checklist
+            A checklist object containing the list of species.
+    """
+
     def __init__(self, filePath: str):
         self.filePath = filePath
 
@@ -23,6 +37,18 @@ class CheckList():
         
 
 def get_speciesKey(sciname):
+    """
+        Match text strings with the GBIF taxonomic backbone.
+
+        Parameters
+        ----------
+        sciname : str
+            Text string of a scientific name
+
+        Returns
+        -------
+        speciesKey: an integer speciesKey number
+    """
     result = species.name_backbone(sciname, strict=True)
     try:
         speciesKey = result["speciesKey"]
@@ -30,9 +56,23 @@ def get_speciesKey(sciname):
         speciesKey = "Uncertain"
     return speciesKey
 
-def split_event_date(x):
-    if isinstance(x, str):
-        parts = x.strip().split('/')
+def split_event_date(eventDate):
+    """
+        Interprete the event date as introduction date and date of last seen,
+        when this information is available in the checklist.
+
+        Parameters
+        ----------
+        eventDate : str
+            Text string of eventDate
+
+        Returns
+        -------
+        pd.Series
+            A series containing introduction date ('intro') and date last seen ('outro')
+    """
+    if isinstance(eventDate, str):
+        parts = eventDate.strip().split('/')
         if len(parts) == 2:
             intro = parts[0]
             outro = parts[1]
@@ -42,7 +82,20 @@ def split_event_date(x):
     else:
         return pd.Series([np.nan, np.nan])
 
+
 def do_taxon_matching(dirPath):
+    """
+        Match keys between taxon.txt and distribution.txt
+
+        Parameters
+        ----------
+        dirPath : str
+            Path to the directory of the checklist
+
+        Returns
+        -------
+        Saves a new checklist file 'merged_distr.txt' in the checklist directory
+    """
 
     taxon = dirPath + "taxon.txt"
     distribution = dirPath + "distribution.txt"

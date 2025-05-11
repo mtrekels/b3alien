@@ -29,7 +29,8 @@ author = 'Maarten Trekels'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',  # For Google-style or NumPy-style docstrings
+    'sphinx.ext.napoleon',
+    'myst_parser',  # For Google-style or NumPy-style docstrings
 ]
 
 # Add any paths that contain templates here, relative to this directory.

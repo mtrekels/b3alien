@@ -84,7 +84,21 @@ def count_log_like(params, restrict, num_discov):
 
 def simulate_solow_costello(annual_time_gbif, annual_rate_gbif, vis=False): 
     """
-    This code performs the main calculations for Solow and Costello (2004)
+        Solow-Costello simulation of the rate of establishment.
+
+        Parameters
+        ----------
+        annual_time_gbif : pandas.Series
+            Time series of the rate of establishment.
+        annual_rate_gbif : pandas.Series
+            Rates corresponding to the time series.
+        vis : bool, optional
+            Create a plot of the simulation. Default is False.
+            
+        Returns
+        -------
+        C1: numpy.Series
+            Result of the simulation.
     """
 
     #  global num_discov;  #  No need for global, pass as argument

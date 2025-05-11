@@ -35,8 +35,10 @@ class OccurrenceCube():
 
         Returns
         -------
-        xarray.DataArray
+        b3cube.OccurrenceCube
             A sparse data cube loaded from the GeoParquet file.
+            self.df contains a geopandas.DataFrame
+            self.data a sparse xarray.Xarray
     """
 
     def __init__(self, filepath: str, dims=None, coords=None, index_col=None):
@@ -286,6 +288,19 @@ def cumulative_species(cube, species_to_keep):
     return df_sparse, df_cumulative
 
 def plot_cumsum(df_cumulative):
+    """
+        Create a plot of the cumulative number of species.
+
+        Parameters
+        ----------
+        df_cumulative : pandas.DataFrame
+            Datagrame containing the cumulative number over tume.
+            
+        Returns
+        -------
+        matplotlib.plot
+            A plot of the cumulative number of species.
+    """
     
     plt.figure(figsize=(10, 5))
     plt.plot(df_cumulative["time"], df_cumulative["cumulative_species"], marker="o")
@@ -299,6 +314,19 @@ def plot_cumsum(df_cumulative):
 
 
 def filter_multiple_cells(df_sparse):
+    """
+        Only count a species established when it is present in more than one cell.
+
+        Parameters
+        ----------
+        df_sparse : pandas.DataFrame
+            Datagrame containing the species richness per grid cell.
+            
+        Returns
+        -------
+        pandas.DataFrame
+            Cumulative species when in multiple cells.
+    """
     # Ensure cell is in your DataFrame
     assert "cell" in df_sparse.columns
 
@@ -328,6 +356,19 @@ def filter_multiple_cells(df_sparse):
     return df_cumulative_cells
 
 def filter_multiple_occ(df_sparse):
+    """
+        Only count a species established when there are multiple occurrences in a cell.
+
+        Parameters
+        ----------
+        df_sparse : pandas.DataFrame
+            Datagrame containing the species richness per grid cell.
+            
+        Returns
+        -------
+        pandas.DataFrame
+            Cumulative species when multiple occurrences in a cell.
+    """
     # Ensure 'occurrences' and 'cell' are present
     assert "occurrences" in df_sparse.columns and "cell" in df_sparse.columns
 
@@ -360,6 +401,21 @@ def filter_multiple_occ(df_sparse):
     return df_cumulative_occ
 
 def calculate_rate(df_cumulative):
+    """
+       Calculate the rate of establishment from the cumulative distribution.
+
+        Parameters
+        ----------
+        df_cumulative : pandas.DataFrame
+            Datagrame containing the cumulative distribution.
+            
+        Returns
+        -------
+        s1 : pandas.Series
+            Series of the time axis.
+        s2 : pandas.Series
+            Series of the rate of establishment.
+    """
     # --- Processing GBIF data (Monthly) to get an approximate annual rate ---
     df_cumulative["time"] = pd.to_datetime(df_cumulative["time"])
     df_cumulative_rate = df_cumulative.sort_values(by="time").copy()
@@ -393,12 +449,29 @@ def calculate_rate(df_cumulative):
 
     return annual_time_gbif, annual_rate_gbif
 
-'''
-This function is not finished yet
-
-'''
 
 def get_survey_effort(cube, dateFormat='%Y-%m', calc_type='total'):
+    """
+        Estimate the survey effort in an OccurrenceCube.
+
+        Parameters
+        ----------
+        cube : b3alien.b3cube.OccurrenceCube
+            Species OccurrenceCube from GBIF.
+        dateFormat : str, optional
+            Dateformat stored in the OccurrenceCube. Default is '%Y-%m'
+        calc_type : str, optional
+            Type of survey effort to be calculated. 
+                'distinct' : total number of distinct observers
+                'total' : total number of occurrences
+                Default is total.
+            
+        Returns
+        -------
+        df : pandas.DataFrame
+            Dataframe containing time and the chosen measurement for survey effort.
+    """
+    
 
     if calc_type == 'distinct':
         # Group by 'yearmonth' and sum
