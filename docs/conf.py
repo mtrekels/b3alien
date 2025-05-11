@@ -14,7 +14,7 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
-
+autosummary_generate = True
 # -- Project information -----------------------------------------------------
 
 project = 'b3alien'
@@ -29,7 +29,9 @@ author = 'Maarten Trekels'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',  # For Google-style or NumPy-style docstrings
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',       # Optional but useful
+    'sphinx.ext.autosummary',    # Optional for summary tables  # For Google-style or NumPy-style docstrings
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -52,3 +54,4 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
