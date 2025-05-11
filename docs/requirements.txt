@@ -5,3 +5,6 @@ dask
 tqdm
 earthengine-api  # for `import ee`
 matplotlib
+pygbif
+geemap
+scipy
