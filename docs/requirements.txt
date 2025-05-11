@@ -1,2 +1,7 @@
 sphinx>=8.0
 sphinx_rtd_theme>=2.0.0
+
+dask
+tqdm
+earthengine-api  # for `import ee`
+matplotlib
