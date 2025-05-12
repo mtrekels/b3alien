@@ -182,9 +182,9 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://www.plantentuinmeise.be"
+homepage = "https://github.com/mtrekels/b3alien"
 repository = "https://github.com/mtrekels/b3alien"
-documentation = "https://github.com/mtrekels/b3alien/docs"
+documentation = "https://b3alien.readthedocs.io/"
 
 
 [project.optional-dependencies]
