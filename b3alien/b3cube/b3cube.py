@@ -200,7 +200,7 @@ def plot_richness(richness_df, gdf_from_gcs, geom='cellCode'):
     )
     ax.set_title("Species Richness per QDGC Cell")
     ax.axis("off")
-    plt.show()
+    plt.savefig('richness_plot.png')
 
 
 def cumulative_species(cube, species_to_keep):
