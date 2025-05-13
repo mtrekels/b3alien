@@ -59,89 +59,15 @@ matplotlib.use("TkAgg")
 
 
 
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
-
-
-
-
 ```python
 cube = b3cube.OccurrenceCube("gs://b-cubed-eu/data_PT-30b.parquet", gproject='nithecs-436810')
 ```
 
 
 
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
-
-
-
-
 ```python
 print(cube.df)
 ```
-
-
-
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
 
 
 
@@ -220,58 +146,12 @@ cube._species_richness()
 
 
 
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
-
-
 
 
 ```python
 print(cube.richness)
 ```
 
-
-
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
 
 
 
@@ -296,60 +176,13 @@ print(cube.richness)
 b3cube.plot_richness(cube.richness, cube.df)
 ```
 
-
-
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
-
-
+![png](docs/_static/images/richness_plot.png)
 
 
 ```python
 CL = griis.CheckList("/home/maarten/Documents/GIT/b3alien/tests/data/dwca-griis-portugal-v1.9/merged_distr.txt")
 ```
 
-
-
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
 
 
 
@@ -360,30 +193,6 @@ d_s, d_c = b3cube.cumulative_species(cube, CL.species)
 
 
 
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
-
-
-
 
 ```python
 time, rate = b3cube.calculate_rate(d_c)
@@ -391,58 +200,10 @@ time, rate = b3cube.calculate_rate(d_c)
 
 
 
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
-
-
-
 
 ```python
 C1 = simulation.simulate_solow_costello(time, rate, vis=True)
 ```
-
-
-
-<style>
-    .geemap-dark {
-        --jp-widgets-color: white;
-        --jp-widgets-label-color: white;
-        --jp-ui-font-color1: white;
-        --jp-layout-color2: #454545;
-        background-color: #383838;
-    }
-
-    .geemap-dark .jupyter-button {
-        --jp-layout-color3: #383838;
-    }
-
-    .geemap-colab {
-        background-color: var(--colab-primary-surface-color, white);
-    }
-
-    .geemap-colab .jupyter-button {
-        --jp-layout-color3: var(--colab-primary-surface-color, white);
-    }
-</style>
 
 
 
