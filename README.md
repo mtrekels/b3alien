@@ -60,7 +60,7 @@ matplotlib.use("TkAgg")
 
 
 ```python
-cube = b3cube.OccurrenceCube("gs://b-cubed-eu/data_PT-30b.parquet", gproject='nithecs-436810')
+cube = b3cube.OccurrenceCube("gs://b-cubed-eu/data_PT-30b.parquet", gproject='$GPROJECT-ID')
 ```
 
 
@@ -180,25 +180,17 @@ b3cube.plot_richness(cube.richness, cube.df)
 
 
 ```python
-CL = griis.CheckList("/home/maarten/Documents/GIT/b3alien/tests/data/dwca-griis-portugal-v1.9/merged_distr.txt")
+CL = griis.CheckList("$YOUR_DIRECTORY/merged_distr.txt")
 ```
-
-
-
 
 
 ```python
 d_s, d_c = b3cube.cumulative_species(cube, CL.species)
 ```
 
-
-
-
 ```python
 time, rate = b3cube.calculate_rate(d_c)
 ```
-
-
 
 
 ```python
@@ -213,11 +205,9 @@ C1 = simulation.simulate_solow_costello(time, rate, vis=True)
              Function evaluations: 287
 
 
-
     
 ![png](docs/_static/images/output_9_2.png)
     
-
 
 
 ```python
