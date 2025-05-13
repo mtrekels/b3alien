@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r tests/requirements.txt
 
+      - name: Install b3alien package
+        run: pip install -e .
+
       - name: Run tests
         run: pytest --cov --cov-branch --cov-report=xml
 
