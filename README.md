@@ -1,5 +1,10 @@
 # b3alien: a Python package to calculate the Target 6.1 headline indicator of the CBD
 
+[![Build](https://github.com/mtrekels/b3alien/actions/workflows/test.yml/badge.svg)](https://github.com/mtrekels/b3alien/actions/workflows/test.yml)
+[![Coverage](https://codecov.io/gh/mtrekels/b3alien/branch/main/graph/badge.svg)](https://codecov.io/gh/mtrekels/b3alien)
+[![PyPI](https://img.shields.io/pypi/v/b3alien.svg)](https://pypi.org/project/b3alien/)
+[![Docs](https://readthedocs.org/projects/b3alien/badge/?version=latest)](https://b3alien.readthedocs.io/en/latest/)
+[![License](https://img.shields.io/github/license/mtrekels/b3alien.svg)](https://github.com/mtrekels/b3alien/blob/main/LICENSE)
 
 ## Introduction
 
