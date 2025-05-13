@@ -44,6 +44,7 @@ class OccurrenceCube():
     def __init__(self, filepath: str, gproject='', dims=None, coords=None, index_col=None):
        
         self.filepath = filepath
+        self.gproject = gproject
         self.dims = dims or ("time", "cell", "species")
         self.coords = coords
         self.index_col = index_col
