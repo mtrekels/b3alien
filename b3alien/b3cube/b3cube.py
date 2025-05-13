@@ -41,7 +41,7 @@ class OccurrenceCube():
             self.data a sparse xarray.Xarray
     """
 
-    def __init__(self, filepath: str, dims=None, coords=None, index_col=None):
+    def __init__(self, filepath: str, gproject='', dims=None, coords=None, index_col=None):
        
         self.filepath = filepath
         self.dims = dims or ("time", "cell", "species")
@@ -49,17 +49,17 @@ class OccurrenceCube():
         self.index_col = index_col
 
         # Load GeoParquet
-        self.df = self._load_geoparquet(filepath)
+        self.df = self._load_geoparquet(filepath, gproject)
         
         # Create cube
         self.data = self._create_xcube(self.df)
 
-    def _load_geoparquet(self, path):
+    def _load_geoparquet(self, path, gproject):
         """
         Load a GeoParquet file from local disk or GCS using GeoPandas.
         """
         if path.startswith("gs://"):
-            fs = gcsfs.GCSFileSystem()
+            fs = gcsfs.GCSFileSystem(project=gproject)
             with fs.open(path) as f:
                 gdf = gpd.read_parquet(f)
         else:
