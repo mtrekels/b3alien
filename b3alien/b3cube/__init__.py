@@ -10,6 +10,10 @@ from .b3cube import plot_richness
 from .b3cube import cumulative_species
 from .b3cube import calculate_rate
 from .b3cube import get_survey_effort
+from .b3cube import plot_cumsum
+from .b3cube import filter_multiple_cells
+from .b3cube import filter_multiple_occ
+
 
 __all__ = [
     "plot_richness",

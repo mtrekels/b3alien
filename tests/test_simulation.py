@@ -1,4 +1,4 @@
-# tests/test_cube.py
+# tests/test_simulation.py
 import pytest
 import numpy as np
 import pandas as pd
@@ -24,3 +24,4 @@ def test_solow_costello():
     c1 = simulation.simulate_solow_costello(annual_time_gbif, annual_rate_gbif, vis=False)
     
     assert len(c1) > 0
+

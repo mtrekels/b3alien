@@ -42,7 +42,7 @@ accurately the rate of introduction of alien species..
 
 ## Architecture
 
-put schema here
+![png](docs/_static/images/architecture_b3alien.png)
 
 ## Example usage
 
