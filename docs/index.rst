@@ -50,7 +50,7 @@ accurately the rate of introduction of alien species..
 Architecture
 ============
 
-.. image:: docs/_static/images/architecture_b3alien.png
+.. image:: _static/images/architecture_b3alien.png
 
 
 Example usage
@@ -127,7 +127,7 @@ Example usage
 
     b3cube.plot_richness(cube.richness, cube.df)
 
-.. image:: docs/_static/images/richness_plot.png
+.. image:: _static/images/richness_plot.png
 
 .. code-block:: python
 
@@ -152,7 +152,7 @@ Example usage
          Iterations: 172
          Function evaluations: 287
 
-.. image:: docs/_static/images/output_9_2.png
+.. image:: _static/images/output_9_2.png
 
 
 
