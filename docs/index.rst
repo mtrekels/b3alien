@@ -35,6 +35,7 @@ Welcome to b3alien's documentation!
    api_griis
    api_visualisation
    api_simulation
+   api_utils
    acknowledgements
 
 
