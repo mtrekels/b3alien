@@ -22,7 +22,7 @@ dependencies = [
   "matplotlib",
   "numpy",
   "pandas",
-  "pillow>",
+  "pillow",
   "pyarrow",
   "pygbif",
   "scipy",
