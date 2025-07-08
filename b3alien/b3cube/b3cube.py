@@ -41,19 +41,27 @@ class OccurrenceCube():
             self.data a sparse xarray.Xarray
     """
 
-    def __init__(self, filepath: str, gproject='', dims=None, coords=None, index_col=None):
+    def __init__(self, filepath: str, source='geoparquet', gproject='', dims=None, coords=None, index_col=None):
        
         self.filepath = filepath
+        self.source = source
         self.gproject = gproject
         self.dims = dims or ("time", "cell", "species")
         self.coords = coords
         self.index_col = index_col
 
-        # Load GeoParquet
-        self.df = self._load_geoparquet(filepath, gproject)
+        # Load Data
+        if source == 'gbif':
+            self.df = self._load_gbifcsv(filepath)
+        else:
+            self.df = self._load_geoparquet(filepath, gproject)
         
         # Create cube
         self.data = self._create_xcube(self.df)
+
+    def _load_gbifcsv(self, path):
+        df = pd.read_csv(path, sep='\t')
+        return df
 
     def _load_geoparquet(self, path, gproject):
         """
@@ -75,18 +83,15 @@ class OccurrenceCube():
 
         return gdf
 
-    def _create_xcube(self, df):
+    def _create_xcube(self, df, dims=("time", "cell", "species")):
         """
-        Convert a GeoDataFrame into a sparse xarray cube with geometry metadata.
+        This function converts a GeoDataFrame into a sparse xarray cube with geometry metadata in case a GeoParquet file was loaded.
+        In case of a pure GBIF cube, the geometry is ignored.
         """
         # Convert to categorical
         df["yearmonth"] = pd.Categorical(df["yearmonth"])
         df["cellCode"] = pd.Categorical(df["cellCode"])
         df["specieskey"] = pd.Categorical(df["specieskey"])
-
-        # Align geometries with cell categories
-        cell_categories = df["cellCode"].cat.categories
-        geometry_per_cell = df.drop_duplicates("cellCode").set_index("cellCode").loc[cell_categories]["geometry"]
 
         # Encode to integers
         time_codes = df["yearmonth"].cat.codes.values
@@ -104,16 +109,24 @@ class OccurrenceCube():
             )
         )
 
+         # Prepare coordinates for the DataArray
+        coords = {
+            dims[0]: df["yearmonth"].cat.categories,
+            dims[1]: df["cellCode"].cat.categories,
+            dims[2]: df["specieskey"].cat.categories,
+        }
+
+        # Conditionally add geometry if the column exists
+        if "geometry" in df.columns:
+            cell_categories = df["cellCode"].cat.categories
+            geometry_per_cell = df.drop_duplicates("cellCode").set_index("cellCode").loc[cell_categories]["geometry"]
+            coords["geometry"] = (dims[1], geometry_per_cell.values)
+
         # Create xarray DataArray
         cube = xr.DataArray(
             sparse_cube,
             dims=self.dims,
-            coords={
-                self.dims[0]: df["yearmonth"].cat.categories,
-                self.dims[1]: df["cellCode"].cat.categories,
-                self.dims[2]: df["specieskey"].cat.categories,
-                "geometry": (self.dims[1], geometry_per_cell.values)
-            },
+            coords=coords,
             name="occurrences"
         )
 

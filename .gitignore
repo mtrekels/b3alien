@@ -25,6 +25,7 @@ docs/_build/
 
 # virtual environment
 .venv/
+.conda/
 
 # vscode project info
 .vscode/
@@ -36,3 +37,6 @@ docs/_build/
 
 # scratch files
 scratch.py
+
+# Mac specific
+.DS_Store
