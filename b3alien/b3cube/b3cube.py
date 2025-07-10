@@ -10,6 +10,10 @@ matplotlib.use("Agg")
 import shapely
 from shapely import geos
 import gcsfs
+import folium
+from folium import Choropleth
+from IPython.display import display
+from b3alien.utils.runtime import in_jupyter
 
 """
 
@@ -180,41 +184,60 @@ class OccurrenceCube():
         self.df = self.df[self.df['specieskey'].eq(speciesKey)]
         self.data = self.data.sel(species=speciesKey)
 
-def plot_richness(richness_df, gdf_from_gcs, geom='cellCode'):
+def plot_richness(richness_df, gdf_from_gcs, geom='cellCode', html_path='richness_map.html'):
     """
-        Create a plot of the species richness dataframe.
+    Create a plot or interactive map of the species richness dataframe.
 
-        Parameters
-        ----------
-        richness_df : pandas.DataFrame
-            Datagrame containing the species richness per grid cell.
-        gdf_from_gcs : geopandas.Dataframe
-            GeoDataFrame containing the species occurrence cuve.
-        geom : str, optional
-            Name of the geometry column in the GeoDataFrame. Default is 'cellCode'
-            
-        Returns
-        -------
-        matplotlib.plot
-            A plot of the species richness.
+    Parameters
+    ----------
+    richness_df : pandas.DataFrame
+        DataFrame containing the species richness per grid cell.
+    gdf_from_gcs : geopandas.GeoDataFrame
+        GeoDataFrame containing the spatial data (e.g., QDGC cells).
+    geom : str, optional
+        Column in GeoDataFrame to join on. Default is 'cellCode'.
+    html_path : str, optional
+        Path to save the HTML output if not in Jupyter.
+
+    Returns
+    -------
+    None
+        Displays or saves a map depending on the environment.
     """
 
+    # Merge and prepare the data
     gdf_plot = pd.merge(richness_df, gdf_from_gcs, left_on='cell', right_on=geom)
-
     gdf_plot = gpd.GeoDataFrame(gdf_plot, geometry="geometry", crs=gdf_from_gcs.crs)
 
-    fig, ax = plt.subplots(figsize=(10, 10))
-    gdf_plot.plot(
-        column="richness",
-        cmap="viridis",
-        legend=True,
-        linewidth=0.1,
-        edgecolor="grey",
-        ax=ax
-    )
-    ax.set_title("Species Richness per QDGC Cell")
-    ax.axis("off")
-    plt.savefig('richness_plot.png')
+    # Reproject to WGS84 for folium
+    gdf_wgs84 = gdf_plot.to_crs(epsg=4326)
+
+    # Get map center
+    centroid = gdf_wgs84.geometry.unary_union.centroid
+    m = folium.Map(location=[centroid.y, centroid.x], zoom_start=7, tiles="OpenStreetMap")
+
+    # Add Choropleth
+    Choropleth(
+        geo_data=gdf_wgs84,
+        name='Species Richness',
+        data=gdf_wgs84,
+        columns=['cell', 'richness'],
+        key_on='feature.properties.cell',
+        fill_color='YlGnBu',
+        fill_opacity=0.7,
+        line_opacity=0.2,
+        legend_name='Species Richness'
+    ).add_to(m)
+
+    # Add layer control
+    folium.LayerControl().add_to(m)
+
+    # Display or save
+    if in_jupyter():
+        display(m)
+    else:
+        m.save(html_path)
+        print(f"Map saved as HTML to {os.path.abspath(html_path)}")
 
 
 def cumulative_species(cube, species_to_keep):
