@@ -11,6 +11,7 @@
   pandas
   pillow
   pyarrow
+  pytest
   pygbif
   scipy
   shapely
