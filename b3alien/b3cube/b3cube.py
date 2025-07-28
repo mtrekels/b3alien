@@ -184,44 +184,53 @@ class OccurrenceCube():
         self.df = self.df[self.df['specieskey'].eq(speciesKey)]
         self.data = self.data.sel(species=speciesKey)
 
-def plot_richness(richness_df, gdf_from_gcs, geom='cellCode', html_path='richness_map.html'):
+
+def plot_richness(cube, normalized=False, html_path='richness_map.html'):
     """
-    Create a plot or interactive map of the species richness dataframe.
+    Plot species richness from an OccurrenceCube instance.
 
     Parameters
     ----------
-    richness_df : pandas.DataFrame
-        DataFrame containing the species richness per grid cell.
-    gdf_from_gcs : geopandas.GeoDataFrame
-        GeoDataFrame containing the spatial data (e.g., QDGC cells).
-    geom : str, optional
-        Column in GeoDataFrame to join on. Default is 'cellCode'.
-    html_path : str, optional
-        Path to save the HTML output if not in Jupyter.
+    cube : OccurrenceCube
+        An instance of the cube with `.data` and `.richness` available.
+    normalized : bool
+        Whether to use normalized richness.
+    html_path : str
+        Path to save the map if not in Jupyter.
 
     Returns
     -------
     None
-        Displays or saves a map depending on the environment.
     """
+    # Compute richness if needed
+    if not hasattr(cube, "richness"):
+        cube._species_richness(normalized=normalized)
 
-    # Merge and prepare the data
-    gdf_plot = pd.merge(richness_df, gdf_from_gcs, left_on='cell', right_on=geom)
-    gdf_plot = gpd.GeoDataFrame(gdf_plot, geometry="geometry", crs=gdf_from_gcs.crs)
+    # Extract richness and geometry directly from cube
+    richness_df = cube.richness
+    geometry = cube.data.coords["geometry"].values
+    cell_labels = cube.data.coords["cell"].values
 
-    # Reproject to WGS84 for folium
-    gdf_wgs84 = gdf_plot.to_crs(epsg=4326)
+    # Create GeoDataFrame
+    gdf_plot = gpd.GeoDataFrame(
+        richness_df,
+        geometry=geometry[richness_df["cell"].map(dict(zip(cell_labels, range(len(cell_labels)))))]
+    )
+    gdf_plot.set_crs("EPSG:4326", inplace=True)  # ensure WGS84 for folium
 
-    # Get map center
-    centroid = gdf_wgs84.geometry.unary_union.centroid
-    m = folium.Map(location=[centroid.y, centroid.x], zoom_start=7, tiles="OpenStreetMap")
+    # Optionally simplify geometry
+    gdf_plot["geometry"] = gdf_plot["geometry"].simplify(0.01)
 
-    # Add Choropleth
+    # Center map
+    centroid = gdf_plot.geometry.unary_union.centroid
+    m = folium.Map(location=[centroid.y, centroid.x], zoom_start=7)
+
+    # Plot
     Choropleth(
-        geo_data=gdf_wgs84,
+        geo_data=gdf_plot,
         name='Species Richness',
-        data=gdf_wgs84,
-        columns=['cell', 'richness'],
+        data=gdf_plot,
+        columns=['cell', 'richness' if not normalized else 'normalized_richness'],
         key_on='feature.properties.cell',
         fill_color='YlGnBu',
         fill_opacity=0.7,
@@ -229,10 +238,8 @@ def plot_richness(richness_df, gdf_from_gcs, geom='cellCode', html_path='richnes
         legend_name='Species Richness'
     ).add_to(m)
 
-    # Add layer control
     folium.LayerControl().add_to(m)
 
-    # Display or save
     if in_jupyter():
         display(m)
     else:

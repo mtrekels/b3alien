@@ -6,6 +6,7 @@ from scipy.optimize import fmin
 import multiprocessing
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from tqdm import tqdm
+import warnings
 
 def count_m(t, params):
     """Calculates the mean, mu, from Solow and Costello (2004)."""
@@ -49,19 +50,20 @@ def count_lambda(params, N):
         Am = count_m(S, params)
         Ap = count_p(t, params)
         lambda_result[t - 1] = np.dot(Am, Ap)
+
+    # apply the offset
+    offset = params[-1]
+    lambda_result += offset
+
+    # Ensure no negative expected values
+    lambda_result = np.clip(lambda_result, 0, None)
+
     return lambda_result
 
 def count_log_like(params, restrict, num_discov):
     """
-    This function file calculates the log likelihood function for Solow and
-    Costello (2004).  It takes into account any possible restrictions (See
-    below)
-
-    params is a vector of parameters
-    restrict is a vector (same size as params) that places restrictions on the
-    parameters. If restrict[i]=99, then there is no restriction for the ith
-    parameter. If restrict[i]=0 (for example) then the restriction is exactly
-    that.
+    Calculates the negative log likelihood from Solow and Costello (2004), 
+    supporting optional parameter restrictions.
     """
 
     f = np.where(restrict != 99)[0]
@@ -70,16 +72,15 @@ def count_log_like(params, restrict, num_discov):
     new_params[g] = params[g]
     new_params[f] = restrict[f]
 
-    summand2 = np.zeros_like(num_discov, dtype=float)
-    lambda_values = np.zeros_like(num_discov, dtype=float)
+    # Use count_lambda (which now includes the offset)
+    lambda_values = count_lambda(new_params, len(num_discov))
 
-    for t in range(1, len(num_discov) + 1):
-        S = np.arange(1, t + 1)
-        Am = count_m(S, new_params)
-        Ap = count_p(t, new_params)
-        lambda_t = np.dot(Am, Ap)
-        lambda_values[t - 1] = lambda_t
-        summand2[t - 1] = num_discov[t - 1] * np.log(lambda_t) - lambda_t if lambda_t > 0 else -lambda_t
+    # Compute log-likelihood components safely
+    summand2 = np.where(
+        lambda_values > 0,
+        num_discov * np.log(lambda_values) - lambda_values,
+        -lambda_values
+    )
 
     LL = -np.sum(summand2)
     return LL, lambda_values
@@ -162,7 +163,7 @@ def simulate_solow_costello_scipy(annual_time_gbif, annual_rate_gbif, vis=False)
     num_discov = pd.Series(annual_rate_gbif).T   #  Load and transpose
     T = pd.Series(annual_time_gbif) #np.arange(1851, 1996)  #  Create the time period
     #  options = optimset('TolFun',.01,'TolX',.01);  #  Tolerance is handled differently in scipy
-    guess = np.array([-1.1106, 0.0135, -1.4534, 0.1, 0.1])  #  Initial guess
+    guess = np.array([-1.1106, 0.0135, -1.4534, 0.1, 0.1, 0.0])  #  Initial guess
     constr = 99 * np.ones_like(guess) 
 
     # Objective function for minimize (returns scalar log-likelihood)
@@ -177,15 +178,17 @@ def simulate_solow_costello_scipy(annual_time_gbif, annual_rate_gbif, vis=False)
         (-5, 0),     # e.g., parameter 3: another decay
         (0.01, 2),   # e.g., parameter 4: noise scale
         (0.01, 2),   # e.g., parameter 5: another scale
+        (-1, 1),  # adding an additional offset
     ]
 
     # Run bounded optimization
     result = minimize(
         objective,
         guess,
-        method="L-BFGS-B",     # supports bounds
-        bounds=bounds,
-        options={"ftol": 0.01, "gtol": 0.01, "disp": False}
+        method="Nelder-Mead",     # supports bounds
+        #bounds=bounds,
+        #options={"ftol": 0.01, "gtol": 0.01, "disp": False}
+        options={"xatol": 0.01, "fatol": 0.01, "disp": False, "maxiter": 1000}
     )
 
     vec1 = result.x
@@ -211,17 +214,25 @@ def bootstrap_worker(i, time_list, rate_list):
     time_series = pd.Series(time_list)
     rate_series = pd.Series(rate_list)
 
-    # Fit once to get baseline model
-    C1_fit, vec1 = simulate_solow_costello_scipy(time_series, rate_series)
-    residuals = rate_series.reset_index(drop=True) - C1_fit
+    try:
+        # Fit once to get baseline model
+         with warnings.catch_warnings():
+            warnings.simplefilter("ignore", RuntimeWarning)
 
-    # Bootstrap residuals and create new synthetic data
-    resampled_residuals = residuals.sample(frac=1, replace=True).reset_index(drop=True)
-    simulated_rate = C1_fit + resampled_residuals
+            # Fit once to get baseline model
+            C1_fit, vec1 = simulate_solow_costello_scipy(time_series, rate_series)
+            residuals = rate_series.reset_index(drop=True) - C1_fit
 
-    # Fit again on simulated data
-    C1_sim, _ = simulate_solow_costello_scipy(time_series, simulated_rate)
-    return np.cumsum(C1_sim)
+            # Bootstrap residuals and create new synthetic data
+            resampled_residuals = residuals.sample(frac=1, replace=True).reset_index(drop=True)
+            simulated_rate = C1_fit + resampled_residuals
+
+            # Fit again on simulated data
+            C1_sim, _ = simulate_solow_costello_scipy(time_series, simulated_rate)
+            return np.cumsum(C1_sim)
+    
+    except Exception:
+        return None
 
 def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iterations=1000, ci=95):
     time_list = list(annual_time_gbif)
@@ -238,9 +249,14 @@ def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iter
 
         for f in tqdm(as_completed(futures), total=n_iterations, desc="Bootstrapping"):
             try:
-                C1_samples.append(f.result())
+                result = f.result()
+                if result is not None:
+                    C1_samples.append(result)
             except Exception as e:
-                print(f"Error in worker: {e}")
+                print(f"Unhandled error in future: {e}")
+
+    if not C1_samples:
+        raise RuntimeError("All bootstrap iterations failed. No valid samples.")
 
     C1_samples = np.array(C1_samples)
     lower_bound = np.percentile(C1_samples, (100 - ci) / 2, axis=0)
