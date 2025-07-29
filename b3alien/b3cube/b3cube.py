@@ -210,7 +210,7 @@ def aggregate_count_per_cell(cube, taxonRank, taxon, plot=False):
 
     # Step 2: Select only the relevant columns
     count_str = taxonRank + "count"
-    columns_to_keep = ["cellCode", taxonRank, count_str, "geometry"]
+    columns_to_keep = ["yearmonth", "cellCode", taxonRank, count_str, "geometry"]
     subset_df = filtered_df[columns_to_keep]
 
     # Step 3: Drop duplicate rows based on those columns
