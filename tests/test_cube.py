@@ -2,6 +2,7 @@
 import pytest
 import numpy as np
 import pandas as pd
+import geopandas as gpd
 from b3alien import b3cube as b3
 
 def test_cube_loading():
@@ -58,3 +59,8 @@ def test_survey_effort():
     assert (total['total_occurrences'] >= 0).all()
     assert (distinctObs['distinct_observers'] >= 0).all()
 
+def test_counts_per_cell():
+    cube = cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
+    gdf = b3.aggregate_count_per_cell(cube, "genus", "Oxalis")
+
+    assert isinstance(gdf, gpd.GeoDataFrame)

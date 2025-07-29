@@ -184,6 +184,43 @@ class OccurrenceCube():
         self.df = self.df[self.df['specieskey'].eq(speciesKey)]
         self.data = self.data.sel(species=speciesKey)
 
+def aggregate_count_per_cell(cube, taxonRank, taxon, plot=False):
+    """
+    Aggregate the counts per taxonomic level per cell.
+
+    Parameters
+    ----------
+    cube: OccurrenceCube
+        An OccurrenceCube with geometries added
+    taxonRank: dwc.taxonRank term
+        Level at which the aggregation needs to be performed
+    taxon: str
+        Name of the taxon at which aggregation needs to be performed
+    plot: bool, optional
+        whether the aggregated count per cell needs to be plotted on a map
+
+    Returns
+    -------
+    gdf: GeoDataFrame
+        dataframe containing geometries and the aggregated occurrence count
+
+    """
+    # Step 1: Filter by the desired class
+    filtered_df = cube.df[cube.df[taxonRank] == taxon]
+
+    # Step 2: Select only the relevant columns
+    count_str = taxonRank + "count"
+    columns_to_keep = ["cellCode", taxonRank, count_str, "geometry"]
+    subset_df = filtered_df[columns_to_keep]
+
+    # Step 3: Drop duplicate rows based on those columns
+    gdf = subset_df.drop_duplicates()
+
+    if plot:
+        gdf_plot = gpd.GeoDataFrame()
+
+    return gdf
+
 
 def plot_richness(cube, normalized=False, html_path='richness_map.html'):
     """

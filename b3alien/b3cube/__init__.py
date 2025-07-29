@@ -13,6 +13,7 @@ from .b3cube import get_survey_effort
 from .b3cube import plot_cumsum
 from .b3cube import filter_multiple_cells
 from .b3cube import filter_multiple_occ
+from .b3cube import aggregate_count_per_cell
 
 
 __all__ = [
@@ -22,6 +23,7 @@ __all__ = [
     "filter_multiple_cells",
     "filter_multiple_occ",
     "calculate_rate",
-    "get_survey_effort"
+    "get_survey_effort",
+    "aggregate_count_per_cell"
     # purposely exclude OccurrenceCube
 ]
