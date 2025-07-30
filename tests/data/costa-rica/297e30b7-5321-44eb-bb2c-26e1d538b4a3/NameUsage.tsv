@@ -1,0 +1,702 @@
+col:ID	col:alternativeID	col:nameAlternativeID	col:sourceID	col:parentID	col:basionymID	col:status	col:scientificName	col:authorship	col:rank	col:notho	col:originalSpelling	col:uninomial	col:genericName	col:infragenericEpithet	col:specificEpithet	col:infraspecificEpithet	col:cultivarEpithet	col:combinationAuthorship	col:combinationAuthorshipID	col:combinationExAuthorship	col:combinationExAuthorshipID	col:combinationAuthorshipYear	col:basionymAuthorship	col:basionymAuthorshipID	col:basionymExAuthorship	col:basionymExAuthorshipID	col:basionymAuthorshipYear	col:namePhrase	col:nameReferenceID	col:publishedInYear	col:publishedInPage	col:publishedInPageLink	col:gender	col:genderAgreement	col:etymology	col:code	col:nameStatus	col:accordingToID	col:accordingToPage	col:accordingToPageLink	col:referenceID	col:scrutinizer	col:scrutinizerID	col:scrutinizerDate	col:extinct	col:temporalRangeStart	col:temporalRangeEnd	col:environment	col:species	col:section	col:subgenus	col:genus	col:subtribe	col:tribe	col:subfamily	col:family	col:superfamily	col:suborder	col:order	col:subclass	col:class	col:subphylum	col:phylum	col:kingdom	col:ordinal	col:branchLength	col:link	col:nameRemarks	col:remarks	col:modified	col:modifiedBy
+200251				xHK		accepted	Micropterus salmoides (LacepÃ¨de,1802)		species				Micropterus		salmoides																																									Centrarchidae			Perciformes		Actinopterygii		Chordata	Animalia							
+xJN				xHH		accepted	Cichlidae		family			Cichlidae																																															Perciformes		Actinopterygii		Chordata	Animalia							
+200285				xJN		accepted	Oreochromis niloticus	(Linnaeus, 1758)	species				Oreochromis		niloticus								Linnaeus				1758									zoological																				Cichlidae			Perciformes		Actinopterygii		Chordata	Animalia							
+200284				xJN		accepted	Oreochromis aureus	(Steindachner, 1864)	species				Oreochromis		aureus								Steindachner				1864									zoological																				Cichlidae			Perciformes		Actinopterygii		Chordata	Animalia							
+200286				xJN		accepted	Oreochromis urolepis	(Norman, 1922)	species				Oreochromis		urolepis								Norman				1922									zoological																				Cichlidae			Perciformes		Actinopterygii		Chordata	Animalia							
+xJG				x9P		accepted	Salmoniformes		order			Salmoniformes																																																	Actinopterygii		Chordata	Animalia							
+xJJ				xJG		accepted	Salmonidae		family			Salmonidae																																															Salmoniformes		Actinopterygii		Chordata	Animalia							
+200280				xJJ		accepted	Oncorhynchus mykiss	(Walbaum, 1792)	species				Oncorhynchus		mykiss								Walbaum				1792									zoological																				Salmonidae			Salmoniformes		Actinopterygii		Chordata	Animalia							
+x9R				x9P		accepted	Cypriniformes		order			Cypriniformes																																																	Actinopterygii		Chordata	Animalia							
+x9T				x9R		accepted	Cyprinidae		family			Cyprinidae																																															Cypriniformes		Actinopterygii		Chordata	Animalia							
+200207				x9T		accepted	Hypophthalmichthys molitrix	(Valenciennes, 1844)	species				Hypophthalmichthys		molitrix								Valenciennes				1844									zoological																				Cyprinidae			Cypriniformes		Actinopterygii		Chordata	Animalia							
+200122				x9T		accepted	Cyprinus carpio	Linnaeus, 1758	species				Cyprinus		carpio			Linnaeus				1758														zoological																				Cyprinidae			Cypriniformes		Actinopterygii		Chordata	Animalia							
+200063				x9T		accepted	Carassius auratus	(Linnaeus, 1758)	species				Carassius		auratus								Linnaeus				1758									zoological																				Cyprinidae			Cypriniformes		Actinopterygii		Chordata	Animalia							
+x9H				x7H		accepted	Mammalia		class			Mammalia																																																			Chordata	Animalia							
+xLQ				x9H		accepted	Rodentia		order			Rodentia																																																	Mammalia		Chordata	Animalia							
+xLS				xLQ		accepted	Muridae		family			Muridae																																															Rodentia		Mammalia		Chordata	Animalia							
+200345				xLS		accepted	Rattus norvegicus	(Berkenhout, 1769)	species				Rattus		norvegicus								Berkenhout				1769									zoological																				Muridae			Rodentia		Mammalia		Chordata	Animalia							
+200346				xLS		accepted	Rattus rattus	(Linnaeus, 1758)	species				Rattus		rattus								Linnaeus				1758									zoological																				Muridae			Rodentia		Mammalia		Chordata	Animalia							
+200347				xLS		accepted	Rattus rattus	(Linnaeus, 1758)	species				Rattus		rattus								Linnaeus				1758									zoological																				Muridae			Rodentia		Mammalia		Chordata	Animalia							
+200344				xLS		accepted	Rattus norvegicus	(Berkenhout, 1769)	species				Rattus		norvegicus								Berkenhout				1769									zoological																				Muridae			Rodentia		Mammalia		Chordata	Animalia							
+xFH				x9H		accepted	Carnivora		order			Carnivora																																																	Mammalia		Chordata	Animalia							
+xMT				xFH		accepted	Herpestidae		family			Herpestidae																																															Carnivora		Mammalia		Chordata	Animalia							
+~37				xMT		provisionally accepted	Herpestes javanicus	(É.Geoffroy Saint-Hilaire, 1818)	species				Herpestes		javanicus								É.Geoffroy Saint-Hilaire				1818									zoological																				Herpestidae			Carnivora		Mammalia		Chordata	Animalia							
+200197				~37		synonym	Herpestes auropunctatus	(Hodgson, 1836)	species				Herpestes		auropunctatus								Hodgson				1836									zoological																																			
+xFK				xFH		accepted	Felidae		family			Felidae																																															Carnivora		Mammalia		Chordata	Animalia							
+200177				xFK		accepted	Felis silvestris	Schreber, 1777	species				Felis		silvestris			Schreber				1777														zoological																				Felidae			Carnivora		Mammalia		Chordata	Animalia							
+200178				xFK		accepted	Felis silvestris	Schreber, 1777	species				Felis		silvestris			Schreber				1777														zoological																				Felidae			Carnivora		Mammalia		Chordata	Animalia							
+x9K				x9H		accepted	Artiodactyla		order			Artiodactyla																																																	Mammalia		Chordata	Animalia							
+xLZ				x9K		accepted	Suidae		family			Suidae																																															Artiodactyla		Mammalia		Chordata	Animalia							
+200386				xLZ		accepted	Sus scrofa	Linnaeus, 1758	species				Sus		scrofa			Linnaeus				1758														zoological																				Suidae			Artiodactyla		Mammalia		Chordata	Animalia							
+200387				xLZ		accepted	Sus scrofa	Linnaeus, 1758	species				Sus		scrofa			Linnaeus				1758														zoological																				Suidae			Artiodactyla		Mammalia		Chordata	Animalia							
+xJ8				x9K		accepted	Cervidae		family			Cervidae																																															Artiodactyla		Mammalia		Chordata	Animalia							
+200276				xJ8		accepted	Odocoileus virginianus	(Zimmermann, 1780)	species				Odocoileus		virginianus								Zimmermann				1780									zoological																				Cervidae			Artiodactyla		Mammalia		Chordata	Animalia							
+x9M				x9K		accepted	Bovidae		family			Bovidae																																															Artiodactyla		Mammalia		Chordata	Animalia							
+200062				x9M		accepted	Capra hircus	Linnaeus, 1758	species				Capra		hircus			Linnaeus				1758														zoological																				Bovidae			Artiodactyla		Mammalia		Chordata	Animalia							
+x7K				x7H		accepted	Reptilia		class			Reptilia																																																			Chordata	Animalia							
+xM7				x7K		accepted	Testudines		order			Testudines																																																	Reptilia		Chordata	Animalia							
+xM9				xM7		accepted	Emydidae		family			Emydidae																																															Testudines		Reptilia		Chordata	Animalia							
+200408				xM9		accepted	Trachemys scripta elegans	(Wied, 1838)	subspecies				Trachemys		scripta	elegans							Wied				1838									zoological																				Emydidae			Testudines		Reptilia		Chordata	Animalia							
+x7M				x7K		accepted	Squamata		order			Squamata																																																	Reptilia		Chordata	Animalia							
+xFW				x7M		accepted	Gekkonidae		family			Gekkonidae																																															Squamata		Reptilia		Chordata	Animalia							
+200231				xFW		accepted	Lepidodactylus lugubris (DumÃ©ril&Bibron,1836)		species				Lepidodactylus		lugubris																																									Gekkonidae			Squamata		Reptilia		Chordata	Animalia							
+200195				xFW		accepted	Hemidactylus garnotii ©ril&Bibron,1836	DumÃ	species				Hemidactylus		garnotii			DumÃ																																						Gekkonidae			Squamata		Reptilia		Chordata	Animalia							
+200196				xFW		accepted	Hemidactylus mabouia		species				Hemidactylus		mabouia																																									Gekkonidae			Squamata		Reptilia		Chordata	Animalia							
+200194				xFW		accepted	Hemidactylus frenatus ©ril&Bibron,1836	DumÃ	species				Hemidactylus		frenatus			DumÃ																																						Gekkonidae			Squamata		Reptilia		Chordata	Animalia							
+x7P				x7M		accepted	Dactyloidae		family			Dactyloidae																																															Squamata		Reptilia		Chordata	Animalia							
+~Q				x7P		provisionally accepted	Anolis cristatellus	Duméril & Bibron, 1837	species				Anolis		cristatellus			Duméril|Bibron				1837														zoological																				Dactyloidae			Squamata		Reptilia		Chordata	Animalia							
+200112				~Q		synonym	Ctenonotus cristatellus	Guyer & Savage, 1986	species				Ctenonotus		cristatellus			Guyer|Savage				1986														zoological																																			
+200028				x7P		accepted	Anolis cristatellus ©ril&Bibron,1837	DumÃ	species				Anolis		cristatellus			DumÃ																																						Dactyloidae			Squamata		Reptilia		Chordata	Animalia							
+x4Z				x4X		accepted	Arthropoda		phylum			Arthropoda																																																				Animalia							
+xGZ				x4Z		accepted	Malacostraca		class			Malacostraca																																																			Arthropoda	Animalia							
+xH3				xGZ		accepted	Decapoda		order			Decapoda																																																	Malacostraca		Arthropoda	Animalia							
+200390				x9W		accepted	Tapinoma melanocephalum		species				Tapinoma		melanocephalum																																									Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200391				x9W		accepted	Tapinoma melanocephalum	(Fabricius, 1793)	species				Tapinoma		melanocephalum								Fabricius				1793									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+~39				x9W		provisionally accepted	Cryptopone guatemalensis	(Forel, 1899)	species				Cryptopone		guatemalensis								Forel				1899									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200294				~39		synonym	Paratrechina guatemalensis	(Forel, 1885)	species				Paratrechina		guatemalensis								Forel				1885									zoological																																			
+200313				x9W		accepted	Pheidole moerens	Wheeler, 1908	species				Pheidole		moerens			Wheeler				1908														zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200256				x9W		accepted	Monomorium floricola	(Jerdon, 1851)	species				Monomorium		floricola								Jerdon				1851									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200257				x9W		accepted	Monomorium pharaonis	(Linnaeus, 1758)	species				Monomorium		pharaonis								Linnaeus				1758									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200291				x9W		accepted	Pachycondyla stigma	(Fabricius, 1804)	species				Pachycondyla		stigma								Fabricius				1804									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200295				x9W		accepted	Paratrechina longicornis	(Latreille, 1802)	species				Paratrechina		longicornis								Latreille				1802									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200277				x9W		accepted	Odontomachus ruginodis	Smith, 1937	species				Odontomachus		ruginodis			Smith				1937														zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200208				x9W		provisionally accepted	Hypoponera punctatissima		species				Hypoponera		punctatissima																																									Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200066				x9W		accepted	Cardiocondyla obscurior	(Wheeler, 1929)	species				Cardiocondyla		obscurior								Wheeler				1929									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200065				x9W		accepted	Cardiocondyla emeryi		species				Cardiocondyla		emeryi																																									Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+x7Y				x7W		accepted	Apidae		family			Apidae																																															Hymenoptera		Insecta		Arthropoda	Animalia							
+200032				x7Y		accepted	Apis mellifera	Linnaeus, 1758	species				Apis		mellifera			Linnaeus				1758														zoological																				Apidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+x93				x53		accepted	Blattodea		order			Blattodea																																																	Insecta		Arthropoda	Animalia							
+xLJ				x93		accepted	Blaberidae		family			Blaberidae																																															Blattodea		Insecta		Arthropoda	Animalia							
+200349				xLJ		accepted	Rhyparobia maderae	(Fabricius, 1781)	species				Rhyparobia		maderae								Fabricius				1781									zoological																				Blaberidae			Blattodea		Insecta		Arthropoda	Animalia							
+200340				xLJ		accepted	Pycnoscelus surinamensis	(Linnaeus, 1758)	species				Pycnoscelus		surinamensis								Linnaeus				1758									zoological																				Blaberidae			Blattodea		Insecta		Arthropoda	Animalia							
+xHW				x93		accepted	Blattidae		family			Blattidae																																															Blattodea		Insecta		Arthropoda	Animalia							
+200309				xHW		accepted	Periplaneta brunnea	(Burmeister, 1838)	species				Periplaneta		brunnea								Burmeister				1838									zoological																				Blattidae			Blattodea		Insecta		Arthropoda	Animalia							
+200310				xHW		accepted	Periplaneta australasiae	(Fabricius, 1775)	species				Periplaneta		australasiae								Fabricius				1775									zoological																				Blattidae			Blattodea		Insecta		Arthropoda	Animalia							
+200308				xHW		accepted	Periplaneta americana	(Linnaeus, 1758)	species				Periplaneta		americana								Linnaeus				1758									zoological																				Blattidae			Blattodea		Insecta		Arthropoda	Animalia							
+200270				xHW		accepted	Neostylopyga rhombifolia	(Stoll, 1813)	species				Neostylopyga		rhombifolia								Stoll				1813									zoological																				Blattidae			Blattodea		Insecta		Arthropoda	Animalia							
+xCC				x93		accepted	Kalotermitidae		family			Kalotermitidae																																															Blattodea		Insecta		Arthropoda	Animalia							
+200111				xCC		accepted	Cryptotermes dudleyi	(Banks, 1918)	species				Cryptotermes		dudleyi								Banks				1918									zoological																				Kalotermitidae			Blattodea		Insecta		Arthropoda	Animalia							
+200102				xC5		accepted	Cosmopolites sordidus	(Germar, 1824)	species				Cosmopolites		sordidus								Germar				1824									zoological																				Dryophthoridae			Coleoptera		Insecta		Arthropoda	Animalia							
+x57				x55		accepted	Bruchidae		family			Bruchidae																																															Coleoptera		Insecta		Arthropoda	Animalia							
+200004				x57		accepted	Acanthoscelides obtectus		species				Acanthoscelides		obtectus																																									Bruchidae			Coleoptera		Insecta		Arthropoda	Animalia							
+x5P				x53		accepted	Diptera		order			Diptera																																																	Insecta		Arthropoda	Animalia							
+xH9				x5P		accepted	Phoridae		family			Phoridae																																															Diptera		Insecta		Arthropoda	Animalia							
+200245				xH9		accepted	Megaselia scalaris		species				Megaselia		scalaris																																									Phoridae			Diptera		Insecta		Arthropoda	Animalia							
+xFR				x5P		accepted	Muscidae		family			Muscidae																																															Diptera		Insecta		Arthropoda	Animalia							
+200382				xFR		accepted	Stomoxys calcitrans	(Linnaeus, 1758)	species				Stomoxys		calcitrans								Linnaeus				1758									zoological																				Muscidae			Diptera		Insecta		Arthropoda	Animalia							
+200281				xFR		accepted	Ophyra capensis	(Wiedemann, 1818)	species				Ophyra		capensis								Wiedemann				1818									zoological																				Muscidae			Diptera		Insecta		Arthropoda	Animalia							
+200282				xFR		accepted	Ophyra ignava		species				Ophyra		ignava																																									Muscidae			Diptera		Insecta		Arthropoda	Animalia							
+200266				xFR		accepted	Muscina stabulans	(Fallen, 1817)	species				Muscina		stabulans								Fallen				1817									zoological																				Muscidae			Diptera		Insecta		Arthropoda	Animalia							
+200265				xFR		accepted	Musca domestica	(Linnaeus, 1758)	species				Musca		domestica								Linnaeus				1758									zoological																				Muscidae			Diptera		Insecta		Arthropoda	Animalia							
+200191				xFR		accepted	Haematobia irritans	(Linnaeus, 1758)	species				Haematobia		irritans								Linnaeus				1758									zoological																				Muscidae			Diptera		Insecta		Arthropoda	Animalia							
+xD6				x5P		accepted	Drosophilidae		family			Drosophilidae																																															Diptera		Insecta		Arthropoda	Animalia							
+200365				xD6		accepted	Scaptodrosophila latifasciaeformis		species				Scaptodrosophila		latifasciaeformis																																									Drosophilidae			Diptera		Insecta		Arthropoda	Animalia							
+200336				xL6		accepted	Pteris tripartita	Sw.	species				Pteris		tripartita			Sw.																																						Pteridaceae			Polypodiales		Polypodiopsida		Tracheophyta	Plantae							
+xHY				xB8		accepted	Nephrolepidaceae		family			Nephrolepidaceae																																															Polypodiales		Polypodiopsida		Tracheophyta	Plantae							
+200272				xHY		accepted	Nephrolepis hirsutula	(Forst.) C.Presl	species				Nephrolepis		hirsutula			C.Presl					Forst.													botanical																				Nephrolepidaceae			Polypodiales		Polypodiopsida		Tracheophyta	Plantae							
+xBB				xB8		accepted	Thelypteridaceae		family			Thelypteridaceae																																															Polypodiales		Polypodiopsida		Tracheophyta	Plantae							
+~3T				xBB		provisionally accepted	Meniscium serratum	Cav.	species				Meniscium		serratum			Cav.																																						Thelypteridaceae			Polypodiales		Polypodiopsida		Tracheophyta	Plantae							
+200397				~3T		synonym	Thelypteris serrata	(Cav.) Alston	species				Thelypteris		serrata			Alston					Cav.													botanical																																			
+~3W				xBB		provisionally accepted	Macrothelypteris torresiana	(Gaudich.) Ching	species				Macrothelypteris		torresiana			Ching					Gaudich.													botanical																				Thelypteridaceae			Polypodiales		Polypodiopsida		Tracheophyta	Plantae							
+200398				~3W		synonym	Thelypteris torresiana	(Gaud.) Alston	species				Thelypteris		torresiana			Alston					Gaud.													botanical																																			
+200077				xBB		accepted	Christella dentata	(Forssk.) Brownsey & Jermy	species				Christella		dentata			Brownsey|Jermy					Forssk.													botanical																				Thelypteridaceae			Polypodiales		Polypodiopsida		Tracheophyta	Plantae							
+x6Z				x4J		accepted	Marattiopsida		class			Marattiopsida																																																			Tracheophyta	Plantae							
+200214				xGD		accepted	Ipomoea aquatica	Forssk.	species				Ipomoea		aquatica			Forssk.																																						Convolvulaceae			Solanales		Magnoliopsida		Tracheophyta	Plantae							
+x6L				x4L		accepted	Apiales		order			Apiales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xN2				x6L		accepted	Araliaceae		family			Araliaceae																																															Apiales		Magnoliopsida		Tracheophyta	Plantae							
+200014				x64		accepted	Aira caryophyllea	L.	species				Aira		caryophyllea			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200046				x64		accepted	Bambusa vulgaris	Schrad. ex J.C.Wendl.	species				Bambusa		vulgaris			J.C.Wendl.		Schrad.																																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200053				x64		accepted	Bothriochloa pertusa	(L.) A.Camus	species				Bothriochloa		pertusa			A.Camus					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200052				x64		accepted	Bothriochloa ischaemum	(L.) Keng	species				Bothriochloa		ischaemum			Keng					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200035				x64		accepted	Arthraxon hispidus	(Thunb.) Makino	species				Arthraxon		hispidus			Makino					Thunb.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200038				x64		accepted	Arundo donax	L.	species				Arundo		donax			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200076				x64		accepted	Chloris gayana	Kunth	species				Chloris		gayana			Kunth																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200073				x64		accepted	Cenchrus echinatus	L.	species				Cenchrus		echinatus			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200072				x64		accepted	Cenchrus clandestinus	(Hochst. ex Chiov.) Morrone	species				Cenchrus		clandestinus			Morrone					Chiov.		Hochst.											botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200303				200072		synonym	Pennisetum clandestinum	Hochst. ex Chiov.	species				Pennisetum		clandestinum			Chiov.		Hochst.																																																			
+200071				x64		accepted	Cenchrus ciliaris	L.	species				Cenchrus		ciliaris			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200056				x64		accepted	Briza minor	L.	species				Briza		minor			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200094				x64		accepted	Coix lacryma-jobi	L.	species				Coix		lacryma-jobi			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200150				x64		accepted	Eleusine indica	(L.) Gaertn.	species				Eleusine		indica			Gaertn.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200156				x64		accepted	Eragrostis amabilis	(L.) Wight & Arn.	species				Eragrostis		amabilis			Wight|Arn.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200169				xF3		accepted	Eugenia stipitata	McVaugh	species				Eugenia		stipitata			McVaugh																																						Myrtaceae			Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+xFM				x4L		accepted	Proteales		order			Proteales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xFP				xFM		accepted	Proteaceae		family			Proteaceae																																															Proteales		Magnoliopsida		Tracheophyta	Plantae							
+200188				xFP		accepted	Grevillea banksii	R.Br.	species				Grevillea		banksii			R.Br.																																						Proteaceae			Proteales		Magnoliopsida		Tracheophyta	Plantae							
+200189				xFP		accepted	Grevillea robusta	A.Cunn. ex R.Br.	species				Grevillea		robusta			R.Br.		A.Cunn.																																				Proteaceae			Proteales		Magnoliopsida		Tracheophyta	Plantae							
+xBN				x4L		accepted	Ericales		order			Ericales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xMR				xBN		accepted	Ebenaceae		family			Ebenaceae																																															Ericales		Magnoliopsida		Tracheophyta	Plantae							
+~V				xMR		provisionally accepted	Diospyros discolor	Willd.	species				Diospyros		discolor			Willd.																																						Ebenaceae			Ericales		Magnoliopsida		Tracheophyta	Plantae							
+200138				~V		synonym	Diospyros blancoi	A.DC.	species				Diospyros		blancoi			A.DC.																																																					
+xG8				xBN		accepted	Balsaminaceae		family			Balsaminaceae																																															Ericales		Magnoliopsida		Tracheophyta	Plantae							
+200131				x64		accepted	Digitaria abyssinica	(Hochst. ex A.Rich.) Stapf	species				Digitaria		abyssinica			Stapf					A.Rich.		Hochst.											botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+x4X						accepted	Animalia		kingdom			Animalia																																																											
+xKP				x4X		accepted	Mollusca		phylum			Mollusca																																																				Animalia							
+xMC				xKP		accepted	Bivalvia		class			Bivalvia																																																			Mollusca	Animalia							
+xMF				xMC		accepted	Unionida		order			Unionida																																																	Bivalvia		Mollusca	Animalia							
+xMH				xMF		accepted	Unionidae		family			Unionidae																																															Unionida		Bivalvia		Mollusca	Animalia							
+~6				xMH		provisionally accepted	Sinanodonta woodiana	(I.Lea, 1834)	species				Sinanodonta		woodiana								I.Lea				1834									zoological																				Unionidae			Unionida		Bivalvia		Mollusca	Animalia							
+200027				~6		synonym	Anodonta woodiana	(I.Lea, 1834)	species				Anodonta		woodiana								I.Lea				1834									zoological																																			
+xMM				xMC		accepted	Ostreida		order			Ostreida																																																	Bivalvia		Mollusca	Animalia							
+xMP				xMM		accepted	Ostreidae		family			Ostreidae																																															Ostreida		Bivalvia		Mollusca	Animalia							
+~N				xMP		provisionally accepted	Magallana gigas	(Thunberg, 1793)	species				Magallana		gigas								Thunberg				1793									zoological																				Ostreidae			Ostreida		Bivalvia		Mollusca	Animalia							
+200107				~N		synonym	Crassostrea gigas	(Thunberg, 1793)	species				Crassostrea		gigas								Thunberg				1793									zoological																																			
+xKR				xKP		accepted	Gastropoda		class			Gastropoda																																																			Mollusca	Animalia							
+xKT				xKR		accepted	Architaenioglossa		order			Architaenioglossa																																																	Gastropoda		Mollusca	Animalia							
+xKW				xKT		accepted	Ampullariidae		family			Ampullariidae																																															Architaenioglossa		Gastropoda		Mollusca	Animalia							
+200329				xKW		accepted	Pomacea zeteki	Morrison	species				Pomacea		zeteki			Morrison																																						Ampullariidae			Architaenioglossa		Gastropoda		Mollusca	Animalia							
+x7H				x4X		accepted	Chordata		phylum			Chordata																																																				Animalia							
+xDL				x7H		accepted	Amphibia		class			Amphibia																																																			Chordata	Animalia							
+xDN				xDL		accepted	Anura		order			Anura																																																	Amphibia		Chordata	Animalia							
+xMW				xDN		accepted	Ranidae		family			Ranidae																																															Anura		Amphibia		Chordata	Animalia							
+~3M				xMW		provisionally accepted	Lithobates catesbeianus	(Shaw, 1802)	species				Lithobates		catesbeianus								Shaw				1802									zoological																				Ranidae			Anura		Amphibia		Chordata	Animalia							
+200342				~3M		synonym	Rana catesbeiana	Shaw, 1802	species				Rana		catesbeiana			Shaw				1802														zoological																																			
+xJQ				xDN		accepted	Hylidae		family			Hylidae																																															Anura		Amphibia		Chordata	Animalia							
+200288				xJQ		accepted	Osteopilus septentrionalis (DumÃ©ril&Bibron,1841)		species				Osteopilus		septentrionalis																																									Hylidae			Anura		Amphibia		Chordata	Animalia							
+xDQ				xDN		accepted	Eleutherodactylidae		family			Eleutherodactylidae																																															Anura		Amphibia		Chordata	Animalia							
+200153				xDQ		accepted	Eleutherodactylus planirostris		species				Eleutherodactylus		planirostris																																									Eleutherodactylidae			Anura		Amphibia		Chordata	Animalia							
+200151				xDQ		accepted	Eleutherodactylus coqui		species				Eleutherodactylus		coqui																																									Eleutherodactylidae			Anura		Amphibia		Chordata	Animalia							
+200152				xDQ		accepted	Eleutherodactylus johnstonei	Barbour, 1914	species				Eleutherodactylus		johnstonei			Barbour				1914														zoological																				Eleutherodactylidae			Anura		Amphibia		Chordata	Animalia							
+xBV				x7H		accepted	Aves		class			Aves																																																			Chordata	Animalia							
+xJV				xBV		accepted	Passeriformes		order			Passeriformes																																																	Aves		Chordata	Animalia							
+xJX				xJV		accepted	Passeridae		family			Passeridae																																															Passeriformes		Aves		Chordata	Animalia							
+200299				xJX		accepted	Passer domesticus	(Linnaeus, 1758)	species				Passer		domesticus								Linnaeus				1758									zoological																				Passeridae			Passeriformes		Aves		Chordata	Animalia							
+xBX				xBV		accepted	Columbiformes		order			Columbiformes																																																	Aves		Chordata	Animalia							
+xBZ				xBX		accepted	Columbidae		family			Columbidae																																															Columbiformes		Aves		Chordata	Animalia							
+200097				xBZ		accepted	Columba livia	Gmelin, 1789	species				Columba		livia			Gmelin				1789														zoological																				Columbidae			Columbiformes		Aves		Chordata	Animalia							
+x9P				x7H		accepted	Actinopterygii		class			Actinopterygii																																																			Chordata	Animalia							
+xKK				x9P		accepted	Cyprinodontiformes		order			Cyprinodontiformes																																																	Actinopterygii		Chordata	Animalia							
+xKM				xKK		accepted	Poeciliidae		family			Poeciliidae																																															Cyprinodontiformes		Actinopterygii		Chordata	Animalia							
+200431				xKM		accepted	Xiphophorus variatus	(Meek, 1904)	species				Xiphophorus		variatus								Meek				1904									zoological																				Poeciliidae			Cyprinodontiformes		Actinopterygii		Chordata	Animalia							
+200325				xKM		accepted	Poecilia reticulata	Peters, 1859	species				Poecilia		reticulata			Peters				1859														zoological																				Poeciliidae			Cyprinodontiformes		Actinopterygii		Chordata	Animalia							
+xL8				x9P		accepted	Scorpaeniformes		order			Scorpaeniformes																																																	Actinopterygii		Chordata	Animalia							
+xLB				xL8		accepted	Scorpaenidae		family			Scorpaenidae																																															Scorpaeniformes		Actinopterygii		Chordata	Animalia							
+200337				xLB		accepted	Pterois volitans	(Linnaeus, 1758)	species				Pterois		volitans								Linnaeus				1758									zoological																				Scorpaenidae			Scorpaeniformes		Actinopterygii		Chordata	Animalia							
+xLD				x9P		accepted	Siluriformes		order			Siluriformes																																																	Actinopterygii		Chordata	Animalia							
+xLG				xLD		accepted	Loricariidae		family			Loricariidae																																															Siluriformes		Actinopterygii		Chordata	Animalia							
+200338				xLG		accepted	Pterygoplichthys pardalis		species				Pterygoplichthys		pardalis																																									Loricariidae			Siluriformes		Actinopterygii		Chordata	Animalia							
+xHH				x9P		accepted	Perciformes		order			Perciformes																																																	Actinopterygii		Chordata	Animalia							
+xHK				xHH		accepted	Centrarchidae		family			Centrarchidae																																															Perciformes		Actinopterygii		Chordata	Animalia							
+xK3				xH3		accepted	Penaeidae		family			Penaeidae																																															Decapoda		Malacostraca		Arthropoda	Animalia							
+200302				xK3		accepted	Penaeus monodon		species				Penaeus		monodon																																									Penaeidae			Decapoda		Malacostraca		Arthropoda	Animalia							
+xL4				xH3		accepted	Cambaridae		family			Cambaridae																																															Decapoda		Malacostraca		Arthropoda	Animalia							
+200333				xL4		accepted	Procambarus clarkii	(Girard, 1852)	species				Procambarus		clarkii								Girard				1852									zoological																				Cambaridae			Decapoda		Malacostraca		Arthropoda	Animalia							
+xH5				xH3		accepted	Palaemonidae		family			Palaemonidae																																															Decapoda		Malacostraca		Arthropoda	Animalia							
+200240				xH5		accepted	Macrobrachium rosenbergii	(De Man, 1879)	species				Macrobrachium		rosenbergii								De Man				1879									zoological																				Palaemonidae			Decapoda		Malacostraca		Arthropoda	Animalia							
+x53				x4Z		accepted	Insecta		class			Insecta																																																			Arthropoda	Animalia							
+xJB				x53		accepted	Embioptera		order			Embioptera																																																	Insecta		Arthropoda	Animalia							
+xJS				xJB		accepted	Scelembiidae		family			Scelembiidae																																															Embioptera		Insecta		Arthropoda	Animalia							
+200293				xJS		accepted	Pararhagadochir trinitatis	(Saussure, 1896)	species				Pararhagadochir		trinitatis								Saussure				1896									zoological																				Scelembiidae			Embioptera		Insecta		Arthropoda	Animalia							
+xJD				xJB		accepted	Oligotomidae		family			Oligotomidae																																															Embioptera		Insecta		Arthropoda	Animalia							
+200279				xJD		accepted	Oligotoma saundersii	(Westwood, 1837)	species				Oligotoma		saundersii								Westwood				1837									zoological																				Oligotomidae			Embioptera		Insecta		Arthropoda	Animalia							
+xFY				x53		accepted	Lepidoptera		order			Lepidoptera																																																	Insecta		Arthropoda	Animalia							
+xKH				xFY		accepted	Plutellidae		family			Plutellidae																																															Lepidoptera		Insecta		Arthropoda	Animalia							
+200322				xKH		accepted	Plutella xylostella	Linnaeus, 1767	species				Plutella		xylostella			Linnaeus				1767														zoological																				Plutellidae			Lepidoptera		Insecta		Arthropoda	Animalia							
+xK9				xFY		accepted	Gracillariidae		family			Gracillariidae																																															Lepidoptera		Insecta		Arthropoda	Animalia							
+200315				xK9		accepted	Phyllocnistis citrella		species				Phyllocnistis		citrella																																									Gracillariidae			Lepidoptera		Insecta		Arthropoda	Animalia							
+xK5				xFY		accepted	Lyonetiidae		family			Lyonetiidae																																															Lepidoptera		Insecta		Arthropoda	Animalia							
+200307				xK5		accepted	Perileucoptera coffeella		species				Perileucoptera		coffeella																																									Lyonetiidae			Lepidoptera		Insecta		Arthropoda	Animalia							
+200306				xK5		accepted	Perileucoptera coffeella		species				Perileucoptera		coffeella																																									Lyonetiidae			Lepidoptera		Insecta		Arthropoda	Animalia							
+xG2				xFY		accepted	Hyblaeidae		family			Hyblaeidae																																															Lepidoptera		Insecta		Arthropoda	Animalia							
+200202				xG2		accepted	Hyblaea puera		species				Hyblaea		puera																																									Hyblaeidae			Lepidoptera		Insecta		Arthropoda	Animalia							
+xG4				xFY		accepted	Nymphalidae		family			Nymphalidae																																															Lepidoptera		Insecta		Arthropoda	Animalia							
+200206				xG4		accepted	Hypolimnas misippus		species				Hypolimnas		misippus																																									Nymphalidae			Lepidoptera		Insecta		Arthropoda	Animalia							
+xDV				x53		accepted	Thysanoptera		order			Thysanoptera																																																	Insecta		Arthropoda	Animalia							
+xDX				xDV		accepted	Phlaenothripidae		family			Phlaenothripidae																																															Thysanoptera		Insecta		Arthropoda	Animalia							
+200273				xDX		accepted	Nesothrips lativentris	(Karny, 1913)	species				Nesothrips		lativentris								Karny				1913									zoological																				Phlaenothripidae			Thysanoptera		Insecta		Arthropoda	Animalia							
+200167				xDX		accepted	Ethirothrips angusticornis	(Bagnall, 1924)	species				Ethirothrips		angusticornis								Bagnall				1924									zoological																				Phlaenothripidae			Thysanoptera		Insecta		Arthropoda	Animalia							
+xFC				x53		accepted	Evanioidea		order			Evanioidea																																																	Insecta		Arthropoda	Animalia							
+xFF				xFC		accepted	Evaniidae		family			Evaniidae																																															Evanioidea		Insecta		Arthropoda	Animalia							
+200175				xFF		accepted	Evania appendigaster		species				Evania		appendigaster																																									Evaniidae			Evanioidea		Insecta		Arthropoda	Animalia							
+x7W				x53		accepted	Hymenoptera		order			Hymenoptera																																																	Insecta		Arthropoda	Animalia							
+200427				x7W		accepted	Wasmannia auropunctata		species				Wasmannia		auropunctata																																												Hymenoptera		Insecta		Arthropoda	Animalia							
+xHC				x7W		accepted	Torymidae		family			Torymidae																																															Hymenoptera		Insecta		Arthropoda	Animalia							
+200246				xHC		accepted	Megastigmus transvaalensis		species				Megastigmus		transvaalensis																																									Torymidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+xC7				x7W		accepted	Braconidae		family			Braconidae																																															Hymenoptera		Insecta		Arthropoda	Animalia							
+200105				xC7		accepted	Cotesia flavipes		species				Cotesia		flavipes																																									Braconidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+x9W				x7W		accepted	Formicidae		family			Formicidae																																															Hymenoptera		Insecta		Arthropoda	Animalia							
+200428				x9W		accepted	Wasmannia auropunctata	(Roger, 1863)	species				Wasmannia		auropunctata								Roger				1863									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200376				x9W		accepted	Solenopsis geminata	(Fabricius, 1804)	species				Solenopsis		geminata								Fabricius				1804									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200384				x9W		accepted	Strumigenys rogeri	(Emery, 1890)	species				Strumigenys		rogeri								Emery				1890									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200383				x9W		accepted	Strumigenys emmae	(Emery, 1890)	species				Strumigenys		emmae								Emery				1890									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200394				x9W		accepted	Tetramorium bicarinatum	(Nylander, 1846)	species				Tetramorium		bicarinatum								Nylander				1846									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200395				x9W		accepted	Tetramorium simillimum	(Smith, 1851)	species				Tetramorium		simillimum								Smith				1851									zoological																				Formicidae			Hymenoptera		Insecta		Arthropoda	Animalia							
+200110				xCC		accepted	Cryptotermes domesticus	(Haviland, 1898)	species				Cryptotermes		domesticus								Haviland				1898									zoological																				Kalotermitidae			Blattodea		Insecta		Arthropoda	Animalia							
+x95				x93		accepted	Ectobiidae		family			Ectobiidae																																															Blattodea		Insecta		Arthropoda	Animalia							
+200385				x95		accepted	Supella longipalpa		species				Supella		longipalpa																																									Ectobiidae			Blattodea		Insecta		Arthropoda	Animalia							
+~G				xBG		provisionally accepted	Citrus taitensis	Risso	species				Citrus		taitensis			Risso																																						Rutaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+200085				~G		synonym	Citrus sinensis	(Mill.) Pers., 1806	species				Citrus		sinensis			Pers.				1806	Mill.													zoological																																			
+200050				x95		accepted	Blattella germanica	(Linnaeus, 1767)	species				Blattella		germanica								Linnaeus				1767									zoological																				Ectobiidae			Blattodea		Insecta		Arthropoda	Animalia							
+x8X				x53		accepted	Hemiptera		order			Hemiptera																																																	Insecta		Arthropoda	Animalia							
+xJ2				x8X		accepted	Pentatomidae		family			Pentatomidae																																															Hemiptera		Insecta		Arthropoda	Animalia							
+200274				xJ2		accepted	Nezara viridula		species				Nezara		viridula																																									Pentatomidae			Hemiptera		Insecta		Arthropoda	Animalia							
+xG6				x8X		accepted	Margarodidae		family			Margarodidae																																															Hemiptera		Insecta		Arthropoda	Animalia							
+200210				xG6		accepted	Icerya purchasi		species				Icerya		purchasi																																									Margarodidae			Hemiptera		Insecta		Arthropoda	Animalia							
+xDS				x8X		accepted	Eriococcidae		family			Eriococcidae																																															Hemiptera		Insecta		Arthropoda	Animalia							
+200165				xDS		accepted	Eriococcus araucariae		species				Eriococcus		araucariae																																									Eriococcidae			Hemiptera		Insecta		Arthropoda	Animalia							
+xCY				x8X		accepted	Liviidae		family			Liviidae																																															Hemiptera		Insecta		Arthropoda	Animalia							
+200127				xCY		accepted	Diaphorina citri		species				Diaphorina		citri																																									Liviidae			Hemiptera		Insecta		Arthropoda	Animalia							
+x8Z				x8X		accepted	Aleyrodidae		family			Aleyrodidae																																															Hemiptera		Insecta		Arthropoda	Animalia							
+200049				x8Z		accepted	Bemisia tabaci	(Gennadius, 1889)	species				Bemisia		tabaci								Gennadius				1889									zoological																				Aleyrodidae			Hemiptera		Insecta		Arthropoda	Animalia							
+x77				x53		accepted	Dermaptera		order			Dermaptera																																																	Insecta		Arthropoda	Animalia							
+xGQ				x77		accepted	Labiduridae		family			Labiduridae																																															Dermaptera		Insecta		Arthropoda	Animalia							
+200226				xGQ		accepted	Labidura riparia	(Pallas, 1773)	species				Labidura		riparia								Pallas				1773									zoological																				Labiduridae			Dermaptera		Insecta		Arthropoda	Animalia							
+x79				x77		accepted	Anisolabididae		family			Anisolabididae																																															Dermaptera		Insecta		Arthropoda	Animalia							
+200024				x79		accepted	Anisolabis maritima	(Bonelli, 1832)	species				Anisolabis		maritima								Bonelli				1832									zoological																				Anisolabididae			Dermaptera		Insecta		Arthropoda	Animalia							
+x55				x53		accepted	Coleoptera		order			Coleoptera																																																	Insecta		Arthropoda	Animalia							
+xHP				x55		accepted	Cerambycidae		family			Cerambycidae																																															Coleoptera		Insecta		Arthropoda	Animalia							
+200255				xHP		accepted	Monochamus clamator	(LeConte, 1852)	species				Monochamus		clamator								LeConte				1852									zoological																				Cerambycidae			Coleoptera		Insecta		Arthropoda	Animalia							
+xF5				x55		accepted	Scarabaeidae		family			Scarabaeidae																																															Coleoptera		Insecta		Arthropoda	Animalia							
+200171				xF5		accepted	Euoniticellus intermedius	(Reiche, 1848)	species				Euoniticellus		intermedius								Reiche				1848									zoological																				Scarabaeidae			Coleoptera		Insecta		Arthropoda	Animalia							
+xF9				x55		accepted	Curculionidae		family			Curculionidae																																															Coleoptera		Insecta		Arthropoda	Animalia							
+200432				xF9		accepted	Xyleborinus exiguus		species				Xyleborinus		exiguus																																									Curculionidae			Coleoptera		Insecta		Arthropoda	Animalia							
+200435				xF9		provisionally accepted	Xylosandrus morigerus	Reitter, 1913a	species				Xylosandrus		morigerus			Reitter				1913a														zoological																				Curculionidae			Coleoptera		Insecta		Arthropoda	Animalia							
+200433				xF9		accepted	Xyleborus volvulus		species				Xyleborus		volvulus																																									Curculionidae			Coleoptera		Insecta		Arthropoda	Animalia							
+200434				xF9		accepted	Xylosandrus crassiusculus		species				Xylosandrus		crassiusculus																																									Curculionidae			Coleoptera		Insecta		Arthropoda	Animalia							
+200332				xF9		accepted	Premnobius cavipennis		species				Premnobius		cavipennis																																									Curculionidae			Coleoptera		Insecta		Arthropoda	Animalia							
+200209				xF9		accepted	Hypothenemus hampei		species				Hypothenemus		hampei																																									Curculionidae			Coleoptera		Insecta		Arthropoda	Animalia							
+200174				xF9		accepted	Euwallacea fornicatus		species				Euwallacea		fornicatus																																									Curculionidae			Coleoptera		Insecta		Arthropoda	Animalia							
+xFT				x55		accepted	Coccinellidae		family			Coccinellidae																																															Coleoptera		Insecta		Arthropoda	Animalia							
+200192				xFT		accepted	Harmonia axyridis	(Pallas, 1772)	species				Harmonia		axyridis								Pallas				1772									zoological																				Coccinellidae			Coleoptera		Insecta		Arthropoda	Animalia							
+xC5				x55		accepted	Dryophthoridae		family			Dryophthoridae																																															Coleoptera		Insecta		Arthropoda	Animalia							
+200367				xC5		provisionally accepted	Scyphophorus acupunctatus	Gyllenhal, 1838	species				Scyphophorus		acupunctatus			Gyllenhal				1838														zoological																				Dryophthoridae			Coleoptera		Insecta		Arthropoda	Animalia							
+200139				xD6		accepted	Drosophila ananassae		species				Drosophila		ananassae																																									Drosophilidae			Diptera		Insecta		Arthropoda	Animalia							
+200143				xD6		accepted	Drosophila simulans		species				Drosophila		simulans																																									Drosophilidae			Diptera		Insecta		Arthropoda	Animalia							
+200083				xBG		accepted	Citrus grandis	Osbeck	species				Citrus		grandis			Osbeck																																						Rutaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+200082				xBG		accepted	Citrus aurantium	L.	species				Citrus		aurantium			L.																																						Rutaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+200142				xD6		accepted	Drosophila melanogaster		species				Drosophila		melanogaster																																									Drosophilidae			Diptera		Insecta		Arthropoda	Animalia							
+200141				xD6		accepted	Drosophila funebris		species				Drosophila		funebris																																									Drosophilidae			Diptera		Insecta		Arthropoda	Animalia							
+200140				xD6		accepted	Drosophila buskii		species				Drosophila		buskii																																									Drosophilidae			Diptera		Insecta		Arthropoda	Animalia							
+xBL				x5P		accepted	Psychodidae		family			Psychodidae																																															Diptera		Insecta		Arthropoda	Animalia							
+200335				xBL		accepted	Psychoda alternata		species				Psychoda		alternata																																									Psychodidae			Diptera		Insecta		Arthropoda	Animalia							
+200089				xBL		accepted	Clogmia albipunctata		species				Clogmia		albipunctata																																									Psychodidae			Diptera		Insecta		Arthropoda	Animalia							
+xC3				x5P		accepted	Cecidomyiidae		family			Cecidomyiidae																																															Diptera		Insecta		Arthropoda	Animalia							
+200099				xC3		accepted	Contarinia sorghicola		species				Contarinia		sorghicola																																									Cecidomyiidae			Diptera		Insecta		Arthropoda	Animalia							
+xBD				x5P		accepted	Calliphoridae		family			Calliphoridae																																															Diptera		Insecta		Arthropoda	Animalia							
+200079				xBD		accepted	Chrysomya rufifacies	(Macquart, 1843)	species				Chrysomya		rufifacies								Macquart				1843									zoological																				Calliphoridae			Diptera		Insecta		Arthropoda	Animalia							
+200078				xBD		accepted	Chrysomya megacephala	(Fabricius, 1794)	species				Chrysomya		megacephala								Fabricius				1794									zoological																				Calliphoridae			Diptera		Insecta		Arthropoda	Animalia							
+xB4				x5P		accepted	Tephritidae		family			Tephritidae																																															Diptera		Insecta		Arthropoda	Animalia							
+200074				xB4		accepted	Ceratitis capitata	(Wiedemann, 1824)	species				Ceratitis		capitata								Wiedemann				1824									zoological																				Tephritidae			Diptera		Insecta		Arthropoda	Animalia							
+x5R				x5P		accepted	Culicidae		family			Culicidae																																															Diptera		Insecta		Arthropoda	Animalia							
+200008				x5R		accepted	Aedes albopictus	Skuse, 1894	species				Aedes		albopictus			Skuse				1894														zoological																				Culicidae			Diptera		Insecta		Arthropoda	Animalia							
+x59				x53		accepted	Orthoptera		order			Orthoptera																																																	Insecta		Arthropoda	Animalia							
+x5C				x59		accepted	Gryllidae		family			Gryllidae																																															Orthoptera		Insecta		Arthropoda	Animalia							
+200190				x5C		accepted	Gryllodes sigillatus		species				Gryllodes		sigillatus																																									Gryllidae			Orthoptera		Insecta		Arthropoda	Animalia							
+200005				x5C		accepted	Acheta domesticus		species				Acheta		domesticus																																									Gryllidae			Orthoptera		Insecta		Arthropoda	Animalia							
+x8N						accepted	Fungi		kingdom			Fungi																																																											
+x8Q				x8N		accepted	Chytridiomycota		phylum			Chytridiomycota																																																				Fungi							
+x8S				x8Q		accepted	Chytridiomycetes		class			Chytridiomycetes																																																			Chytridiomycota	Fungi							
+x8V				x8S		accepted	Rhizophydiales		order			Rhizophydiales																																																	Chytridiomycetes		Chytridiomycota	Fungi							
+200048				x8V		accepted	Batrachochytrium dendrobatidis	Longcore, Pessier & D.K.Nichols	species				Batrachochytrium		dendrobatidis			Longcore|Pessier|D.K.Nichols																																									Rhizophydiales		Chytridiomycetes		Chytridiomycota	Fungi							
+x4G						accepted	Plantae		kingdom			Plantae																																																											
+x4J				x4G		accepted	Tracheophyta		phylum			Tracheophyta																																																				Plantae							
+xCK				x4J		accepted	Pinopsida		class			Pinopsida																																																			Tracheophyta	Plantae							
+xCM				xCK		accepted	Pinales		order			Pinales																																																	Pinopsida		Tracheophyta	Plantae							
+xKF				xCM		accepted	Pinaceae		family			Pinaceae																																															Pinales		Pinopsida		Tracheophyta	Plantae							
+200318				xKF		accepted	Pinus caribaea	Morelet	species				Pinus		caribaea			Morelet																																						Pinaceae			Pinales		Pinopsida		Tracheophyta	Plantae							
+xCP				xCM		accepted	Cupressaceae		family			Cupressaceae																																															Pinales		Pinopsida		Tracheophyta	Plantae							
+200116				xCP		accepted	Cupressus lusitanica	Mill.	species				Cupressus		lusitanica			Mill.																																						Cupressaceae			Pinales		Pinopsida		Tracheophyta	Plantae							
+xB6				x4J		accepted	Polypodiopsida		class			Polypodiopsida																																																			Tracheophyta	Plantae							
+xB8				xB6		accepted	Polypodiales		order			Polypodiales																																																	Polypodiopsida		Tracheophyta	Plantae							
+xL6				xB8		accepted	Pteridaceae		family			Pteridaceae																																															Polypodiales		Polypodiopsida		Tracheophyta	Plantae							
+200084				xBG		accepted	Citrus limon	(L.) Burm.f.	species				Citrus		limon			Burm.f.					L.													botanical																				Rutaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+x73				x6Z		accepted	Marattiales		order			Marattiales																																																	Marattiopsida		Tracheophyta	Plantae							
+x75				x73		accepted	Marattiaceae		family			Marattiaceae																																															Marattiales		Marattiopsida		Tracheophyta	Plantae							
+200023				x75		accepted	Angiopteris evecta	(G.Forst.) Hoffm.	species				Angiopteris		evecta			Hoffm.					G.Forst.													botanical																				Marattiaceae			Marattiales		Marattiopsida		Tracheophyta	Plantae							
+x4L				x4J		accepted	Magnoliopsida		class			Magnoliopsida																																																			Tracheophyta	Plantae							
+xLL				x4L		accepted	Ranunculales		order			Ranunculales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xLN				xLL		accepted	Ranunculaceae		family			Ranunculaceae																																															Ranunculales		Magnoliopsida		Tracheophyta	Plantae							
+200343				xLN		accepted	Ranunculus repens	L.	species				Ranunculus		repens			L.																																						Ranunculaceae			Ranunculales		Magnoliopsida		Tracheophyta	Plantae							
+xGV				x4L		accepted	Dipsacales		order			Dipsacales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xMY				xGV		accepted	Adoxaceae		family			Adoxaceae																																															Dipsacales		Magnoliopsida		Tracheophyta	Plantae							
+~3P				xMY		provisionally accepted	Sambucus nigra	L.	species				Sambucus		nigra			L.																																						Adoxaceae			Dipsacales		Magnoliopsida		Tracheophyta	Plantae							
+200361				~3P		synonym	Sambucus mexicana	C.Presl	species				Sambucus		mexicana			C.Presl																																																					
+xGX				xGV		accepted	Caprifoliaceae		family			Caprifoliaceae																																															Dipsacales		Magnoliopsida		Tracheophyta	Plantae							
+200236				xGX		accepted	Lonicera japonica	Thunb.	species				Lonicera		japonica			Thunb.																																						Caprifoliaceae			Dipsacales		Magnoliopsida		Tracheophyta	Plantae							
+xJ4				x4L		accepted	Nymphaeales		order			Nymphaeales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xJ6				xJ4		accepted	Nymphaeaceae		family			Nymphaeaceae																																															Nymphaeales		Magnoliopsida		Tracheophyta	Plantae							
+200275				xJ6		accepted	Nymphaea lotus	L.	species				Nymphaea		lotus			L.																																						Nymphaeaceae			Nymphaeales		Magnoliopsida		Tracheophyta	Plantae							
+xGB				x4L		accepted	Solanales		order			Solanales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xLX				xGB		accepted	Solanaceae		family			Solanaceae																																															Solanales		Magnoliopsida		Tracheophyta	Plantae							
+200375				xLX		accepted	Solanum quitoense	Lam.	species				Solanum		quitoense			Lam.																																						Solanaceae			Solanales		Magnoliopsida		Tracheophyta	Plantae							
+xGD				xGB		accepted	Convolvulaceae		family			Convolvulaceae																																															Solanales		Magnoliopsida		Tracheophyta	Plantae							
+200081				xBG		accepted	Citrus aurantiifolia	(Christm.) Swingle	species				Citrus		aurantiifolia			Swingle					Christm.													botanical																				Rutaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+x97				x6Q		accepted	Sapindaceae		family			Sapindaceae																																															Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+200271				x97		accepted	Nephelium ramboutan-ake	(Labill.) Leenh.	species				Nephelium		ramboutan-ake			Leenh.					Labill.													botanical																				Sapindaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+200051				x97		accepted	Blighia sapida	Kon.	species				Blighia		sapida			Kon.																																						Sapindaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+x6S				x6Q		accepted	Anacardiaceae		family			Anacardiaceae																																															Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+200241				x6S		accepted	Mangifera indica	L.	species				Mangifera		indica			L.																																						Anacardiaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+xGL				x4L		accepted	Saxifragales		order			Saxifragales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xGN				xGL		accepted	Crassulaceae		family			Crassulaceae																																															Saxifragales		Magnoliopsida		Tracheophyta	Plantae							
+200225				xGN		accepted	Kalanchoe pinnata	Pers.	species				Kalanchoe		pinnata			Pers.																																						Crassulaceae			Saxifragales		Magnoliopsida		Tracheophyta	Plantae							
+200058				200225		synonym	Bryophyllum pinnatum	(Lam.) Oken	species				Bryophyllum		pinnatum			Oken					Lam.													botanical																																			
+xDZ				x4L		accepted	Myrtales		order			Myrtales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xM3				xDZ		accepted	Melastomataceae		family			Melastomataceae																																															Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+200405				xM3		accepted	Tibouchina urvilleana	Cogn.	species				Tibouchina		urvilleana			Cogn.																																						Melastomataceae			Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+xGS				xDZ		accepted	Lythraceae		family			Lythraceae																																															Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+200228				xGS		accepted	Lagerstroemia speciosa	Pers.	species				Lagerstroemia		speciosa			Pers.																																						Lythraceae			Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+xF3				xDZ		accepted	Myrtaceae		family			Myrtaceae																																															Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+200388				xF3		accepted	Syzygium jambos	(L.) Alston	species				Syzygium		jambos			Alston					L.													botanical																				Myrtaceae			Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+200389				xF3		accepted	Syzygium malaccense	(L.) Merr. & L.M.Perry	species				Syzygium		malaccense			Merr.|L.M.Perry					L.													botanical																				Myrtaceae			Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+200247				xF3		accepted	Melaleuca quinquenervia	(Cav.) S.T.Blake	species				Melaleuca		quinquenervia			S.T.Blake					Cav.													botanical																				Myrtaceae			Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+200170				xF3		accepted	Eugenia uniflora	L.	species				Eugenia		uniflora			L.																																						Myrtaceae			Myrtales		Magnoliopsida		Tracheophyta	Plantae							
+200211				xG8		accepted	Impatiens balsamina	L.	species				Impatiens		balsamina			L.																																						Balsaminaceae			Ericales		Magnoliopsida		Tracheophyta	Plantae							
+200212				xG8		accepted	Impatiens walleriana	Hook.f.	species				Impatiens		walleriana			Hook.f.																																						Balsaminaceae			Ericales		Magnoliopsida		Tracheophyta	Plantae							
+xBQ				xBN		accepted	Polemoniaceae		family			Polemoniaceae																																															Ericales		Magnoliopsida		Tracheophyta	Plantae							
+200090				xBQ		accepted	Cobaea scandens	Cav.	species				Cobaea		scandens			Cav.																																						Polemoniaceae			Ericales		Magnoliopsida		Tracheophyta	Plantae							
+xCF				x4L		accepted	Cucurbitales		order			Cucurbitales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xCH				xCF		accepted	Cucurbitaceae		family			Cucurbitaceae																																															Cucurbitales		Magnoliopsida		Tracheophyta	Plantae							
+200373				xCH		accepted	Sicana odorifera	Naudin	species				Sicana		odorifera			Naudin																																						Cucurbitaceae			Cucurbitales		Magnoliopsida		Tracheophyta	Plantae							
+200254				xCH		accepted	Momordica charantia	L.	species				Momordica		charantia			L.																																						Cucurbitaceae			Cucurbitales		Magnoliopsida		Tracheophyta	Plantae							
+200238				xCH		accepted	Luffa aegyptiaca	Mill.	species				Luffa		aegyptiaca			Mill.																																						Cucurbitaceae			Cucurbitales		Magnoliopsida		Tracheophyta	Plantae							
+200227				xCH		accepted	Lagenaria siceraria	Standl.	species				Lagenaria		siceraria			Standl.																																						Cucurbitaceae			Cucurbitales		Magnoliopsida		Tracheophyta	Plantae							
+200113				xCH		accepted	Cucumis anguria	L.	species				Cucumis		anguria			L.																																						Cucurbitaceae			Cucurbitales		Magnoliopsida		Tracheophyta	Plantae							
+200114				xCH		accepted	Cucumis melo	L.	species				Cucumis		melo			L.																																						Cucurbitaceae			Cucurbitales		Magnoliopsida		Tracheophyta	Plantae							
+200115				xCH		accepted	Cucurbita pepo	L.	species				Cucurbita		pepo			L.																																						Cucurbitaceae			Cucurbitales		Magnoliopsida		Tracheophyta	Plantae							
+x9Y				x4L		accepted	Fagales		order			Fagales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xB2				x9Y		accepted	Casuarinaceae		family			Casuarinaceae																																															Fagales		Magnoliopsida		Tracheophyta	Plantae							
+200068				xB2		accepted	Casuarina cunninghamiana	Miq.	species				Casuarina		cunninghamiana			Miq.																																						Casuarinaceae			Fagales		Magnoliopsida		Tracheophyta	Plantae							
+200069				xB2		accepted	Casuarina equisetifolia	L.	species				Casuarina		equisetifolia			L.																																						Casuarinaceae			Fagales		Magnoliopsida		Tracheophyta	Plantae							
+x88				x4L		accepted	Lamiales		order			Lamiales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xM5				x88		accepted	Linderniaceae		family			Linderniaceae																																															Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200407				xM5		accepted	Torenia thouarsii	Kuntze	species				Torenia		thouarsii			Kuntze																																						Linderniaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+xH7				x88		accepted	Mazaceae		family			Mazaceae																																															Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200244				xH7		accepted	Mazus pumilus	(Burm.f.) Steenis	species				Mazus		pumilus			Steenis					Burm.f.													botanical																				Mazaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+xGG				x88		accepted	Bignoniaceae		family			Bignoniaceae																																															Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200380				xGG		accepted	Spathodea campanulata	P.Beauv.	species				Spathodea		campanulata			P.Beauv.																																						Bignoniaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200341				xGG		accepted	Pyrostegia venusta	Miers	species				Pyrostegia		venusta			Miers																																						Bignoniaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200296				xGG		accepted	Parmentiera cereifera	Seem.	species				Parmentiera		cereifera			Seem.																																						Bignoniaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200218				xGG		accepted	Jacaranda mimosifolia	D.Don	species				Jacaranda		mimosifolia			D.Don																																						Bignoniaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+xD8				x88		accepted	Verbenaceae		family			Verbenaceae																																															Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200144				xD8		accepted	Duranta erecta	L.	species				Duranta		erecta			L.																																						Verbenaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+xBJ				x88		accepted	Lamiaceae		family			Lamiaceae																																															Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200393				xBJ		accepted	Tectona grandis	L.f.	species				Tectona		grandis			L.f.																																						Lamiaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+~3K				xBJ		provisionally accepted	Coleus scutellarioides	(L.) Benth.	species				Coleus		scutellarioides			Benth.					L.													botanical																				Lamiaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200321				~3K		synonym	Plectranthus scutellarioides	(L.) R.Br.	species				Plectranthus		scutellarioides			R.Br.					L.													botanical																																			
+200334				xBJ		accepted	Prunella vulgaris	L.	species				Prunella		vulgaris			L.																																						Lamiaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200230				xBJ		accepted	Leonurus japonicus	Houtt.	species				Leonurus		japonicus			Houtt.																																						Lamiaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200229				xBJ		accepted	Leonotis nepetifolia	(L.) R.Br.	species				Leonotis		nepetifolia			R.Br.					L.													botanical																				Lamiaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200185				xBJ		accepted	Gmelina arborea	Roxb. ex Sm.	species				Gmelina		arborea			Sm.		Roxb.																																				Lamiaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200086				xBJ		accepted	Clerodendrum chinense	(Osb.) Mabb.	species				Clerodendrum		chinense			Mabb.					Osb.													botanical																				Lamiaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200088				200086		synonym	Clerodendrum philippinum	Schauer	species				Clerodendrum		philippinum			Schauer																																																					
+200087				xBJ		accepted	Clerodendrum paniculatum	L.	species				Clerodendrum		paniculatum			L.																																						Lamiaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+xCR				x88		accepted	Plantaginaceae		family			Plantaginaceae																																															Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200422				xCR		accepted	Veronica serpyllifolia	L.	species				Veronica		serpyllifolia			L.																																						Plantaginaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200421				xCR		accepted	Veronica polita	Fries	species				Veronica		polita			Fries																																						Plantaginaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+~8				xCR		provisionally accepted	Lophospermum erubescens	D.Don ex Sweet	species				Lophospermum		erubescens			Sweet		D.Don																																				Plantaginaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200039				~8		synonym	Asarina erubescens	(D.Don) Pennell	species				Asarina		erubescens			Pennell					D.Don													botanical																																			
+200319				xCR		accepted	Plantago lanceolata	L.	species				Plantago		lanceolata			L.																																						Plantaginaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200320				xCR		accepted	Plantago major	L.	species				Plantago		major			L.																																						Plantaginaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200130				xCR		accepted	Digitalis purpurea	L.	species				Digitalis		purpurea			L.																																						Plantaginaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200117				xCR		accepted	Cymbalaria muralis	G.Gaertn., B.Mey. & Schreb.	species				Cymbalaria		muralis			G.Gaertn.|B.Mey.|Schreb.																																						Plantaginaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+x8B				x88		accepted	Acanthaceae		family			Acanthaceae																																															Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200404				x8B		accepted	Thunbergia grandiflora	Roxb.	species				Thunbergia		grandiflora			Roxb.																																						Acanthaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200401				x8B		accepted	Thunbergia alata	Sims	species				Thunbergia		alata			Sims																																						Acanthaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200402				x8B		accepted	Thunbergia erecta	T.Anderson	species				Thunbergia		erecta			T.Anderson																																						Acanthaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200403				x8B		accepted	Thunbergia fragans	Benth.	species				Thunbergia		fragans			Benth.																																						Acanthaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200021				x6S		accepted	Anacardium occidentale	L.	species				Anacardium		occidentale			L.																																						Anacardiaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+200362				x8B		accepted	Sanchezia parvibracteata	Sprague & Hutch.	species				Sanchezia		parvibracteata			Sprague|Hutch.																																						Acanthaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200205				x8B		accepted	Hypoestes phyllostachya	Baker	species				Hypoestes		phyllostachya			Baker																																						Acanthaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200223				x8B		accepted	Justicia betonica	L.	species				Justicia		betonica			L.																																						Acanthaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+200042				x8B		accepted	Asystasia gangetica	T.Anderson	species				Asystasia		gangetica			T.Anderson																																						Acanthaceae			Lamiales		Magnoliopsida		Tracheophyta	Plantae							
+x8D				x4L		accepted	Oxalidales		order			Oxalidales																																																	Magnoliopsida		Tracheophyta	Plantae							
+x8G				x8D		accepted	Oxalidaceae		family			Oxalidaceae																																															Oxalidales		Magnoliopsida		Tracheophyta	Plantae							
+200289				x8G		accepted	Oxalis corniculata	L.	species				Oxalis		corniculata			L.																																						Oxalidaceae			Oxalidales		Magnoliopsida		Tracheophyta	Plantae							
+200290				x8G		accepted	Oxalis debilis	Kunth	species				Oxalis		debilis			Kunth																																						Oxalidaceae			Oxalidales		Magnoliopsida		Tracheophyta	Plantae							
+200044				x8G		accepted	Averrhoa carambola	L.	species				Averrhoa		carambola			L.																																						Oxalidaceae			Oxalidales		Magnoliopsida		Tracheophyta	Plantae							
+200043				x8G		accepted	Averrhoa bilimbi	L.	species				Averrhoa		bilimbi			L.																																						Oxalidaceae			Oxalidales		Magnoliopsida		Tracheophyta	Plantae							
+x82				x4L		accepted	Rosales		order			Rosales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xKC				x82		accepted	Urticaceae		family			Urticaceae																																															Rosales		Magnoliopsida		Tracheophyta	Plantae							
+200317				xKC		accepted	Pilea nummulariifolia	Sw.	species				Pilea		nummulariifolia			Sw.																																						Urticaceae			Rosales		Magnoliopsida		Tracheophyta	Plantae							
+xLV				x82		accepted	Rosaceae		family			Rosaceae																																															Rosales		Magnoliopsida		Tracheophyta	Plantae							
+200352				xLV		accepted	Rubus ellipticus	Sm.	species				Rubus		ellipticus			Sm.																																						Rosaceae			Rosales		Magnoliopsida		Tracheophyta	Plantae							
+x84				x82		accepted	Moraceae		family			Moraceae																																															Rosales		Magnoliopsida		Tracheophyta	Plantae							
+200036				x84		accepted	Artocarpus altilis	(Parkinson) Fosberg	species				Artocarpus		altilis			Fosberg					Parkinson													botanical																				Moraceae			Rosales		Magnoliopsida		Tracheophyta	Plantae							
+x99				x4L		accepted	Brassicales		order			Brassicales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xHR				x99		accepted	Moringaceae		family			Moringaceae																																															Brassicales		Magnoliopsida		Tracheophyta	Plantae							
+200259				xHR		accepted	Moringa oleifera	Lam.	species				Moringa		oleifera			Lam.																																						Moringaceae			Brassicales		Magnoliopsida		Tracheophyta	Plantae							
+x9C				x99		accepted	Brassicaceae		family			Brassicaceae																																															Brassicales		Magnoliopsida		Tracheophyta	Plantae							
+200268				x9C		accepted	Nasturtium officinale	W.T.Aiton	species				Nasturtium		officinale			W.T.Aiton																																						Brassicaceae			Brassicales		Magnoliopsida		Tracheophyta	Plantae							
+200064				x9C		accepted	Cardamine flexuosa	Withering	species				Cardamine		flexuosa			Withering																																						Brassicaceae			Brassicales		Magnoliopsida		Tracheophyta	Plantae							
+200055				x9C		accepted	Brassica rapa	L.	species				Brassica		rapa			L.																																						Brassicaceae			Brassicales		Magnoliopsida		Tracheophyta	Plantae							
+200054				x9C		accepted	Brassica juncea	(L.) Czern.	species				Brassica		juncea			Czern.					L.													botanical																				Brassicaceae			Brassicales		Magnoliopsida		Tracheophyta	Plantae							
+x8J				x4L		accepted	Malpighiales		order			Malpighiales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xK7				x8J		accepted	Phyllanthaceae		family			Phyllanthaceae																																															Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200314				xK7		accepted	Phyllanthus urinaria	L.	species				Phyllanthus		urinaria			L.																																						Phyllanthaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+xJZ				x8J		accepted	Passifloraceae		family			Passifloraceae																																															Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+~3C				xJZ		provisionally accepted	Passiflora mollissima	L.H.Bailey	species				Passiflora		mollissima			L.H.Bailey																																						Passifloraceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200301				~3C		synonym	Passiflora tripartita var. mollissima ¸rgensen	(Kunth) P...M...J.Ã.L.B.Holm-Nielsen	variety				Passiflora		tripartita	mollissima		P...M...J.Ã.L.B.Holm-Nielsen					Kunth													botanical																																			
+200300				xJZ		accepted	Passiflora edulis	Sims	species				Passiflora		edulis			Sims																																						Passifloraceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+xF7				x8J		accepted	Euphorbiaceae		family			Euphorbiaceae																																															Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200350				xF7		accepted	Ricinus communis	L.	species				Ricinus		communis			L.																																						Euphorbiaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200242				xF7		accepted	Manihot esculenta	Crantz	species				Manihot		esculenta			Crantz																																						Euphorbiaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200198				xF7		accepted	Hevea brasiliensis ¼ll.Arg.	(Willd. ex A.Juss.) MÃ	species				Hevea		brasiliensis			MÃ					A.Juss.		Willd.											botanical																				Euphorbiaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200219				xF7		accepted	Jatropha integerrima	Jacq.	species				Jatropha		integerrima			Jacq.																																						Euphorbiaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200172				xF7		accepted	Euphorbia leucocephala	Lotsy	species				Euphorbia		leucocephala			Lotsy																																						Euphorbiaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200173				xF7		accepted	Euphorbia neriifolia	L.	species				Euphorbia		neriifolia			L.																																						Euphorbiaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+x9F				x8J		accepted	Calophyllaceae		family			Calophyllaceae																																															Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200060				x9F		accepted	Calophyllum inophyllum	L.	species				Calophyllum		inophyllum			L.																																						Calophyllaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+x8L				x8J		accepted	Malpighiaceae		family			Malpighiaceae																																															Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+200047				x8L		accepted	Banisteriopsis caapi	(Spruce ex Griseb.) C.V.Morton	species				Banisteriopsis		caapi			C.V.Morton					Griseb.		Spruce											botanical																				Malpighiaceae			Malpighiales		Magnoliopsida		Tracheophyta	Plantae							
+x6Q				x4L		accepted	Sapindales		order			Sapindales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xHF				x6Q		accepted	Meliaceae		family			Meliaceae																																															Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+200248				xHF		accepted	Melia azedarach	L.	species				Melia		azedarach			L.																																						Meliaceae			Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+xBG				x6Q		accepted	Rutaceae		family			Rutaceae																																															Sapindales		Magnoliopsida		Tracheophyta	Plantae							
+~3R				xN2		provisionally accepted	Tetrapanax papyrifer	(Hook.) K.Koch	species				Tetrapanax		papyrifer			K.Koch					Hook.													botanical																				Araliaceae			Apiales		Magnoliopsida		Tracheophyta	Plantae							
+200396				~3R		synonym	Tetrapanax papyriferus	(Hook.) K.Koch	species				Tetrapanax		papyriferus			K.Koch					Hook.													botanical																																			
+x6N				x6L		accepted	Apiaceae		family			Apiaceae																																															Apiales		Magnoliopsida		Tracheophyta	Plantae							
+200098				x6N		accepted	Conium maculatum	L.	species				Conium		maculatum			L.																																						Apiaceae			Apiales		Magnoliopsida		Tracheophyta	Plantae							
+200020				x6N		accepted	Ammi majus	L.	species				Ammi		majus			L.																																						Apiaceae			Apiales		Magnoliopsida		Tracheophyta	Plantae							
+x66				x4L		accepted	Gentianales		order			Gentianales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xBS				x66		accepted	Rubiaceae		family			Rubiaceae																																															Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+~33				xBS		provisionally accepted	Gardenia jasminoides	Ellis	species				Gardenia		jasminoides			Ellis																																						Rubiaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200182				~33		synonym	Gardenia augusta	Merr.	species				Gardenia		augusta			Merr.																																																					
+200258				xBS		accepted	Morinda citrifolia	L.	species				Morinda		citrifolia			L.																																						Rubiaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200217				xBS		accepted	Ixora coccinea	L.	species				Ixora		coccinea			L.																																						Rubiaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200091				xBS		accepted	Coffea arabica	L.	species				Coffea		arabica			L.																																						Rubiaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200093				xBS		accepted	Coffea liberica	W.Bull	species				Coffea		liberica			W.Bull																																						Rubiaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200092				xBS		accepted	Coffea canephora	Pierre ex Froehn.	species				Coffea		canephora			Froehn.		Pierre																																				Rubiaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+x68				x66		accepted	Apocynaceae		family			Apocynaceae																																															Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200424				x68		accepted	Vinca major	L.	species				Vinca		major			L.																																						Apocynaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200400				x68		accepted	Thevetia peruviana	Merr.	species				Thevetia		peruviana			Merr.																																						Apocynaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200109				x68		accepted	Cryptostegia madagascariensis	Bojer	species				Cryptostegia		madagascariensis			Bojer																																						Apocynaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200070				x68		accepted	Catharanthus roseus	G.Don	species				Catharanthus		roseus			G.Don																																						Apocynaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+200015				x68		accepted	Allamanda cathartica	L.	species				Allamanda		cathartica			L.																																						Apocynaceae			Gentianales		Magnoliopsida		Tracheophyta	Plantae							
+x7C				x4L		accepted	Magnoliales		order			Magnoliales																																																	Magnoliopsida		Tracheophyta	Plantae							
+x7F				x7C		accepted	Annonaceae		family			Annonaceae																																															Magnoliales		Magnoliopsida		Tracheophyta	Plantae							
+200061				x7F		accepted	Cananga odorata	(Lam.) Hook.f. & Thomson	species				Cananga		odorata			Hook.f.|Thomson					Lam.													botanical																				Annonaceae			Magnoliales		Magnoliopsida		Tracheophyta	Plantae							
+200025				x7F		accepted	Annona muricata	L.	species				Annona		muricata			L.																																						Annonaceae			Magnoliales		Magnoliopsida		Tracheophyta	Plantae							
+200026				x7F		accepted	Annona squamosa	L.	species				Annona		squamosa			L.																																						Annonaceae			Magnoliales		Magnoliopsida		Tracheophyta	Plantae							
+x4S				x4L		accepted	Fabales		order			Fabales																																																	Magnoliopsida		Tracheophyta	Plantae							
+x4V				x4S		accepted	Fabaceae		family			Fabaceae																																															Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200413				x4V		accepted	Ulex europaeus	L.	species				Ulex		europaeus			L.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200412				x4V		accepted	Trifolium repens	L.	species				Trifolium		repens			L.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200411				x4V		accepted	Trifolium pratense	L.	species				Trifolium		pratense			L.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200410				x4V		accepted	Trifolium dubium	Sibth.	species				Trifolium		dubium			Sibth.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200369				x4V		accepted	Senna didymobotrya	(Fresen.) H.S.Irwin & Barneby	species				Senna		didymobotrya			H.S.Irwin|Barneby					Fresen.													botanical																				Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200368				x4V		accepted	Senna alata	(L.) Roxb.	species				Senna		alata			Roxb.					L.													botanical																				Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200339				x4V		accepted	Pueraria phaseoloides	Benth.	species				Pueraria		phaseoloides			Benth.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200232				x4V		accepted	Leucaena leucocephala	(Lam.) de Wit	species				Leucaena		leucocephala			de Wit					Lam.													botanical																				Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200237				x4V		accepted	Lotus corniculatus	L.	species				Lotus		corniculatus			L.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200213				x4V		accepted	Indigofera hirsuta	L.	species				Indigofera		hirsuta			L.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200166				x4V		accepted	Erythrina poeppigiana	O.F.Cook	species				Erythrina		poeppigiana			O.F.Cook																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200181				x4V		accepted	Flemingia strobilifera	(L.) W.T.Aiton	species				Flemingia		strobilifera			W.T.Aiton					L.													botanical																				Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200125				x4V		accepted	Delonix regia	(Bojer) Raf.	species				Delonix		regia			Raf.					Bojer													botanical																				Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200136				x4V		accepted	Dinizia excelsa	Ducke	species				Dinizia		excelsa			Ducke																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200067				x4V		accepted	Cassia fistula	L.	species				Cassia		fistula			L.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200057				x4V		accepted	Brownea rosa-de-monte	O.Berg	species				Brownea		rosa-de-monte			O.Berg																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200059				x4V		accepted	Caesalpinia pulcherrima	(L.) Sw.	species				Caesalpinia		pulcherrima			Sw.					L.													botanical																				Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200033				x4V		accepted	Arachis pintoi	Krapov. & W.C.Greg.	species				Arachis		pintoi			Krapov.|W.C.Greg.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200002				x4V		accepted	Acacia dealbata	Link	species				Acacia		dealbata			Link																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200003				x4V		accepted	Acacia mangium	Willd.	species				Acacia		mangium			Willd.																																						Fabaceae			Fabales		Magnoliopsida		Tracheophyta	Plantae							
+200129				x64		accepted	Dichanthium aristatum	(Poir.) C.E.Hubb.	species				Dichanthium		aristatum			C.E.Hubb.					Poir.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+x4N				x4L		accepted	Malvales		order			Malvales																																																	Magnoliopsida		Tracheophyta	Plantae							
+x4Q				x4N		accepted	Malvaceae		family			Malvaceae																																															Malvales		Magnoliopsida		Tracheophyta	Plantae							
+200399				x4Q		accepted	Theobroma cacao	L.	species				Theobroma		cacao			L.																																						Malvaceae			Malvales		Magnoliopsida		Tracheophyta	Plantae							
+200199				x4Q		accepted	Hibiscus acetosella	Welw. ex Fic.	species				Hibiscus		acetosella			Fic.		Welw.																																				Malvaceae			Malvales		Magnoliopsida		Tracheophyta	Plantae							
+200200				x4Q		accepted	Hibiscus rosa-sinensis	L.	species				Hibiscus		rosa-sinensis			L.																																						Malvaceae			Malvales		Magnoliopsida		Tracheophyta	Plantae							
+200187				x4Q		accepted	Gossypium barbadense	Raf.	species				Gossypium		barbadense			Raf.																																						Malvaceae			Malvales		Magnoliopsida		Tracheophyta	Plantae							
+200137				xD4		accepted	Dioscorea alata	L.	species				Dioscorea		alata			L.																																						Dioscoreaceae			Dioscoreales		Liliopsida		Tracheophyta	Plantae							
+200145				x4Q		accepted	Durio zibethinus	Murr.	species				Durio		zibethinus			Murr.																																						Malvaceae			Malvales		Magnoliopsida		Tracheophyta	Plantae							
+xDG				x5T		accepted	Arecales		order			Arecales																																																	Liliopsida		Tracheophyta	Plantae							
+xDJ				xDG		accepted	Arecaceae		family			Arecaceae																																															Arecales		Liliopsida		Tracheophyta	Plantae							
+200149				xDJ		accepted	Elaeis guineensis	Jacq.	species				Elaeis		guineensis			Jacq.																																						Arecaceae			Arecales		Liliopsida		Tracheophyta	Plantae							
+200095				x4Q		accepted	Cola acuminata	Schott & Endl.	species				Cola		acuminata			Schott|Endl.																																						Malvaceae			Malvales		Magnoliopsida		Tracheophyta	Plantae							
+200128				x64		accepted	Dichanthium annulatum	Stapf	species				Dichanthium		annulatum			Stapf																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200001				x4Q		accepted	Abutilon hirtum	Sweet	species				Abutilon		hirtum			Sweet																																						Malvaceae			Malvales		Magnoliopsida		Tracheophyta	Plantae							
+200000				x4Q		accepted	Abelmoschus esculentus	Moench	species				Abelmoschus		esculentus			Moench																																						Malvaceae			Malvales		Magnoliopsida		Tracheophyta	Plantae							
+x5K				x4L		accepted	Caryophyllales		order			Caryophyllales																																																	Magnoliopsida		Tracheophyta	Plantae							
+xKY				x5K		accepted	Portulacaceae		family			Portulacaceae																																															Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200135				x64		accepted	Digitaria violascens	Link	species				Digitaria		violascens			Link																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200330				xKY		accepted	Portulaca oleracea	L.	species				Portulaca		oleracea			L.																																						Portulacaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+xHM				x5K		accepted	Nyctaginaceae		family			Nyctaginaceae																																															Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200253				xHM		accepted	Mirabilis jalapa	L.	species				Mirabilis		jalapa			L.																																						Nyctaginaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+xJL				x5K		accepted	Cactaceae		family			Cactaceae																																															Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200283				xJL		accepted	Opuntia ficus-indica	Mill.	species				Opuntia		ficus-indica			Mill.																																						Cactaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+xCW				x5K		accepted	Caryophyllaceae		family			Caryophyllaceae																																															Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200381				xCW		accepted	Spergula arvensis	L.	species				Spergula		arvensis			L.																																						Caryophyllaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200326				xCW		accepted	Polycarpon tetraphyllum	L.	species				Polycarpon		tetraphyllum			L.																																						Caryophyllaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200374				xCW		accepted	Silene gallica	L.	species				Silene		gallica			L.																																						Caryophyllaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200360				xCW		accepted	Sagina procumbens	L.	species				Sagina		procumbens			L.																																						Caryophyllaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200366				xCW		accepted	Scleranthus annuus	L.	species				Scleranthus		annuus			L.																																						Caryophyllaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200126				xCW		accepted	Dianthus plumarius	L.	species				Dianthus		plumarius			L.																																						Caryophyllaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+x7T				x5K		accepted	Polygonaceae		family			Polygonaceae																																															Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+~X				x7T		provisionally accepted	Fallopia baldschuanica	(Regel) Holub	species				Fallopia		baldschuanica			Holub					Regel													botanical																				Polygonaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200176				~X		synonym	Fallopia aubertii	(Louis Henry) J.Holub	species				Fallopia		aubertii			J.Holub					Louis Henry													botanical																																			
+200327				x7T		accepted	Polygonum aviculare	L.	species				Polygonum		aviculare			L.																																						Polygonaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200353				x7T		accepted	Rumex acetosella	L.	species				Rumex		acetosella			L.																																						Polygonaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200354				x7T		accepted	Rumex crispus	L.	species				Rumex		crispus			L.																																						Polygonaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200355				x7T		accepted	Rumex nepalensis	Spreng.	species				Rumex		nepalensis			Spreng.																																						Polygonaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200356				x7T		accepted	Rumex obtusifolius	L.	species				Rumex		obtusifolius			L.																																						Polygonaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200031				x7T		accepted	Antigonon leptopus	Hook. & Arn.	species				Antigonon		leptopus			Hook.|Arn.																																						Polygonaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+x7R				x5K		accepted	Basellaceae		family			Basellaceae																																															Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200029				x7R		accepted	Anredera cordifolia	(Ten.) Steenis	species				Anredera		cordifolia			Steenis					Ten.													botanical																				Basellaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+x5M				x5K		accepted	Amaranthaceae		family			Amaranthaceae																																															Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200186				x5M		accepted	Gomphrena globosa	L.	species				Gomphrena		globosa			L.																																						Amaranthaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200075				x5M		accepted	Chenopodium album	L.	species				Chenopodium		album			L.																																						Amaranthaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+200007				x5M		accepted	Achyranthes aspera	L.	species				Achyranthes		aspera			L.																																						Amaranthaceae			Caryophyllales		Magnoliopsida		Tracheophyta	Plantae							
+x5F				x4L		accepted	Asterales		order			Asterales																																																	Magnoliopsida		Tracheophyta	Plantae							
+x5H				x5F		accepted	Asteraceae		family			Asteraceae																																															Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200377				x5H		accepted	Sonchus oleraceus	L.	species				Sonchus		oleraceus			L.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200392				x5H		accepted	Taraxacum officinale	F.H.Wigg.	species				Taraxacum		officinale			F.H.Wigg.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+~4B				x5H		provisionally accepted	Cyanthillium cinereum	(L.) H.Rob.	species				Cyanthillium		cinereum			H.Rob.					L.													botanical																				Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200420				~4B		synonym	Vernonia cinerea	(L.) Less.	species				Vernonia		cinerea			Less.					L.													botanical																																			
+~B				x5H		provisionally accepted	Symphyotrichum novi-belgii	(L.) G.L.Nesom	species				Symphyotrichum		novi-belgii			G.L.Nesom					L.													botanical																				Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200041				~B		synonym	Aster laevis	Vahl	species				Aster		laevis			Vahl																																																					
+~J				x5H		provisionally accepted	Erigeron canadensis	L.	species				Erigeron		canadensis			L.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200100				~J		synonym	Conyza canadensis	(L.) Cronq.	species				Conyza		canadensis			Cronq.					L.													botanical																																			
+200243				x5H		accepted	Matricaria chamomilla	L.	species				Matricaria		chamomilla			L.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200234				x5H		accepted	Leucanthemum vulgare	Lam.	species				Leucanthemum		vulgare			Lam.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200233				x5H		accepted	Leucanthemum maximum	DC.	species				Leucanthemum		maximum			DC.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200204				x5H		accepted	Hypochoeris radicata	L.	species				Hypochoeris		radicata			L.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200163				x5H		accepted	Erigeron annuus	Pers.	species				Erigeron		annuus			Pers.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200155				x5H		accepted	Emilia sonchifolia	(L.) DC. ex Wight	species				Emilia		sonchifolia			Wight		DC.			L.													botanical																				Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200154				x5H		accepted	Emilia fosbergii	Nicolson	species				Emilia		fosbergii			Nicolson																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200103				x5H		accepted	Cosmos bipinnatus	Cav.	species				Cosmos		bipinnatus			Cav.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200106				x5H		accepted	Crassocephalum crepidioides	S.Moore	species				Crassocephalum		crepidioides			S.Moore																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200080				x5H		accepted	Cirsium vulgare	(Savi) Ten.	species				Cirsium		vulgare			Ten.					Savi													botanical																				Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200034				x5H		accepted	Artemisia absinthium	L.	species				Artemisia		absinthium			L.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+200006				x5H		accepted	Achillea millefolium	Ledeb.	species				Achillea		millefolium			Ledeb.																																						Asteraceae			Asterales		Magnoliopsida		Tracheophyta	Plantae							
+x5T				x4J		accepted	Liliopsida		class			Liliopsida																																																			Tracheophyta	Plantae							
+xD2				x5T		accepted	Dioscoreales		order			Dioscoreales																																																	Liliopsida		Tracheophyta	Plantae							
+xD4				xD2		accepted	Dioscoreaceae		family			Dioscoreaceae																																															Dioscoreales		Liliopsida		Tracheophyta	Plantae							
+200134				x64		accepted	Digitaria setigera	Roth	species				Digitaria		setigera			Roth																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+x6V				x5T		accepted	Commelinales		order			Commelinales																																																	Liliopsida		Tracheophyta	Plantae							
+xDD				x6V		accepted	Pontederiaceae		family			Pontederiaceae																																															Commelinales		Liliopsida		Tracheophyta	Plantae							
+200148				xDD		accepted	Eichhornia crassipes	Solms	species				Eichhornia		crassipes			Solms																																						Pontederiaceae			Commelinales		Liliopsida		Tracheophyta	Plantae							
+x6X				x6V		accepted	Commelinaceae		family			Commelinaceae																																															Commelinales		Liliopsida		Tracheophyta	Plantae							
+200409				x6X		accepted	Tradescantia pallida	(Rose) D.R.Hunt	species				Tradescantia		pallida			D.R.Hunt					Rose													botanical																				Commelinaceae			Commelinales		Liliopsida		Tracheophyta	Plantae							
+200260				x6X		accepted	Murdannia nudiflora	(L.) Brenan	species				Murdannia		nudiflora			Brenan					L.													botanical																				Commelinaceae			Commelinales		Liliopsida		Tracheophyta	Plantae							
+200183				x6X		accepted	Gibasis pellucida	(M.Martens & Galeotti) D.R.Hunt	species				Gibasis		pellucida			D.R.Hunt					M.Martens|Galeotti													botanical																				Commelinaceae			Commelinales		Liliopsida		Tracheophyta	Plantae							
+200022				x6X		accepted	Aneilema umbrosum	Kunth	species				Aneilema		umbrosum			Kunth																																						Commelinaceae			Commelinales		Liliopsida		Tracheophyta	Plantae							
+x6G				x5T		accepted	Zingiberales		order			Zingiberales																																																	Liliopsida		Tracheophyta	Plantae							
+xMK				x6G		accepted	Costaceae		family			Costaceae																																															Zingiberales		Liliopsida		Tracheophyta	Plantae							
+~L				xMK		provisionally accepted	Hellenia speciosa	(J.Koenig) S.R.Dutta	species				Hellenia		speciosa			S.R.Dutta					J.Koenig													botanical																				Costaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200104				~L		synonym	Costus speciosus	(J.Koenig) Sm.	species				Costus		speciosus			Sm.					J.Koenig													botanical																																			
+xHT				x6G		accepted	Musaceae		family			Musaceae																																															Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200261				xHT		accepted	Musa acuminata	Colla	species				Musa		acuminata			Colla																																						Musaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200262				xHT		accepted	Musa coccinea	Andrews	species				Musa		coccinea			Andrews																																						Musaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200263				xHT		accepted	Musa textilis	Nee	species				Musa		textilis			Nee																																						Musaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200264				xHT		accepted	Musa velutina	H.Wendl. & Drude	species				Musa		velutina			H.Wendl.|Drude																																						Musaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+x6J				x6G		accepted	Zingiberaceae		family			Zingiberaceae																																															Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200439				x6J		accepted	Zingiber spectabile	Griff.	species				Zingiber		spectabile			Griff.																																						Zingiberaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200438				x6J		accepted	Zingiber officinale	Roscoe	species				Zingiber		officinale			Roscoe																																						Zingiberaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200193				x6J		accepted	Hedychium coronarium	J.Koenig	species				Hedychium		coronarium			J.Koenig																																						Zingiberaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200224				x6J		accepted	Kaempferia rotunda	L.	species				Kaempferia		rotunda			L.																																						Zingiberaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200168				x6J		accepted	Etlingera elatior	(Jack) R.M.Sm.	species				Etlingera		elatior			R.M.Sm.					Jack													botanical																				Zingiberaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+200019				x6J		accepted	Alpinia purpurata	K.Schum.	species				Alpinia		purpurata			K.Schum.																																						Zingiberaceae			Zingiberales		Liliopsida		Tracheophyta	Plantae							
+x6B				x5T		accepted	Alismatales		order			Alismatales																																																	Liliopsida		Tracheophyta	Plantae							
+xL2				x6B		accepted	Potamogetonaceae		family			Potamogetonaceae																																															Alismatales		Liliopsida		Tracheophyta	Plantae							
+200331				xL2		accepted	Potamogeton crispus	L.	species				Potamogeton		crispus			L.																																						Potamogetonaceae			Alismatales		Liliopsida		Tracheophyta	Plantae							
+xDB				x6B		accepted	Hydrocharitaceae		family			Hydrocharitaceae																																															Alismatales		Liliopsida		Tracheophyta	Plantae							
+200147				xDB		accepted	Egeria densa	Planch.	species				Egeria		densa			Planch.																																						Hydrocharitaceae			Alismatales		Liliopsida		Tracheophyta	Plantae							
+x6D				x6B		accepted	Araceae		family			Araceae																																															Alismatales		Liliopsida		Tracheophyta	Plantae							
+200429				x6D		accepted	Xanthosoma sagittifolium	(L.) Schott	species				Xanthosoma		sagittifolium			Schott					L.													botanical																				Araceae			Alismatales		Liliopsida		Tracheophyta	Plantae							
+200430				200429		synonym	Xanthosoma violaceum	Schott	species				Xanthosoma		violaceum			Schott																																																					
+200436				x6D		accepted	Zantedeschia aethiopica	Spreng.	species				Zantedeschia		aethiopica			Spreng.																																						Araceae			Alismatales		Liliopsida		Tracheophyta	Plantae							
+200096				x6D		accepted	Colocasia esculenta	(L.) Schott	species				Colocasia		esculenta			Schott					L.													botanical																				Araceae			Alismatales		Liliopsida		Tracheophyta	Plantae							
+200017				x6D		accepted	Alocasia macrorrhizos	(L.) G.Don	species				Alocasia		macrorrhizos			G.Don					L.													botanical																				Araceae			Alismatales		Liliopsida		Tracheophyta	Plantae							
+200018				200017		synonym	Alocasia plumbea	Van Houtte	species				Alocasia		plumbea			Van Houtte																																																					
+200016				x6D		accepted	Alocasia cucullata	(Loureiro) G.Don	species				Alocasia		cucullata			G.Don					Loureiro													botanical																				Araceae			Alismatales		Liliopsida		Tracheophyta	Plantae							
+x62				x5T		accepted	Poales		order			Poales																																																	Liliopsida		Tracheophyta	Plantae							
+xGJ				x62		accepted	Juncaceae		family			Juncaceae																																															Poales		Liliopsida		Tracheophyta	Plantae							
+200239				xGJ		accepted	Luzula campestris	DC.	species				Luzula		campestris			DC.																																						Juncaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200220				xGJ		accepted	Juncus bufonius	L.	species				Juncus		bufonius			L.																																						Juncaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200221				xGJ		accepted	Juncus effusus	L.	species				Juncus		effusus			L.																																						Juncaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200222				xGJ		accepted	Juncus tenuis	Willd.	species				Juncus		tenuis			Willd.																																						Juncaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+xCT				x62		accepted	Cyperaceae		family			Cyperaceae																																															Poales		Liliopsida		Tracheophyta	Plantae							
+200121				xCT		accepted	Cyperus papyrus	L.	species				Cyperus		papyrus			L.																																						Cyperaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200120				xCT		accepted	Cyperus iria	L.	species				Cyperus		iria			L.																																						Cyperaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+x64				x62		accepted	Poaceae		family			Poaceae																																															Poales		Liliopsida		Tracheophyta	Plantae							
+200426				x64		accepted	Vulpia myuros	(L.) C.C.Gmel.	species				Vulpia		myuros			C.C.Gmel.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200425				x64		accepted	Vulpia bromoides	(L.) Gray	species				Vulpia		bromoides			Gray					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200440				x64		accepted	Zoysia matrella	(L.) Merr.	species				Zoysia		matrella			Merr.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200437				x64		accepted	Zea mays	L.	species				Zea		mays			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200379				x64		accepted	Sorghum halepense	Pers.	species				Sorghum		halepense			Pers.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200378				x64		accepted	Sorghum bicolor	(L.) Moench	species				Sorghum		bicolor			Moench					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+~3F				x64		provisionally accepted	Cenchrus polystachios	(L.) Morrone	species				Cenchrus		polystachios			Morrone					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200359				x64		accepted	Sacciolepis indica	Chase	species				Sacciolepis		indica			Chase																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200351				x64		accepted	Rottboellia cochinchinensis	(Lour.) Clayton	species				Rottboellia		cochinchinensis			Clayton					Lour.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200249				x64		accepted	Melinis minutiflora	P.Beauv.	species				Melinis		minutiflora			P.Beauv.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200304				~3F		synonym	Pennisetum polystachion	(L.) Schult.	species				Pennisetum		polystachion			Schult.					L.													botanical																																			
+~3H				x64		provisionally accepted	Cenchrus purpureus	(Schumach.) Morrone	species				Cenchrus		purpureus			Morrone					Schumach.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200012				x64		accepted	Agrostis gigantea	Roth	species				Agrostis		gigantea			Roth																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200011				x64		accepted	Agrostis capillaris	L.	species				Agrostis		capillaris			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200305				~3H		synonym	Pennisetum purpureum	Schumach.	species				Pennisetum		purpureum			Schumach.																																																					
+200030				x64		accepted	Anthoxanthum odoratum	L.	species				Anthoxanthum		odoratum			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+~42				x64		provisionally accepted	Brachiaria eminii	(Mez) Robyns	species				Brachiaria		eminii			Robyns					Mez													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200013				x64		accepted	Agrostis stolonifera	L.	species				Agrostis		stolonifera			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200415				~42		synonym	Urochloa decumbens	(Stapf) R.D.Webster	species				Urochloa		decumbens			R.D.Webster					Stapf													botanical																																			
+200418				~42		synonym	Urochloa ruziziensis	(R.Germ. & C.M.Evrard) Crins	species				Urochloa		ruziziensis			Crins					R.Germ.|C.M.Evrard													botanical																																			
+~44				x64		provisionally accepted	Brachiaria mutica	Stapf	species				Brachiaria		mutica			Stapf																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200416				~44		synonym	Urochloa mutica	(Forssk.) T.Q.Nguyen	species				Urochloa		mutica			T.Q.Nguyen					Forssk.													botanical																																			
+~3Y				x64		provisionally accepted	Brachiaria arrecta	Stent	species				Brachiaria		arrecta			Stent																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200414				~3Y		synonym	Urochloa arrecta	(Hack.) Morrone & Zuloaga	species				Urochloa		arrecta			Morrone|Zuloaga					Hack.													botanical																																			
+~4D				x64		provisionally accepted	Chrysopogon zizanioides	(L.) Roberty	species				Chrysopogon		zizanioides			Roberty					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200423				~4D		synonym	Vetiveria zizanioides	(L.) Nash	species				Vetiveria		zizanioides			Nash					L.													botanical																																			
+~46				x64		provisionally accepted	Brachiaria reptans	(L.) C.A.Gardner & C.E.Hubb.	species				Brachiaria		reptans			C.A.Gardner|C.E.Hubb.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200417				~46		synonym	Urochloa reptans	(L.) Stapf	species				Urochloa		reptans			Stapf					L.													botanical																																			
+~48				x64		provisionally accepted	Brachiaria distachya	(L.) Stapf	species				Brachiaria		distachya			Stapf					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200419				~48		synonym	Urochloa subquadripara	(Trin.) R.D.Webster	species				Urochloa		subquadripara			R.D.Webster					Trin.													botanical																																			
+~4				x64		provisionally accepted	Lachnagrostis filiformis	Trin.	species				Lachnagrostis		filiformis			Trin.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200010				~4		synonym	Agrostis avenacea	J.F.Gmel.	species				Agrostis		avenacea			J.F.Gmel.																																																					
+~D				x64		provisionally accepted	Bambusa bambos	(L.) Voss	species				Bambusa		bambos			Voss					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200045				~D		synonym	Bambusa arundinacea	(Retz.) Willd.	species				Bambusa		arundinacea			Willd.					Retz.													botanical																																			
+~S				x64		provisionally accepted	Digitaria eriantha	Steud.	species				Digitaria		eriantha			Steud.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200133				~S		synonym	Digitaria pentzii	Stent	species				Digitaria		pentzii			Stent																																																					
+~Z				x64		provisionally accepted	Scolochloa festucacea	Link	species				Scolochloa		festucacea			Link																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200179				~Z		synonym	Festuca arundinacea	Schreb.	species				Festuca		arundinacea			Schreb.																																																					
+~35				x64		provisionally accepted	Glyceria notata	Chevall.	species				Glyceria		notata			Chevall.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200184				~35		synonym	Glyceria plicata	(Fr.) Fr.	species				Glyceria		plicata			Fr.					Fr.													botanical																																			
+200328				x64		accepted	Polypogon monspeliensis	Desf.	species				Polypogon		monspeliensis			Desf.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200323				x64		accepted	Poa annua	L.	species				Poa		annua			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200324				x64		accepted	Poa pratensis	L.	species				Poa		pratensis			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200316				x64		accepted	Phyllostachys aurea	Riviere & C.Riviere	species				Phyllostachys		aurea			Riviere|C.Riviere																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200312				x64		accepted	Phalaris minor	Retz.	species				Phalaris		minor			Retz.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200311				x64		accepted	Phalaris canariensis	L.	species				Phalaris		canariensis			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200370				x64		accepted	Setaria palmifolia (J.KÃ¶nig)Stapf		species				Setaria		palmifolia																																									Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200372				x64		accepted	Setaria viridis	(L.) P.Beauv.	species				Setaria		viridis			P.Beauv.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200371				x64		accepted	Setaria sphacelata	Stapf & C.E.Hubb. ex M.B.Moss	species				Setaria		sphacelata			M.B.Moss		Stapf|C.E.Hubb.																																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200357				x64		accepted	Saccharum officinarum	L.	species				Saccharum		officinarum			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200358				x64		accepted	Saccharum spontaneum	L.	species				Saccharum		spontaneum			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200132				x64		accepted	Digitaria longiflora	(Retz.) Pers.	species				Digitaria		longiflora			Pers.					Retz.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200118				x64		accepted	Cynodon dactylon	(L.) Pers.	species				Cynodon		dactylon			Pers.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200119				x64		accepted	Cynodon nlemfuensis	Vanderyst	species				Cynodon		nlemfuensis			Vanderyst																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200123				x64		accepted	Dactylis glomerata	L.	species				Dactylis		glomerata			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200124				x64		accepted	Dactyloctenium aegyptium	(L.) Willd.	species				Dactyloctenium		aegyptium			Willd.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200180				x64		accepted	Festuca rubra	L.	species				Festuca		rubra			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200164				x64		accepted	Eriochloa polystachya	Kunth	species				Eriochloa		polystachya			Kunth																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200162				x64		accepted	Eragrostis viscosa	Trin.	species				Eragrostis		viscosa			Trin.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200161				x64		accepted	Eragrostis tenuifolia	(A.Rich.) Hochst. ex Steud.	species				Eragrostis		tenuifolia			Steud.		Hochst.			A.Rich.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200160				x64		accepted	Eragrostis pilosa	P.Beauv.	species				Eragrostis		pilosa			P.Beauv.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200159				x64		accepted	Eragrostis elongata	(Willd.) Jacq.	species				Eragrostis		elongata			Jacq.					Willd.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200158				x64		accepted	Eragrostis ciliaris	(L.) R.Br.	species				Eragrostis		ciliaris			R.Br.					L.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200157				x64		accepted	Eragrostis cilianensis	(All.) Vignolo ex Janch.	species				Eragrostis		cilianensis			Janch.		Vignolo			All.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200215				x64		accepted	Ischaemum rugosum	Salisb.	species				Ischaemum		rugosum			Salisb.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200216				x64		accepted	Ischaemum timorense	Kunth	species				Ischaemum		timorense			Kunth																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200201				x64		accepted	Holcus lanatus	L.	species				Holcus		lanatus			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200203				x64		accepted	Hyparrhenia rufa	(Nees) Stapf	species				Hyparrhenia		rufa			Stapf					Nees													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200267				x64		accepted	Nardus stricta	L.	species				Nardus		stricta			L.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200287				x64		accepted	Oryza rufipogon	Griff.	species				Oryza		rufipogon			Griff.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200298				x64		accepted	Paspalum urvillei	Steud.	species				Paspalum		urvillei			Steud.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200297				x64		accepted	Paspalum dilatatum	Poir.	species				Paspalum		dilatatum			Poir.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200292				x64		accepted	Panicum maximum	Jacq.	species				Panicum		maximum			Jacq.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200235				x64		accepted	Lolium multiflorum	Lam.	species				Lolium		multiflorum			Lam.																																						Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200252				x64		accepted	Microstegium vimineum	(Trin.) A.Camus	species				Microstegium		vimineum			A.Camus					Trin.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200250				x64		accepted	Melinis repens	(Willd.) Zizka	species				Melinis		repens			Zizka					Willd.													botanical																				Poaceae			Poales		Liliopsida		Tracheophyta	Plantae							
+200348				200250		synonym	Rhynchelytrum repens	(Willd.) C.E.Hubb.	species				Rhynchelytrum		repens			C.E.Hubb.					Willd.													botanical																																			
+x5W				x5T		accepted	Asparagales		order			Asparagales																																																	Liliopsida		Tracheophyta	Plantae							
+xC9				x5W		accepted	Iridaceae		family			Iridaceae																																															Asparagales		Liliopsida		Tracheophyta	Plantae							
+200406				xC9		accepted	Tigridia pavonia ©	(L.f.) RedoutÃ	species				Tigridia		pavonia			RedoutÃ					L.f.													botanical																				Iridaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+200269				xC9		accepted	Neomarica longifolia	Sprague	species				Neomarica		longifolia			Sprague																																						Iridaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+200108				xC9		accepted	Crocosmia crocosmiiflora	(Nicholson) N.E.Br.	species				Crocosmia		crocosmiiflora			N.E.Br.					Nicholson													botanical																				Iridaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+x86				x5W		accepted	Orchidaceae		family			Orchidaceae																																															Asparagales		Liliopsida		Tracheophyta	Plantae							
+200278				x86		accepted	Oeceoclades maculata	Lindl.	species				Oeceoclades		maculata			Lindl.																																						Orchidaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+200037				x86		accepted	Arundina graminifolia	Hochr.	species				Arundina		graminifolia			Hochr.																																						Orchidaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+x5Y				x5W		accepted	Asparagaceae		family			Asparagaceae																																															Asparagales		Liliopsida		Tracheophyta	Plantae							
+200364				x5Y		accepted	Sansevieria trifasciata	hort. ex Prain	species				Sansevieria		trifasciata			Prain		hort.																																				Asparagaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+200363				x5Y		accepted	Sansevieria hyacinthoides	(L.) Druce	species				Sansevieria		hyacinthoides			Druce					L.													botanical																				Asparagaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+200101				x5Y		accepted	Cordyline fruticosa	(L.) A.Chev.	species				Cordyline		fruticosa			A.Chev.					L.													botanical																				Asparagaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+200040				x5Y		accepted	Asparagus densiflorus	(Kunth) Jessop	species				Asparagus		densiflorus			Jessop					Kunth													botanical																				Asparagaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							
+200009				x5Y		accepted	Agave americana	L.	species				Agave		americana			L.																																						Asparagaceae			Asparagales		Liliopsida		Tracheophyta	Plantae							

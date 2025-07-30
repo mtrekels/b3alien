@@ -30,6 +30,7 @@ dependencies = [
   "sparse",
   "tdqm",
   "xarray",
+  "coldp",
 ]
 
 [project.urls]
