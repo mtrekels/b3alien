@@ -18,3 +18,5 @@
   tdqm
   xarray
   coldp
+  sphinx
+  sphinx_rtd_theme

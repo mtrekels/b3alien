@@ -6,14 +6,12 @@ import dask.array as da
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use("Agg")
-import shapely
-from shapely import geos
 import gcsfs
 import folium
 from folium import Choropleth
 from IPython.display import display
 from b3alien.utils.runtime import in_jupyter
+matplotlib.use("Agg")
 
 """
 
@@ -184,9 +182,10 @@ class OccurrenceCube():
         self.df = self.df[self.df['specieskey'].eq(speciesKey)]
         self.data = self.data.sel(species=speciesKey)
 
-def aggregate_count_per_cell(cube, taxonRank, taxon, plot=False):
+def aggregate_count_per_cell(cube, taxonRank, taxon):
     """
-    Aggregate the counts per taxonomic level per cell.
+    Aggregate the counts per taxonomic level per cell. This can be used as a
+    normalization factor
 
     Parameters
     ----------
@@ -215,9 +214,6 @@ def aggregate_count_per_cell(cube, taxonRank, taxon, plot=False):
 
     # Step 3: Drop duplicate rows based on those columns
     gdf = subset_df.drop_duplicates()
-
-    if plot:
-        gdf_plot = gpd.GeoDataFrame()
 
     return gdf
 
@@ -552,8 +548,6 @@ def get_survey_effort(cube, dateFormat='%Y-%m', calc_type='total'):
         df : pandas.DataFrame
             Dataframe containing time and the chosen measurement for survey effort.
     """
-    
-
     if calc_type == 'distinct':
         # Group by 'yearmonth' and sum
         distinct_observers_over_time = cube.df.groupby('yearmonth', observed=True)['distinctobservers'].sum()
