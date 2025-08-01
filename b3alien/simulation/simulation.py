@@ -185,14 +185,11 @@ def simulate_solow_costello_scipy(annual_time_gbif, annual_rate_gbif, vis=False)
     result = minimize(
         objective,
         guess,
-        method="Nelder-Mead",     # supports bounds
-        #bounds=bounds,
-        #options={"ftol": 0.01, "gtol": 0.01, "disp": False}
+        method="Nelder-Mead",    
         options={"xatol": 0.01, "fatol": 0.01, "disp": False, "maxiter": 1000}
     )
 
     vec1 = result.x
-    val1 = result.fun
 
 
     C1 = count_lambda(vec1, len(num_discov))  #  Calculate the mean of Y
@@ -210,6 +207,9 @@ def simulate_solow_costello_scipy(annual_time_gbif, annual_rate_gbif, vis=False)
 def bootstrap_worker(i, time_list, rate_list):
     '''
     Bootstrap on the residuals
+    Returns=
+    - fitting parameters (vec1)
+    - C1_sim cumulative prediction from refit
     '''
     time_series = pd.Series(time_list)
     rate_series = pd.Series(rate_list)
@@ -228,8 +228,9 @@ def bootstrap_worker(i, time_list, rate_list):
             simulated_rate = C1_fit + resampled_residuals
 
             # Fit again on simulated data
-            C1_sim, _ = simulate_solow_costello_scipy(time_series, simulated_rate)
-            return np.cumsum(C1_sim)
+            C1_sim, vec1_boot = simulate_solow_costello_scipy(time_series, simulated_rate)
+            
+            return vec1_boot[1], np.cumsum(C1_sim)
     
     except Exception:
         return None
@@ -239,7 +240,8 @@ def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iter
     rate_list = list(annual_rate_gbif)
     n_cores = max(1, multiprocessing.cpu_count() - 1)
 
-    C1_samples = []
+    beta1_samples = []
+    c1_curves = []
 
     with ProcessPoolExecutor(max_workers=n_cores) as executor:
         futures = [
@@ -251,27 +253,44 @@ def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iter
             try:
                 result = f.result()
                 if result is not None:
-                    C1_samples.append(result)
+                    beta1, c1_curve = result
+                    beta1_samples.append(beta1)
+                    c1_curves.append(c1_curve)
             except Exception as e:
                 print(f"Unhandled error in future: {e}")
 
-    if not C1_samples:
+    if not beta1_samples:
         raise RuntimeError("All bootstrap iterations failed. No valid samples.")
 
-    C1_samples = np.array(C1_samples)
-    lower_bound = np.percentile(C1_samples, (100 - ci) / 2, axis=0)
-    upper_bound = np.percentile(C1_samples, 100 - (100 - ci) / 2, axis=0)
-    mean_cumsum = np.mean(C1_samples, axis=0)
+    beta1_samples = np.array(beta1_samples)
+    c1_curves = np.array(c1_curves)  # shape: (B, T)
 
-    return mean_cumsum, lower_bound, upper_bound
+    ci_lower = np.percentile(beta1_samples, (100 - ci) / 2)
+    ci_upper = np.percentile(beta1_samples, 100 - (100 - ci) / 2)
+    ci_beta1 = (ci_lower, ci_upper)
 
-def plot_with_confidence(T, observed, mean_cumsum, lower_bound, upper_bound):
+    lower_band = np.percentile(c1_curves, (100 - ci) / 2, axis=0)
+    upper_band = np.percentile(c1_curves, 100 - (100 - ci) / 2, axis=0)
+    mean_cumsum = np.mean(c1_curves, axis=0)
+
+    return {
+        "beta1_samples": beta1_samples,
+        "beta1_ci": ci_beta1,
+        "c1_mean": mean_cumsum,
+        "c1_lower": lower_band,
+        "c1_upper": upper_band,
+        "c1_all": c1_curves
+    }
+
+def plot_with_confidence(T, observed, results):
     plt.figure(figsize=(10, 6))
     plt.plot(T, np.cumsum(observed), 'k-', label='Observed Discoveries')
-    plt.plot(T, mean_cumsum, 'b--', label='Model Prediction')
-    plt.fill_between(T, lower_bound, upper_bound, color='blue', alpha=0.3, label='95% CI')
+    plt.plot(T, results["c1_mean"], 'b--', label='Bootstrap Mean C1')
+    plt.fill_between(T, results["c1_lower"], results["c1_upper"], color='blue', alpha=0.3, label='95% CI')
     plt.xlabel('Time')
     plt.ylabel('Cumulative Discoveries')
+    plt.title(f'Solow-Costello Fit with CI (β₁ 95% CI: {results["beta1_ci"][0]:.4f} – {results["beta1_ci"][1]:.4f})')
     plt.legend()
-    plt.title('Solow-Costello Model with 95% Confidence Interval')
+    plt.grid(True)
+    plt.tight_layout()
     plt.show()
