@@ -3,6 +3,8 @@ from tqdm import tqdm
 tqdm.pandas()  # enables .progress_apply
 from pygbif import species
 import numpy as np
+import requests
+import ast
 
 class CheckList():
 
@@ -29,32 +31,100 @@ class CheckList():
     def _load_GRIIS(self, filePath):
         
         df_merged = pd.read_csv(filePath, sep="\t")
-        species_to_keep = df_merged["speciesKey"].unique()
-        species_to_keep = np.where(species_to_keep == 'Uncertain', -1, species_to_keep)
-        species_to_keep = species_to_keep.astype(int)
+        df_merged['speciesKey'] = df_merged['speciesKey'].apply(
+            lambda x: ast.literal_eval(x) if isinstance(x, str) else x
+        )
+        df_exploded = df_merged.explode("speciesKey")
+        species_to_keep = df_exploded["speciesKey"].unique()
+        species_to_keep = [
+            int(x) for x in species_to_keep
+            if pd.notnull(x) and x != "Uncertain"
+        ]
 
         return species_to_keep
         
+def get_species_under_genus(taxon_key):
+    """
+    Raw API fallback to get species under a genus.
+    """
+    species_keys = []
+    offset = 0
+    limit = 1000
+
+    while True:
+        url = f"https://api.gbif.org/v1/species/{taxon_key}/children"
+        params = {"rank": "species", "limit": limit, "offset": offset}
+        response = requests.get(url, params=params)
+        if response.status_code != 200:
+            break
+
+        data = response.json()
+        results = data.get("results", [])
+        if not results:
+            break
+
+        keys = [res["key"] for res in results if res.get("rank", "").upper() == "SPECIES"]
+        species_keys.extend(keys)
+        offset += limit
+
+    return species_keys or ["Uncertain"]
 
 def get_speciesKey(sciname):
     """
-        Match text strings with the GBIF taxonomic backbone.
-
-        Parameters
-        ----------
-        sciname : str
-            Text string of a scientific name
-
-        Returns
-        -------
-        speciesKey: an integer speciesKey number
+    Match a scientific name to GBIF and return a list of speciesKey(s).
+    If it's a genus, return all speciesKeys under that genus using the raw GBIF API.
     """
-    result = species.name_backbone(sciname, strict=True)
     try:
-        speciesKey = result["speciesKey"]
-    except KeyError:
-        speciesKey = "Uncertain"
-    return speciesKey
+        # Query GBIF backbone for the name
+        response = requests.get(
+            "https://api.gbif.org/v1/species/match",
+            params={"name": sciname, "strict": True},
+            timeout=10
+        )
+        result = response.json()
+    except Exception:
+        return ["Uncertain"]
+
+    if "usageKey" not in result:
+        return ["Uncertain"]
+
+    taxon_key = result["usageKey"]
+    rank = result.get("rank", "").upper()
+
+    # Case 1: SPECIES
+    if rank == "SPECIES":
+        return [taxon_key]
+
+    # Case 2: GENUS — query children directly from GBIF API
+    elif rank == "GENUS":
+        all_species_keys = []
+        offset = 0
+        limit = 1000
+
+        while True:
+            try:
+                children_url = f"https://api.gbif.org/v1/species/{taxon_key}/children"
+                children_response = requests.get(
+                    children_url,
+                    params={"rank": "species", "limit": limit, "offset": offset},
+                    timeout=10
+                )
+                children_data = children_response.json()
+                results = children_data.get("results", [])
+
+                if not results:
+                    break
+
+                species_keys = [r["key"] for r in results if r.get("rank", "").upper() == "SPECIES"]
+                all_species_keys.extend(species_keys)
+                offset += limit
+            except Exception:
+                break
+
+        return all_species_keys if all_species_keys else ["Uncertain"]
+
+    # Case 3: Other ranks or unresolvable
+    return ["Uncertain"]
 
 def split_event_date(eventDate):
     """
@@ -175,7 +245,7 @@ def read_checklist(filePath, cl_type='detailed', locality='Belgium'):
         tot_species = tot_species.sort_values("introDate")
         tot_species["cumulative_total"] = tot_species["total"].cumsum()
 
-        return tot_species
+        return species_to_keep, tot_species
 
     else:
         taxon = filePath + "taxon.txt"
@@ -187,12 +257,17 @@ def read_checklist(filePath, cl_type='detailed', locality='Belgium'):
 
         # Now apply this on the whole dataframe
 
+        # Apply the function — returns lists
         df_t["speciesKey"] = df_t["scientificName"].apply(get_speciesKey)
 
-        df_merged = df_dist.merge(df_t[['id', 'speciesKey']], on='id', how='left')
+        # Explode so each speciesKey gets its own row
+        df_t_exploded = df_t.explode("speciesKey")
 
+        # Merge
+        df_merged = df_dist.merge(df_t_exploded[['id', 'speciesKey']], on='id', how='left')
+
+        # Clean and filter
         species_to_keep = df_merged["speciesKey"].unique()
-        species_to_keep = np.where(species_to_keep == 'Uncertain', -1, species_to_keep)
-        species_to_keep = species_to_keep.astype(int)
+        species_to_keep = [int(x) for x in species_to_keep if x != "Uncertain"]
 
         return species_to_keep
