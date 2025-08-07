@@ -1,10 +1,9 @@
 import pandas as pd
 from tqdm import tqdm
-tqdm.pandas()  # enables .progress_apply
-from pygbif import species
 import numpy as np
 import requests
 import ast
+tqdm.pandas()  # enables .progress_apply
 
 class CheckList():
 
