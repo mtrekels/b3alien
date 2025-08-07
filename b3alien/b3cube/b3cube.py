@@ -3,7 +3,6 @@ import pandas as pd
 import xarray as xr
 import sparse
 import dask.array as da
-import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 import gcsfs
@@ -18,6 +17,8 @@ matplotlib.use("Agg")
 Create a class object of the occurrence cube
 
 """
+
+
 class OccurrenceCube():
 
     """
@@ -33,7 +34,6 @@ class OccurrenceCube():
             Optional coordinates to assign to the cube.
         index_col : str or list, optional
             Column(s) to use for reshaping if needed.
-            
 
         Returns
         -------
@@ -44,7 +44,7 @@ class OccurrenceCube():
     """
 
     def __init__(self, filepath: str, source='geoparquet', gproject='', dims=None, coords=None, index_col=None):
-       
+
         self.filepath = filepath
         self.source = source
         self.gproject = gproject
@@ -57,7 +57,7 @@ class OccurrenceCube():
             self.df = self._load_gbifcsv(filepath)
         else:
             self.df = self._load_geoparquet(filepath, gproject)
-        
+
         # Create cube
         self.data = self._create_xcube(self.df)
 
@@ -182,6 +182,7 @@ class OccurrenceCube():
         self.df = self.df[self.df['specieskey'].eq(speciesKey)]
         self.data = self.data.sel(species=speciesKey)
 
+
 def aggregate_count_per_cell(cube, taxonRank, taxon):
     """
     Aggregate the counts per taxonomic level per cell. This can be used as a
@@ -292,7 +293,7 @@ def cumulative_species(cube, species_to_keep):
         species_to_keep : numpy.array
             Array of GBIF speciesKeys that need to be taken into account to calculate the cumulative species number of a cube.
         geom : str, optional
-            
+
         Returns
         -------
         df1 : pandas.DataFrame
@@ -300,7 +301,7 @@ def cumulative_species(cube, species_to_keep):
         df2 : pandas.DataFrame
             Cumulative dataframe cell independent.
     """
-    
+
     # Wrap sparse array in Dask array with one or more chunks
     dask_sparse_array = da.from_array(cube.data.data, chunks=(100, 100, 1000))  # tune chunking for your use case
 
@@ -364,6 +365,7 @@ def cumulative_species(cube, species_to_keep):
 
     return df_sparse, df_cumulative
 
+
 def plot_cumsum(df_cumulative):
     """
         Create a plot of the cumulative number of species.
@@ -372,13 +374,13 @@ def plot_cumsum(df_cumulative):
         ----------
         df_cumulative : pandas.DataFrame
             Datagrame containing the cumulative number over tume.
-            
+
         Returns
         -------
         matplotlib.plot
             A plot of the cumulative number of species.
     """
-    
+
     plt.figure(figsize=(10, 5))
     plt.plot(df_cumulative["time"], df_cumulative["cumulative_species"], marker="o")
     plt.title("Cumulative Unique Species Over Time")
@@ -398,7 +400,7 @@ def filter_multiple_cells(df_sparse):
         ----------
         df_sparse : pandas.DataFrame
             Datagrame containing the species richness per grid cell.
-            
+
         Returns
         -------
         pandas.DataFrame
@@ -440,7 +442,7 @@ def filter_multiple_occ(df_sparse):
         ----------
         df_sparse : pandas.DataFrame
             Datagrame containing the species richness per grid cell.
-            
+
         Returns
         -------
         pandas.DataFrame
@@ -485,7 +487,7 @@ def calculate_rate(df_cumulative):
         ----------
         df_cumulative : pandas.DataFrame
             Datagrame containing the cumulative distribution.
-            
+
         Returns
         -------
         s1 : pandas.Series
@@ -542,7 +544,7 @@ def get_survey_effort(cube, dateFormat='%Y-%m', calc_type='total'):
                 'distinct' : total number of distinct observers
                 'total' : total number of occurrences
                 Default is total.
-            
+
         Returns
         -------
         df : pandas.DataFrame
