@@ -32,7 +32,6 @@ docs/_build/
 .history/
 
 # ipython notebook files
-tests/notebooks
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
