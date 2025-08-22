@@ -183,6 +183,33 @@ class OccurrenceCube():
         self.data = self.data.sel(species=speciesKey)
 
 
+def filter_time_window(df, start_year, end_year, cols=["year", "rate"]):
+    """Filter a two column dataframe based on year window.
+    
+    Parameters
+    ----------
+    df: pandas.DataFrame
+        A two column dataframe with one time axs
+    start_year : np.int
+        Integer number of the earliest date to filter on.
+    end_year : np.int
+        Integer number of the latest date to filter on.
+    cols: list of str, optional
+        List of the names of the columns of the dataframe
+    
+
+    Returns
+    -------
+    time: pandas.Series
+        Filtered time series
+    filtered_var: pandas.Series
+        Filtered variable corresponding to the time series
+    
+    """
+    filtered = df[(df[cols[0]] >= start_year) & (df[cols[0]] <= end_year)].reset_index(drop=True)
+    return filtered[cols[0]], filtered[cols[1]]
+
+
 def aggregate_count_per_cell(cube, taxonRank, taxon):
     """
     Aggregate the counts per taxonomic level per cell. This can be used as a
