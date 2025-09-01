@@ -443,10 +443,10 @@ Additional example: plotting of the number of distinct observers per grid cell
 
 |image7|
 
-.. |image1| image:: docs/_static/images/species_richness.png
-.. |image2| image:: docs/_static/images/exemplar_workflow_28_0.png
-.. |image3| image:: docs/_static/images/exemplar_workflow_32_1.png
-.. |image4| image:: docs/_static/images/exemplar_workflow_42_0.png
-.. |image5| image:: docs/_static/images/exemplar_workflow_47_0.png
-.. |image6| image:: docs/_static/images/distinct_observers.png
-.. |image7| image:: docs/_static/images/observations.png
+.. |image1| image:: _static/images/species_richness.png
+.. |image2| image:: _static/images/exemplar_workflow_28_0.png
+.. |image3| image:: _static/images/exemplar_workflow_32_1.png
+.. |image4| image:: _static/images/exemplar_workflow_42_0.png
+.. |image5| image:: _static/images/exemplar_workflow_47_0.png
+.. |image6| image:: _static/images/distinct_observers.png
+.. |image7| image:: _static/images/observations.png
