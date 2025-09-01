@@ -3,7 +3,9 @@ import pytest
 import numpy as np
 import pandas as pd
 import geopandas as gpd
+import xarray as xr
 from b3alien import b3cube as b3
+from b3alien import griis
 
 def test_cube_loading():
     cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
@@ -14,14 +16,12 @@ def test_cube_loading():
 def test_cube_content():
     cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
     data = cube.data
-
     # Check shape
     assert data.shape == (
         len(data.coords["time"]),
         len(data.coords["cell"]),
         len(data.coords["species"])
     )
-
     # Example: check a specific value
     # Replace with actual expected values from your test data
     expected_time = "2018-07"
@@ -38,8 +38,6 @@ def test_cube_content():
             cell=expected_cell,
             species=expected_species
         ).item()
-
-        print(val)
 
         assert np.isclose(val, expected_occurrences), f"Expected {expected_occurrences}, got {val}"
 
@@ -64,3 +62,30 @@ def test_counts_per_cell():
     gdf = b3.aggregate_count_per_cell(cube, "genus", "Oxalis")
 
     assert isinstance(gdf, gpd.GeoDataFrame)
+
+def test_occurrence_cube_init():
+    cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
+    assert hasattr(cube, "data")
+    assert isinstance(cube.data, xr.DataArray)
+
+def test_occurrence_cube_gdf():
+    cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
+    assert hasattr(cube, "df")
+    assert isinstance(cube.df, gpd.GeoDataFrame)
+
+def test_cumulative_species():
+    cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
+    checklist = griis.CheckList("tests/data/dwca-griis-portugal-v1.9/merged_distr.txt")
+    df_sparse, df_cumulative = b3.cumulative_species(cube, checklist.species)
+    assert isinstance(df_sparse, pd.DataFrame)
+    assert isinstance(df_cumulative, pd.DataFrame)
+    assert df_cumulative.shape[0] > 0
+
+def test_calculate_rate():
+    cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
+    checklist = griis.CheckList("tests/data/dwca-griis-portugal-v1.9/merged_distr.txt")
+    df_sparse, df_cumulative = b3.cumulative_species(cube, checklist.species)
+    annual_time, annual_rate = b3.calculate_rate(df_cumulative)
+    assert isinstance(annual_time, list)
+    assert isinstance(annual_rate, list)
+    assert len(annual_time) == len(annual_rate)
