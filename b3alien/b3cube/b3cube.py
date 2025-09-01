@@ -1,3 +1,4 @@
+import os
 import geopandas as gpd
 import pandas as pd
 import xarray as xr
@@ -283,7 +284,7 @@ def plot_richness(cube, normalized=False, html_path='richness_map.html'):
     gdf_plot["geometry"] = gdf_plot["geometry"].simplify(0.01)
 
     # Center map
-    centroid = gdf_plot.geometry.unary_union.centroid
+    centroid = gdf_plot.geometry.union_all().centroid
     m = folium.Map(location=[centroid.y, centroid.x], zoom_start=7)
 
     # Plot

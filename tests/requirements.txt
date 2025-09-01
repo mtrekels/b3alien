@@ -13,6 +13,7 @@
   pyarrow
   pytest
   pytest-cov
+  pytest-mock
   pygbif
   scipy
   shapely

@@ -45,3 +45,8 @@ def test_get_speciesKey_genus():
     species = griis.get_speciesKey("Solanum")
     assert isinstance(species, list)
     assert len(species) > 0
+
+def test_runtime_detection():
+    assert utils.in_ipython() is True or utils.in_ipython() is False  
+    assert utils.in_jupyter() is False or utils.in_jupyter() is True  
+    assert utils.in_script() is False  or utils.in_script is True # Just ensure it runs without error

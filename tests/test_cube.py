@@ -6,6 +6,8 @@ import geopandas as gpd
 import xarray as xr
 from b3alien import b3cube as b3
 from b3alien import griis
+from b3alien import utils
+import folium
 
 def test_cube_loading():
     cube = b3.OccurrenceCube("tests/data/data_PT-30.parquet")
