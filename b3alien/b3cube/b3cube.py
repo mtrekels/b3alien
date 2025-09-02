@@ -63,12 +63,15 @@ class OccurrenceCube():
         self.data = self._create_xcube(self.df)
 
     def _load_gbifcsv(self, path):
+        """
+        Load a GBIF CSV file from local disk using Pandas. Assumes tab-separated values.
+        """
         df = pd.read_csv(path, sep='\t')
         return df
 
     def _load_geoparquet(self, path, gproject):
         """
-        Load a GeoParquet file from local disk or GCS using GeoPandas.
+        Load a GeoParquet file from local disk or GCS using GeoPandas. 
         """
         if path.startswith("gs://"):
             fs = gcsfs.GCSFileSystem(project=gproject)
@@ -89,7 +92,7 @@ class OccurrenceCube():
     def _create_xcube(self, df, dims=("time", "cell", "species")):
         """
         This function converts a GeoDataFrame into a sparse xarray cube with geometry metadata in case a GeoParquet file was loaded.
-        In case of a pure GBIF cube, the geometry is ignored.
+        In case of a pure GBIF cube, the geometry is ignored.  
         """
         # Convert to categorical
         df["yearmonth"] = pd.Categorical(df["yearmonth"])
@@ -136,6 +139,17 @@ class OccurrenceCube():
         return cube
 
     def _species_richness(self, normalized=False):
+        """
+            Calculate species richness per cell from the sparse cube.
+            Parameters
+            ----------
+            normalized : bool
+                Whether to compute normalized richness (richness / total occurrences).
+            Returns
+            -------
+            None
+                Sets self.richness as a DataFrame with columns 'cell' and 'richness' or 'normalized_richness'.
+        """
         # 1. Binary presence
         presence = (self.data > 0)
 
@@ -179,6 +193,19 @@ class OccurrenceCube():
             self.richness = norm_df
 
     def _filter_species(self, speciesKey):
+        """
+            Filter the cube to only include data for a specific speciesKey.
+
+            Parameters
+            ----------
+            speciesKey : int or str
+                The GBIF speciesKey to filter on.
+
+            Returns
+            -------
+            None
+                Updates self.df and self.data to only include the specified speciesKey.
+        """
 
         self.df = self.df[self.df['specieskey'].eq(speciesKey)]
         self.data = self.data.sel(species=speciesKey)

@@ -28,6 +28,19 @@ class CheckList():
         self.species = self._load_GRIIS(filePath)
 
     def _load_GRIIS(self, filePath):
+        """
+            Load the checklist and extract speciesKey(s).
+
+            Parameters
+            ----------
+            filePath : str
+                Path to the distribution.txt file of the checklist.
+
+            Returns
+            -------
+            list
+                A list of speciesKey(s) in the checklist.
+        """
         
         df_merged = pd.read_csv(filePath, sep="\t")
         df_merged['speciesKey'] = df_merged['speciesKey'].apply(
