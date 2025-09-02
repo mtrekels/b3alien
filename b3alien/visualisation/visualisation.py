@@ -10,7 +10,7 @@ from b3alien.utils.runtime import in_jupyter
 
 def add_ee_layer(self, ee_object, vis_params, name):
     """
-    Add Earth Engine layers to a Folium map.
+        Add Earth Engine layers to a Folium map.
     """
     try:
         if isinstance(ee_object, ee.image.Image):
@@ -43,7 +43,7 @@ def add_ee_layer(self, ee_object, vis_params, name):
 
 def patch_folium():
     """
-    Monkey-patch folium.Map to support EE layers.
+     Monkey-patch folium.Map to support EE layers.
     """
     if not hasattr(folium.Map, 'add_ee_layer'):
         folium.Map.add_ee_layer = add_ee_layer

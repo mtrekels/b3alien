@@ -21,13 +21,19 @@ def detect_runtime():
         return "Standard Python Script"
 
 def in_jupyter():
-    """Returns True if running inside a Jupyter Notebook or Lab."""
+    """
+        Returns True if running inside a Jupyter Notebook or Lab.
+    """
     return detect_runtime() == "Jupyter Notebook"
 
 def in_ipython():
-    """Returns True if running inside any IPython shell (not standard Python)."""
+    """
+        Returns True if running inside any IPython shell (not standard Python).
+    """
     return detect_runtime() != "Standard Python Script"
 
 def in_script():
-    """Returns True if running in a standard Python script (non-interactive)."""
+    """
+        Returns True if running in a standard Python script (non-interactive).
+    """
     return detect_runtime() == "Standard Python Script"

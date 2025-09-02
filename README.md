@@ -88,7 +88,8 @@ Once you have both files, you can generate the GeoParquet file by:
 ```python
 from b3alien import utils
 
-utils.to_geoparquet(csvFile, geoFile, leftID='eqdcellcode', rightID='cellCode', exportPath='./data/export.parquet')
+utils.to_geoparquet(csvFile, geoFile, leftID='eqdcellcode', 
+            rightID='cellCode', exportPath='./data/export.parquet')
 ```
 
 In the above code block you need to replace the names of you locally saved files and the corresponding names of the columns in these files.

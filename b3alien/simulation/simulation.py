@@ -43,6 +43,8 @@ def count_lambda(params, N):
     """
     This function calculates lambda from Solow and Costello, 2004.
     params is a vector of parameters
+    N is the number of time points
+    Note: an additional offset parameter is included to allow for a non-zero baseline.
     """
     lambda_result = np.zeros(N)
     for t in range(1, N + 1):
@@ -140,7 +142,7 @@ def simulate_solow_costello(annual_time_gbif, annual_rate_gbif, vis=False):
 
 def simulate_solow_costello_scipy(annual_time_gbif, annual_rate_gbif, vis=False): 
     """
-        Solow-Costello simulation of the rate of establishment.
+        Solow-Costello simulation of the rate of establishment. Uses scipy's minimize for optimization.
 
         Parameters
         ----------
@@ -236,6 +238,24 @@ def bootstrap_worker(i, time_list, rate_list):
         return None
 
 def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iterations=1000, ci=95):
+    """
+        Perform parallel bootstrapping of the Solow-Costello model 
+        to estimate confidence intervals.
+        Parameters
+        ----------
+        annual_time_gbif : pandas.Series
+            Time series of the rate of establishment.
+        annual_rate_gbif : pandas.Series
+            Rates corresponding to the time series.
+        n_iterations : int, optional
+            Number of bootstrap iterations. Default is 1000.
+        ci : float, optional
+            Confidence interval percentage. Default is 95.
+        Returns
+        -------
+        dict
+            A dictionary containing bootstrap results and confidence intervals.
+    """
     time_list = list(annual_time_gbif)
     rate_list = list(annual_rate_gbif)
     n_cores = max(1, multiprocessing.cpu_count() - 1)
@@ -283,6 +303,19 @@ def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iter
     }
 
 def plot_with_confidence(T, observed, results):
+    """
+        Plot the observed cumulative discoveries 
+        with bootstrap confidence intervals.
+
+        Parameters
+        ----------
+        T : pandas.Series
+            Time series of the rate of establishment.
+        observed : pandas.Series
+            Observed cumulative discoveries.
+        results : dict
+            Dictionary containing bootstrap results and confidence intervals.
+    """
     plt.figure(figsize=(10, 6))
     plt.plot(T, np.cumsum(observed), 'k-', label='Observed Discoveries')
     plt.plot(T, results["c1_mean"], 'b--', label='Bootstrap Mean C1')

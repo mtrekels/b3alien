@@ -45,7 +45,16 @@ class CheckList():
  
 def get_species_under_genus(taxon_key):
     """
-    Raw API fallback to get species under a genus.
+        Get all the keys of the species listed under a specific genus.
+
+        Parameters
+        ----------
+        taxon_key : int
+            The GBIF taxonKey of the genus.
+        Returns
+        -------
+        list
+            A list of speciesKey(s) under the specified genus.
     """
     species_keys = []
     offset = 0
@@ -71,8 +80,15 @@ def get_species_under_genus(taxon_key):
 
 def get_speciesKey(sciname):
     """
-    Match a scientific name to GBIF and return a list of speciesKey(s).
-    If it's a genus, return all speciesKeys under that genus using the raw GBIF API.
+        Resolve a scientific name to its GBIF taxonKey. If the name is a genus, retrieve all species under that genus.
+        Parameters
+        ----------
+        sciname : str
+            The scientific name to resolve.
+        Returns
+        -------
+        list
+            A list of resolved speciesKey(s) or ["Uncertain"] if unresolved.
     """
     try:
         # Query GBIF backbone for the name
