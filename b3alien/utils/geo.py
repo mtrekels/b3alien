@@ -4,7 +4,7 @@ import pyarrow
 
 def to_geoparquet(csvFile, geoFile, leftID='eqdcellcode', rightID='cellCode', exportPath='./data/export.parquet'):
     """
-       Convert a GBIF cube download into a GeoParquet file, using the geometry of a GPKG
+        Convert a GBIF cube download into a GeoParquet file, using the geometry of a GPKG
 
         Parameters
         ----------

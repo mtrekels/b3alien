@@ -485,7 +485,9 @@ def filter_multiple_cells(df_sparse):
         seen_species.update(new_species)
         cumulative.append((time, len(seen_species)))
 
-    df_cumulative_cells = pd.DataFrame(cumulative, columns=["time", "cumulative_species_2cells"])
+    df_cumulative_cells = pd.DataFrame(cumulative,
+                                       columns=["time",
+                                                "cumulative_species_2cells"])
 
     return df_cumulative_cells
 
@@ -530,13 +532,15 @@ def filter_multiple_occ(df_sparse):
         seen_species.update(new_species)
         cumulative.append((time, len(seen_species)))
 
-    df_cumulative_occ = pd.DataFrame(cumulative, columns=["time", "cumulative_species_2occ"])
+    df_cumulative_occ = pd.DataFrame(cumulative, 
+                                     columns=["time",
+                                              "cumulative_species_2occ"])
 
     return df_cumulative_occ
 
 def calculate_rate(df_cumulative):
     """
-       Calculate the rate of establishment from the cumulative distribution.
+        Calculate the rate of establishment from the cumulative distribution.
 
         Parameters
         ----------

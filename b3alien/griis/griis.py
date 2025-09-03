@@ -211,6 +211,26 @@ def do_taxon_matching(dirPath):
 
 # The rest assumes already a merged dataset
 def read_checklist(filePath, cl_type='detailed', locality='Belgium'):
+    """
+        Read a GRIIS checklist and extract speciesKey(s) and time series of species numbers over time.
+        Parameters
+        ----------
+        filePath : str
+            Path to the directory of the checklist (must contain distribution.txt and taxon.txt if cl
+            type is not 'detailed').
+        cl_type : str
+            Type of checklist: 'detailed' (with eventDate) or 'simple' (
+            without eventDate, requires taxon.txt and distribution.txt).
+        locality : str
+            The locality to filter on (default is 'Belgium').
+        Returns
+        -------
+        tuple
+            A tuple containing:
+            - list of speciesKey(s) in the checklist
+            - pd.DataFrame with columns 'introDate' and 'cumulative_total' representing the
+                cumulative number of species over time.
+    """
     
     distribution = filePath + "distribution.txt"
 

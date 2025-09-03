@@ -241,6 +241,7 @@ def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iter
     """
         Perform parallel bootstrapping of the Solow-Costello model 
         to estimate confidence intervals.
+
         Parameters
         ----------
         annual_time_gbif : pandas.Series

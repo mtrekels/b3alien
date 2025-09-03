@@ -5,7 +5,8 @@ def detect_runtime():
     """
     Detects the runtime environment where the code is executed.
 
-    Returns:
+    Returns
+    -------
         str: One of "Jupyter Notebook", "IPython Terminal", or "Standard Python Script"
     """
     try:
