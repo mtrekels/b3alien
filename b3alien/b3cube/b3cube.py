@@ -115,7 +115,7 @@ class OccurrenceCube():
             )
         )
 
-         # Prepare coordinates for the DataArray
+        # Prepare coordinates for the DataArray
         coords = {
             dims[0]: df["yearmonth"].cat.categories,
             dims[1]: df["cellCode"].cat.categories,
@@ -161,7 +161,7 @@ class OccurrenceCube():
 
         total_occurrences = self.data.sum(dim=["time", "species"])
 
-        if normalized == False:
+        if not normalized:
             # 4. Get the non-zero values and indices
             coords = species_richness.data.coords  # (1D arrays of indices)
             values = species_richness.data.data    # the richness values

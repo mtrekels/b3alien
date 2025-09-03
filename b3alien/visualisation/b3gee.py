@@ -24,12 +24,10 @@ def gdf_to_ee_featurecollection(gdf):
         ----------
         gdf : geopandas.DataFrame
             Species OccurrenceCube from GBIF.
-            
+
         Returns
         -------
         ee.FeatureCollection
     """
     geojson = json.loads(gdf.to_json())
     return ee.FeatureCollection(geojson)
-
-

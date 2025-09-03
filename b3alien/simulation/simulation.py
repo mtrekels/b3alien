@@ -64,7 +64,7 @@ def count_lambda(params, N):
 
 def count_log_like(params, restrict, num_discov):
     """
-    Calculates the negative log likelihood from Solow and Costello (2004), 
+    Calculates the negative log likelihood from Solow and Costello (2004),
     supporting optional parameter restrictions.
     """
 
@@ -100,7 +100,7 @@ def simulate_solow_costello(annual_time_gbif, annual_rate_gbif, vis=False):
             Rates corresponding to the time series.
         vis : bool, optional
             Create a plot of the simulation. Default is False.
-            
+
         Returns
         -------
         C1: numpy.Series
@@ -110,8 +110,8 @@ def simulate_solow_costello(annual_time_gbif, annual_rate_gbif, vis=False):
     """
 
     #  global num_discov;  #  No need for global, pass as argument
-    num_discov = pd.Series(annual_rate_gbif).T   #  Load and transpose
-    T = pd.Series(annual_time_gbif) #np.arange(1851, 1996)  #  Create the time period
+    num_discov = pd.Series(annual_rate_gbif).T   # Load and transpose
+    T = pd.Series(annual_time_gbif)  # np.arange(1851, 1996)  # Create the time period
     #  options = optimset('TolFun',.01,'TolX',.01);  #  Tolerance is handled differently in scipy
 
     guess = np.array([-1.1106, 0.0135, -1.4534, 0.1, 0.1])  #  Initial guess
@@ -124,7 +124,7 @@ def simulate_solow_costello(annual_time_gbif, annual_rate_gbif, vis=False):
         ftol=0.01,
         disp=0  # disables all output
     )
-    
+
     val1 = count_log_like(vec1, constr, num_discov)[0]  #  Get the function value at the minimum
 
 
@@ -218,7 +218,7 @@ def bootstrap_worker(i, time_list, rate_list):
 
     try:
         # Fit once to get baseline model
-         with warnings.catch_warnings():
+        with warnings.catch_warnings():
             warnings.simplefilter("ignore", RuntimeWarning)
 
             # Fit once to get baseline model

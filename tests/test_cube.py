@@ -32,8 +32,8 @@ def test_cube_content():
     expected_occurrences = 3.0
 
     if (expected_time in data.coords["time"].values and
-        expected_cell in data.coords["cell"].values and
-        expected_species in data.coords["species"].values):
+            expected_cell in data.coords["cell"].values and
+            expected_species in data.coords["species"].values):
 
         val = data.drop_vars("geometry").sel(
             time=expected_time,
