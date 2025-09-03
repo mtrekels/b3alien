@@ -53,15 +53,23 @@ def visualize_ee_layers(layers, center=[0, 0], zoom=2, save_path=None, show=True
     """
     Visualize Earth Engine layers either in Jupyter (geemap) or save as HTML/PNG via folium.
 
-    Parameters:
-        layers (list): List of tuples (ee_object, vis_params, name)
-        center (list): [lat, lon] center of map
-        zoom (int): Zoom level
-        save_path (str): Optional filepath to save HTML
-        show (bool): Show in browser (script) or inline (Jupyter)
-        image (bool): Attempt to save a PNG image (requires Selenium)
+    Parameters
+    ----------
+        layers : list
+            List of tuples (ee_object, vis_params, name)
+        center : list 
+            [lat, lon] center of map
+        zoom : int
+            Zoom level
+        save_path : str
+            Optional filepath to save HTML
+        show : bool
+            Show in browser (script) or inline (Jupyter)
+        image :bool
+            Attempt to save a PNG image (requires Selenium)
 
-    Returns:
+    Returns
+    -------
         folium.Map or geemap.Map
     """
     patch_folium()

@@ -231,9 +231,9 @@ def bootstrap_worker(i, time_list, rate_list):
 
             # Fit again on simulated data
             C1_sim, vec1_boot = simulate_solow_costello_scipy(time_series, simulated_rate)
-            
+        
             return vec1_boot[1], np.cumsum(C1_sim)
-    
+
     except Exception:
         return None
 
