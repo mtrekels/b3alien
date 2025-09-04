@@ -1,0 +1,40 @@
+{
+  "title": "b3alien: A Python Package to Calculate the Global Biodiversity Framework Target 6 indicators",
+  "version": "0.1.4",
+  "description": "Python package to calculate the CBD target 6.1 indicator from occurrence cubes",
+  "creators": [
+    {
+      "name": "Trekels, Maarten",
+      "orcid": "https://orcid.org/0000-0001-8282-8765"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "communities": [
+    {
+      "identifier": "meisebotanicgarden"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Meise Botanic Garden",
+      "type": "RightsHolder"
+    },
+    {
+      "name": "Trekels, Maarten",
+      "type": "ContactPerson",
+      "orcid": "https://orcid.org/0000-0001-8282-8765"
+    }
+  ],
+  "language": "eng",
+  "keywords": [
+    "Python package",
+    "GBIF",
+    "B-Cubed",
+    "Global Biodiversity Framework",
+    "Target 6",
+    "Convention on Biological Diversity",
+    "CBD"
+  ]
+}
