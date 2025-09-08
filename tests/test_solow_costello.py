@@ -138,3 +138,15 @@ def test_plot_with_confidence_no_gui(monkeypatch, tiny_series):
 
     # Should not raise
     plot_with_confidence(T, y, fake_results)
+
+# ------- test real simulation results from SC paper ------
+
+def test_SC_original():
+    inputf = 'tests/data/sc_original/NumDis.csv'
+    n_discover = pd.read_csv(inputf, sep=';')
+    numdis = np.array(n_discover["numdis"])
+    T = np.array(n_discover["time"])
+
+    C1, vec = simulate_solow_costello_scipy(T, numdis)
+
+    assert vec[1] > 0.0134 and vec[1] < 0.0136

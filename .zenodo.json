@@ -1,6 +1,6 @@
 {
   "title": "b3alien: A Python Package to Calculate the Global Biodiversity Framework Target 6 indicators",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Python package to calculate the CBD target 6.1 indicator from occurrence cubes",
   "creators": [
     {

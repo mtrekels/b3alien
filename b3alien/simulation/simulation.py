@@ -114,7 +114,7 @@ def simulate_solow_costello(annual_time_gbif, annual_rate_gbif, vis=False):
     T = pd.Series(annual_time_gbif)  # np.arange(1851, 1996)  # Create the time period
     #  options = optimset('TolFun',.01,'TolX',.01);  #  Tolerance is handled differently in scipy
 
-    guess = np.array([-1.1106, 0.0135, -1.4534, 0.1, 0.1])  #  Initial guess
+    guess = np.array([-1.1106, 0.0435, -1.4534, 0.1, 0.1])  #  Initial guess
     constr = 99 * np.ones_like(guess)  #  Constraint vector
 
     vec1 = fmin(
@@ -165,7 +165,7 @@ def simulate_solow_costello_scipy(annual_time_gbif, annual_rate_gbif, vis=False)
     num_discov = pd.Series(annual_rate_gbif).T   #  Load and transpose
     T = pd.Series(annual_time_gbif) #np.arange(1851, 1996)  #  Create the time period
     #  options = optimset('TolFun',.01,'TolX',.01);  #  Tolerance is handled differently in scipy
-    guess = np.array([-1.1106, 0.0135, -1.4534, 0.1, 0.1, 0.0])  #  Initial guess
+    guess = np.array([-1.1106, 0.0135, -1.4534, 0.0, 0.0, 0.0])  #  Initial guess
     constr = 99 * np.ones_like(guess) 
 
     # Objective function for minimize (returns scalar log-likelihood)
@@ -175,8 +175,8 @@ def simulate_solow_costello_scipy(annual_time_gbif, annual_rate_gbif, vis=False)
     # Define bounds for each parameter
     # These must match the size and meaning of `guess`
     bounds = [
-        (-5, 0),     # e.g., parameter 1: negative decay
-        (0, 1),      # e.g., parameter 2: rate between 0 and 1
+        (-5, 5),     # e.g., parameter 1: negative decay
+        (-1, 1),      # e.g., parameter 2: rate between 0 and 1
         (-5, 0),     # e.g., parameter 3: another decay
         (0.01, 2),   # e.g., parameter 4: noise scale
         (0.01, 2),   # e.g., parameter 5: another scale
