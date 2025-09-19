@@ -2,6 +2,7 @@ import os
 import geopandas as gpd
 import pandas as pd
 import xarray as xr
+import numpy as np
 import sparse
 import dask.array as da
 import matplotlib.pyplot as plt
@@ -209,6 +210,75 @@ class OccurrenceCube():
 
         self.df = self.df[self.df['specieskey'].eq(speciesKey)]
         self.data = self.data.sel(species=speciesKey)
+
+
+def find_correlations(cube: OccurrenceCube, top_n=10):
+    """
+    Calculates species co-occurrence using efficient matrix operations.
+
+    This method identifies pairs of species that occur in the same 'cell'
+    at the same 'time'.
+
+    Parameters
+    ----------
+        cube (OccurrenceCube): An instance of the OccurrenceCube class.
+        top_n (int): The number of top correlated pairs to return.
+
+    Returns
+    -------
+        list: A list of tuples, where each tuple contains the species names
+              and their co-occurrence count, sorted in descending order.
+    """
+    if cube.data is None:
+        print("Data cube is not loaded. Cannot find correlations.")
+        return []
+        
+    # 1. Create a boolean cube for presence (occurrence > 0)
+    # Using int32 to prevent overflow when summing large arrays.
+    presence = (cube.data > 0).astype('int32')
+
+    # 2. Compute the co-occurrence matrix using broadcasting.
+    # This multiplies the presence array with itself along a new 'species_copy' dimension
+    # and sums over the 'time' and 'cell' dimensions.
+    # The result is a (species x species) matrix.
+    co_occurrence = (presence * presence.rename({'species': 'species_copy'})).sum(dim=['time', 'cell'])
+
+    # 3. If the data is a Dask array, trigger the computation.
+    # Then, explicitly densify the sparse array before converting to pandas.
+    computed_co = co_occurrence.compute()
+    df_co = xr.DataArray(
+        computed_co.data.todense(),
+        dims=computed_co.dims,
+        coords=computed_co.coords
+    ).to_pandas()
+    df_co.columns.name = 'species'
+    df_co.index.name = 'species'
+
+    # 4. Extract the upper triangle to avoid duplicate pairs (A,B vs B,A)
+    # and self-pairs (A,A). k=1 excludes the diagonal.
+    df_upper = df_co.where(np.triu(np.ones(df_co.shape), k=1).astype(bool))
+    
+    # 5. Stack the matrix to get a Series of (species, species) -> count
+    stacked_pairs = df_upper.stack().sort_values(ascending=False)
+
+    # Filter out pairs with zero co-occurrences
+    strongest_pairs = stacked_pairs[stacked_pairs > 0]
+    
+    if strongest_pairs.empty:
+        print("No co-occurring species pairs found in the provided dataset.")
+        return []
+
+    # 6. Create a mapping from specieskey to species name for readability
+    species_map = cube.df.drop_duplicates('specieskey').set_index('specieskey')['species']
+    
+    # 7. Format the output
+    results = []
+    for (key1, key2), count in strongest_pairs.head(top_n).items():
+        name1 = species_map.get(key1, f"Unknown ({key1})")
+        name2 = species_map.get(key2, f"Unknown ({key2})")
+        results.append(((name1, name2), int(count)))
+        
+    return results
 
 
 def filter_time_window(df, start_year, end_year, cols=["year", "rate"]):
@@ -645,3 +715,4 @@ def get_survey_effort(cube, dateFormat='%Y-%m', calc_type='total'):
         df = df.dropna(subset=['time'])
 
         return df
+

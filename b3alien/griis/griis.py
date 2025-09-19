@@ -56,7 +56,39 @@ class CheckList():
 
         return species_to_keep
 
- 
+    def _add_species(self, new_species):
+        """
+            Add new species to the checklist.
+
+            Parameters
+            ----------
+            new_species : list
+                A list of speciesKey(s) to add to the checklist.
+
+            Returns
+            -------
+            None
+        """
+        for sp in new_species:
+            if sp not in self.species:
+                self.species.append(sp) 
+
+    def _remove_species(self, rem_species):
+        """
+            Remove species from the checklist.
+
+            Parameters
+            ----------
+            rem_species : list
+                A list of speciesKey(s) to remove from the checklist.
+
+            Returns
+            -------
+            None
+        """
+        self.species = [sp for sp in self.species if sp not in rem_species] 
+
+
 def get_species_under_genus(taxon_key):
     """
         Get all the keys of the species listed under a specific genus.

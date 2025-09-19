@@ -15,6 +15,7 @@ from .b3cube import filter_multiple_cells
 from .b3cube import filter_multiple_occ
 from .b3cube import aggregate_count_per_cell
 from .b3cube import filter_time_window
+from .b3cube import find_correlations
 
 
 __all__ = [
@@ -26,6 +27,7 @@ __all__ = [
     "calculate_rate",
     "get_survey_effort",
     "aggregate_count_per_cell",
-    "filter_time_window"
+    "filter_time_window",
+    "find_correlations"
     # purposely exclude OccurrenceCube
 ]
