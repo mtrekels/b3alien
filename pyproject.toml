@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "b3alien"
-version = "0.2.1"
+version = "0.2.2"
 description = "Calculating the CBD target 6.1 indicator from occurrence cubes"
 readme = "README.md"
 requires-python = ">=3.10"

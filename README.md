@@ -1,4 +1,4 @@
-# b3alien: a Python package to calculate the Target 6.1 headline indicator of the CBD
+# b3alien: a Python package to calculate the Global Biodiversity Framework Target 6 Headline Indicator
 
 [![Build](https://github.com/mtrekels/b3alien/actions/workflows/test.yml/badge.svg)](https://github.com/mtrekels/b3alien/actions/workflows/test.yml)
 [![Coverage](https://codecov.io/gh/mtrekels/b3alien/branch/main/graph/badge.svg)](https://codecov.io/gh/mtrekels/b3alien)
