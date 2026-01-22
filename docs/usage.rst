@@ -151,7 +151,7 @@ This function is returning two dataframes, a sparse dataframe (d_s)
 which contains the cumulative number of species per cell, and a
 dataframe (d_c) which is cell independent. It is this last dataframe
 that we will use in the rest of the calculation. The first dataframe
-might be usefull to have some spatial insight in the number of species.
+might be useful to have some spatial insight in the number of species.
 
 From there, we can calculate the rate:
 
@@ -159,7 +159,7 @@ From there, we can calculate the rate:
 
    time, rate = b3cube.calculate_rate(d_c)
 
-For applying the strategy defined by the GBF, is it usefull to calculate
+For applying the strategy defined by the GBF, is it useful to calculate
 the rate of introduction for different time windows. Therefore, a
 filtering function was developed to determine for which time interval
 the calculation needs to be done. In the rest of this exemplar notebook,
@@ -186,15 +186,15 @@ introduction:
 
 The vector 'vec1' contains the parameters of the fitting of the
 Solow-Costello model. The most important parameter in this case is the
-rate of establishment (2nd parameter).
+change in rate of establishment (2nd parameter).
 
 .. code:: python
 
-   print("Fitted Rate of Establishment from the data cube: " + str(vec1[1]) + "/year")
+   print("Fitted change in Rate of Establishment from the data cube: " + str(vec1[1]) + "/year")
 
 ::
 
-   Fitted Rate of Establishment from the data cube: -0.025016351861057464/year
+   Fitted change in Rate of Establishment from the data cube: -0.025016351861057464/year
 
 Step 5: Determine the error margings on the fitted rate of establishment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

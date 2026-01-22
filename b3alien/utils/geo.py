@@ -27,7 +27,7 @@ def to_geoparquet(csvFile, geoFile, leftID='eqdcellcode', rightID='cellCode', ex
     data = pd.read_csv(csvFile, sep='\t')
     geoRef = gpd.read_file(geoFile, engine='pyogrio', use_arrow=True, crs="EPSG:4326")
 
-    test_merge = pd.merge(data, qdgc_ref, left_on=leftID, right_on=rightID)
+    test_merge = pd.merge(data, geoRef, left_on=leftID, right_on=rightID)
 
     gdf = gpd.GeoDataFrame(test_merge, geometry='geometry')
     if gdf.crs is None:

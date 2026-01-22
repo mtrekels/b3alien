@@ -193,14 +193,14 @@ _, vec1 = simulation.simulate_solow_costello_scipy(time, rate, vis=True)
     
 
 
-The vector 'vec1' contains the parameters of the fitting of the Solow-Costello model. The most important parameter in this case is the rate of establishment (2nd parameter).
+The vector 'vec1' contains the parameters of the fitting of the Solow-Costello model. The most important parameter in this case is the change in rate of establishment (2nd parameter).
 
 
 ```python
-print("Fitted Rate of Establishment from the data cube: " + str(vec1[1]) + "/year")
+print("Fitted change in Rate of Establishment from the data cube: " + str(vec1[1]) + "/year")
 ```
 
-    Fitted Rate of Establishment from the data cube: -0.025016351861057464/year
+    Fitted change in Rate of Establishment from the data cube: -0.025016351861057464/year
 
 
 ### Step 5: Determine the error margings on the fitted rate of establishment
