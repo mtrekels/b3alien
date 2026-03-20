@@ -150,3 +150,75 @@ def test_SC_original():
     C1, vec = simulate_solow_costello_scipy(T, numdis)
 
     assert vec[1] > 0.0134 and vec[1] < 0.0136
+
+
+# This fake worker must be a top-level function to be pickleable by multiprocessing.
+def _fake_bootstrap_worker_for_test(i, time_list, rate_list):
+    """
+    A predictable, fake bootstrap worker that returns known values for testing.
+    """
+    n_timesteps = len(time_list)
+    # Return a fake parameter and a fake cumulative curve.
+    # The parameter is just the iteration number `i`.
+    # The curve is a simple linear array based on `i`.
+    fake_param = float(i)
+    fake_cumulative_curve = np.arange(n_timesteps) * (i + 1)
+    return fake_param, fake_cumulative_curve
+
+
+def test_run_bootstrap_analysis(monkeypatch, tiny_series):
+    """
+    Tests the aggregation and DataFrame creation logic of run_bootstrap_analysis
+    by mocking the parallel worker.
+    """
+    T, y = tiny_series
+    n_iterations = 10
+    n_timesteps = len(T)
+
+    # Replace the real worker with our fake one
+    monkeypatch.setattr('b3alien.simulation.simulation.bootstrap_worker', _fake_bootstrap_worker_for_test)
+
+    # --- Run the function under test ---
+    results_df = run_bootstrap_analysis(list(T), list(y), n_iterations=n_iterations)
+
+    # --- Assertions ---
+    assert isinstance(results_df, pd.DataFrame)
+    assert len(results_df) == n_timesteps
+    assert 'Annual_Rate' in results_df.columns
+    assert 'Cumulative_Value' in results_df.columns
+    assert 'Lower_CI_95' in results_df.columns
+    assert not results_df.isnull().values.any()
+
+
+def test_get_bootstrap_errors(monkeypatch, tiny_series):
+    """
+    Tests the statistics calculation in get_bootstrap_errors by mocking the
+    underlying simulation function.
+    """
+    T, y = tiny_series
+    n_iterations = 5
+    n_timesteps = len(T)
+
+    # --- Mock the simulation function ---
+    # This list will hold the predictable results our fake function will return.
+    fake_results = []
+    for i in range(n_iterations):
+        # Create a unique but predictable result for each iteration
+        fake_vec = np.array([0.1, 0.2, i, i, i, i])  # vec1_boot
+        fake_c1 = np.full(n_timesteps, i + 1.0)      # C1_boot
+        fake_results.append((fake_c1, fake_vec))
+
+    # This fake function will pop one of the pre-made results on each call.
+    def fake_simulate_scipy(annual_time, annual_rate, vis=False):
+        return fake_results.pop(0)
+
+    monkeypatch.setattr('b3alien.simulation.simulation.simulate_solow_costello_scipy', fake_simulate_scipy)
+
+    # --- Run the function under test ---
+    vec1_mean, vec1_std, C1_mean, C1_std = get_bootstrap_errors(T, y, iterations=n_iterations)
+
+    # --- Assertions ---
+    # Expected C1 values are [1.0, 2.0, 3.0, 4.0, 5.0] for each timestep
+    assert C1_mean.shape == (n_timesteps,)
+    np.testing.assert_allclose(C1_mean, np.full(n_timesteps, 3.0)) # Mean of 1,2,3,4,5 is 3
+    np.testing.assert_allclose(C1_std, np.full(n_timesteps, np.std([1,2,3,4,5])))

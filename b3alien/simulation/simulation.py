@@ -206,13 +206,72 @@ def simulate_solow_costello_scipy(annual_time_gbif, annual_rate_gbif, vis=False)
 
     return C1, vec1
 
+import numpy as np
+import pandas as pd
+
+def get_bootstrap_errors(annual_time, annual_rate, iterations=100):
+    """   
+    Perform bootstrap resampling to estimate the standard errors of the parameters and C1 values.
+    
+    Parameters
+    ----------
+    annual_time: pandas Series
+        Time points
+    annual_rate: pandas Series
+        Rates corresponding to the time points
+    iterations: int
+        Number of bootstrap iterations to perform
+
+    Returns
+    -------
+    vec1_mean 
+        mean of the fitted parameters across bootstrap samples
+    vec1_std
+        standard error of the fitted parameters across bootstrap samples
+    C1_mean: 
+        mean of the C1 values across bootstrap samples
+    C1_std: 
+        standard error of the C1 values across bootstrap samples
+    """
+    all_vec1 = []
+    all_C1 = []
+    
+    print(f"Starting {iterations} bootstrap iterations...")
+    
+    for i in range(iterations):
+        # 1. Resample the data with replacement
+        # This simulates alternative 'histories' of the same process
+        indices = np.random.choice(len(annual_rate), size=len(annual_rate), replace=True)
+        resampled_time = annual_time.iloc[indices].sort_values()
+        resampled_rate = annual_rate.iloc[indices] # Keep rates associated with their times
+        
+        try:
+            # 2. Run your existing fitting function
+            C1_boot, vec1_boot = simulate_solow_costello_scipy(resampled_time, resampled_rate, vis=False)
+            all_vec1.append(vec1_boot)
+            all_C1.append(C1_boot)
+        except Exception as e:
+            # Skip iterations that fail to converge
+            continue
+            
+    # Convert to numpy arrays for easier math
+    all_vec1 = np.array(all_vec1)
+    all_C1 = np.array(all_C1)
+    
+    # 3. Calculate means and standard errors
+    vec1_mean = np.mean(all_vec1, axis=0)
+    vec1_std = np.std(all_vec1, axis=0)
+    
+    C1_mean = np.mean(all_C1, axis=0)
+    C1_std = np.std(all_C1, axis=0)
+    
+    return vec1_mean, vec1_std, C1_mean, C1_std
+
 def bootstrap_worker(i, time_list, rate_list):
-    '''
-    Bootstrap on the residuals
-    Returns=
-    - fitting parameters (vec1)
-    - C1_sim cumulative prediction from refit
-    '''
+    """
+    Worker function for bootstrap analysis. Each worker will perform one bootstrap iteration.
+    Returns the fitted parameter and cumulative curve for that iteration.
+    """
     time_series = pd.Series(time_list)
     rate_series = pd.Series(rate_list)
 
@@ -236,6 +295,83 @@ def bootstrap_worker(i, time_list, rate_list):
 
     except Exception:
         return None
+
+
+def run_bootstrap_analysis(time_list, rate_list, n_iterations=200):
+    """
+    Run the bootstrap analysis in parallel and aggregate results into a DataFrame.
+    Parameters
+    ----------
+    time_list: list or pandas Series
+        Time points for the analysis.
+    rate_list: list or pandas Series
+        Rates corresponding to the time points.
+    n_iterations: int
+        Number of bootstrap iterations to perform.
+
+    Returns
+    -------
+    pandas DataFrame
+        A DataFrame containing the mean annual rates, cumulative values, and confidence intervals.
+    
+    """
+    param_samples = []
+    cumulative_samples = []
+
+    print(f"Starting {n_iterations} bootstrap iterations...")
+
+    # 1. Parallel Execution
+    with ProcessPoolExecutor() as executor:
+        # Passing time and rate lists to every worker
+        futures = [executor.submit(bootstrap_worker, i, time_list, rate_list) for i in range(n_iterations)]
+        
+        for f in futures:
+            res = f.result()
+            if res is not None:
+                p_val, cum_vals = res
+                param_samples.append(p_val)
+                cumulative_samples.append(cum_vals)
+
+    if not param_samples:
+        raise RuntimeError("All bootstrap iterations failed. No valid samples to analyze.")
+
+    # Convert to numpy arrays
+    param_samples = np.array(param_samples)
+    cumulative_samples = np.array(cumulative_samples)
+
+    # 2. Extract Annual Rates (Deltas) from Cumulative Samples
+    # Since worker returns np.cumsum(C1_sim), we take the difference to get C1 back
+    rate_samples = np.diff(cumulative_samples, axis=1, prepend=0)
+
+    # 3. Calculate Statistics for Rates (Deltas)
+    rate_mean = np.mean(rate_samples, axis=0)
+    rate_std = np.std(rate_samples, axis=0)
+    
+    # 4. Calculate Statistics for Cumulative
+    cum_mean = np.mean(cumulative_samples, axis=0)
+    cum_std = np.std(cumulative_samples, axis=0)
+
+    # 5. Print the Fit Parameter (vec1[1]) with error
+    p_mean = np.mean(param_samples)
+    p_std = np.std(param_samples)
+    print("\n" + "="*30)
+    print("FITTING PARAMETERS RESULTS")
+    print("="*30)
+    print(f"Parameter vec1[1]: {p_mean:.6f} ± {p_std:.6f}")
+    print("="*30 + "\n")
+
+    # 6. Build the Resulting DataFrame
+    df_results = pd.DataFrame({
+        'Year': time_list,
+        'Annual_Rate': rate_mean,
+        'Annual_Rate_Error': rate_std,
+        'Cumulative_Value': cum_mean,
+        'Cumulative_Error': cum_std,
+        'Lower_CI_95': rate_mean - (1.96 * rate_std),
+        'Upper_CI_95': rate_mean + (1.96 * rate_std)
+    })
+
+    return df_results
 
 def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iterations=1000, ci=95):
     """
@@ -302,6 +438,7 @@ def parallel_bootstrap_solow_costello(annual_time_gbif, annual_rate_gbif, n_iter
         "c1_upper": upper_band,
         "c1_all": c1_curves
     }
+
 
 def plot_with_confidence(T, observed, results):
     """
