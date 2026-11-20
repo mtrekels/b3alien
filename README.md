@@ -96,6 +96,45 @@ In the above code block you need to replace the names of you locally saved files
 
 More information on this function can be found on the documentation website. However, if you don't need the geospatial mapping of your results, it is not needed to generate a GeoParquet file. The b3alien package also detects when a pure occurrence cube in CSV format is used.
 
+#### Cubes on the EEA reference grid (no GeoPackage needed)
+
+Cubes generated on the EEA reference grid (column `eeacellcode`, e.g. `1kmE2639N1762`) can be loaded directly from the GBIF download (CSV or zip). The cell polygons are computed from the cell codes in EPSG:3035, so no GeoParquet or GeoPackage is required:
+
+```python
+from b3alien import b3cube
+
+cube = b3cube.OccurrenceCube('PT_cube_mainland_new.zip', source='gbif')
+cube.grid_type   # 'eea'
+cube.crs         # 'EPSG:3035'
+
+# Static map (matplotlib, EPSG:3035)
+b3cube.plot_grid(cube)                                        # the grid cells only
+b3cube.plot_grid(cube, column='richness', log=True)           # species richness
+b3cube.plot_grid(cube, column='distinctobservers', log=True,  # any cube column, summed per cell
+                 cmap='YlOrRd', output_path='observers.png')
+
+# Interactive map (folium)
+b3cube.plot_grid(cube, column='richness', kind='interactive')
+
+# GeoDataFrame per cell, for your own analyses
+gdf = b3cube.grid_geodataframe(cube, column='richness')
+```
+
+Lists of EEA cell codes can also be turned into geometries with `utils.eea_grid(codes)` or `utils.eea_cellcode_to_geometry(codes)`, and `utils.to_geoparquet(csvFile, leftID='eeacellcode')` writes a GeoParquet without a GeoPackage.
+
+#### Cubes on the new GBIF taxonomic backbone
+
+Cubes generated on the new GBIF backbone (Catalogue of Life eXtended Release) use alphanumeric keys (e.g. `CPZZL`). Download the GRIIS checklist in ColDP format from ChecklistBank and match it to the same backbone:
+
+```python
+from b3alien import griis
+
+griis.do_taxon_matching('GRIIS_PT_ColDP_extended.zip', output_dir='griis_pt')
+CL = griis.CheckList('griis_pt/', use_profile=True, invasive_val='Invasive', habitat_val='Marine')
+```
+
+This writes `merged_distr.txt` and `speciesprofile.txt` (derived from the ColDP `TaxonProperty` table), so `CheckList` works as for Darwin Core Archives. Synonyms are resolved to their accepted species, and infraspecific taxa to their species.
+
 ### Step 2: Download the GRIIS checklist of the considered country, and load it as a checklist object
 
 In this examplar workflow, we will use the checklist of Costa Rica, which is made available in the test data directory of the GitHub repository. However, you can download any of the checklists from GBIF.

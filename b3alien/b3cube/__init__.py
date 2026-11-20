@@ -16,6 +16,8 @@ from .b3cube import filter_multiple_occ
 from .b3cube import aggregate_count_per_cell
 from .b3cube import filter_time_window
 from .b3cube import find_correlations
+from .b3cube import plot_grid
+from .b3cube import grid_geodataframe
 
 
 __all__ = [
@@ -28,6 +30,8 @@ __all__ = [
     "get_survey_effort",
     "aggregate_count_per_cell",
     "filter_time_window",
-    "find_correlations"
+    "find_correlations",
+    "plot_grid",
+    "grid_geodataframe",
     # purposely exclude OccurrenceCube
 ]
