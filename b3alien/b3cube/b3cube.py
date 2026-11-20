@@ -227,10 +227,12 @@ class OccurrenceCube():
     def _species_richness(self, normalized=False):
         """
             Calculate species richness per cell from the sparse cube.
+
             Parameters
             ----------
             normalized : bool
                 Whether to compute normalized richness (richness / total occurrences).
+
             Returns
             -------
             None
@@ -432,6 +434,7 @@ def aggregate_count_per_cell(cube, taxonRank, taxon):
 def plot_richness(cube, normalized=False, html_path='richness_map.html', default_crs="EPSG:4326"):
     """
     Plot species richness from an OccurrenceCube instance, handling CRS dynamically.
+
     Parameters
     ----------
     cube : OccurrenceCube
@@ -443,6 +446,7 @@ def plot_richness(cube, normalized=False, html_path='richness_map.html', default
         _map.html'.
     default_crs : str, optional
         The default CRS to assign if none is detected. Default is "EPSG:4326".
+
     Returns
     -------
     folium.Map or geemap.Map

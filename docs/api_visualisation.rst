@@ -1,5 +1,5 @@
 Visualisation module
-=================
+====================
 
 .. automodule:: b3alien.visualisation
    :members:
