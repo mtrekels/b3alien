@@ -62,20 +62,19 @@ def mock_occurrence_cube():
 
 def test_plot_richness_in_jupyter(mocker, mock_occurrence_cube):
     """
-    Verifies that plot_richness calls display() when in a Jupyter environment.
+    Verifies that plot_richness returns the folium map (so Jupyter renders it)
+    and does not save it to HTML when in a Jupyter environment.
     """
     # CORRECTED PATH: Patch the function where it is used.
     mock_in_jupyter = mocker.patch('b3alien.b3cube.b3cube.in_jupyter', return_value=True)
-    
-    mock_display = mocker.patch('b3alien.b3cube.b3cube.display')
     mock_save = mocker.patch('folium.Map.save')
 
     # --- Call the function ---
-    plot_richness(mock_occurrence_cube)
+    m = plot_richness(mock_occurrence_cube)
 
     # --- Assertions ---
     mock_in_jupyter.assert_called_once()
-    mock_display.assert_called_once()
+    assert isinstance(m, folium.Map)
     mock_save.assert_not_called()
 
 def test_plot_richness_as_script(mocker, mock_occurrence_cube):

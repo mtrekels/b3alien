@@ -136,7 +136,7 @@ class TestCheckListMutations:
 
 class TestCheckListUseProfile:
 
-    @patch("b3alien.griis.filter_by_speciesprofile")
+    @patch("b3alien.griis.griis.filter_by_speciesprofile")
     @patch("pandas.read_csv")
     def test_use_profile_calls_filter_function(self, mock_read_csv, mock_filter):
         profile_df = make_species_profile()
@@ -149,7 +149,7 @@ class TestCheckListUseProfile:
 
         mock_filter.assert_called_once()
 
-    @patch("b3alien.griis.filter_by_speciesprofile")
+    @patch("b3alien.griis.griis.filter_by_speciesprofile")
     @patch("pandas.read_csv")
     def test_use_profile_species_extracted_correctly(self, mock_read_csv, mock_filter):
         profile_df = make_species_profile()
@@ -161,7 +161,7 @@ class TestCheckListUseProfile:
 
         assert set(cl.species) == {100, 200}
 
-    @patch("b3alien.griis.filter_by_speciesprofile")
+    @patch("b3alien.griis.griis.filter_by_speciesprofile")
     @patch("pandas.read_csv")
     def test_use_profile_false_skips_filter(self, mock_read_csv, mock_filter):
         merged_df = make_merged_distr()
@@ -172,7 +172,7 @@ class TestCheckListUseProfile:
         mock_filter.assert_not_called()
         assert set(cl.species) == {100, 200, 300, 400}
 
-    @patch("b3alien.griis.filter_by_speciesprofile")
+    @patch("b3alien.griis.griis.filter_by_speciesprofile")
     @patch("pandas.read_csv")
     def test_uncertain_values_excluded_with_profile(self, mock_read_csv, mock_filter):
         profile_df = make_species_profile()
@@ -188,7 +188,7 @@ class TestCheckListUseProfile:
         assert "Uncertain" not in cl.species
         assert 100 in cl.species
 
-    @patch("b3alien.griis.filter_by_speciesprofile")
+    @patch("b3alien.griis.griis.filter_by_speciesprofile")
     @patch("pandas.read_csv")
     def test_checklist_species_are_ints_with_profile(self, mock_read_csv, mock_filter):
         profile_df = make_species_profile()
@@ -200,7 +200,7 @@ class TestCheckListUseProfile:
 
         assert all(isinstance(s, int) for s in cl.species)
 
-    @patch("b3alien.griis.filter_by_speciesprofile")
+    @patch("b3alien.griis.griis.filter_by_speciesprofile")
     @patch("pandas.read_csv")
     def test_init_params_stored_on_instance(self, mock_read_csv, mock_filter):
         profile_df = make_species_profile()
